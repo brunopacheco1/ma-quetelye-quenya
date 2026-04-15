@@ -1,7 +1,7 @@
 # Notice for Ma Quetelyë Quenya?
 
 This book was developed by Bruno Pacheco.
-Copyright (c) 2026 Bruno Pacheco.
+Copyright (c) 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com).
 
 This book incorporates contributions from:
 
@@ -9,12 +9,11 @@ This book incorporates contributions from:
 
 # Font Assets
 
-This book includes font assets provided by xxxx, licensed under the SIL Open Font License 1.1 (OFL-1.1).
+This book includes font assets provided by Toshi Omagari (https://tosche.net|tosche@mac.com), licensed under the SIL Open Font License 1.1 (OFL-1.1).
 
 # License
 
 This product is licensed under the following licenses:
 
 - Source code: Apache License, Version 2.0 (Apache-2.0)
-
 - Images and text: Creative Commons Attribution 4.0 International License (CC-BY-4.0)

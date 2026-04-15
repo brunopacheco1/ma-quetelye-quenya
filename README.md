@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2026 Bruno Pacheco
+SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
 
 SPDX-License-Identifier: CC-BY-4.0
 -->

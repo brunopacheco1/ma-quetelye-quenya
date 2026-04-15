@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+#
+# SPDX-License-Identifier: Apache-2.0
+
+repos:
+  - repo: local
+    hooks:
+      - id: lint-docs
+        name: Lint Documentation
+        entry: ./lint_docs.sh
+        language: system
+        pass_filenames: true
+        files: ^docs/.*\.(py|qmd)$
