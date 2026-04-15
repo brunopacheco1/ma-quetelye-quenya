@@ -1,0 +1,12 @@
+// SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+//
+// SPDX-License-Identifier: Apache-2.0
+@font-face {
+  font-family: 'Alcarin Tengwar Regular';
+  src: url('fonts/AlcarinTengwar-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*-- scss:defaults --*/
+$font-family-monospace: 'Alcarin Tengwar Regular', monospace;
