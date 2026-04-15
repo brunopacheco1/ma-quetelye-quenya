@@ -1,8 +1,8 @@
 # SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
 #
 # SPDX-License-Identifier: Apache-2.0
-.quarto/
 _render/
 _book/
 .DS_Store
 .vscode/
+/.quarto/
