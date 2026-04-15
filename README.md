@@ -5,10 +5,8 @@ SPDX-License-Identifier: CC-BY-4.0
 -->
 
 [![REUSE status](https://api.reuse.software/badge/github.com/brunopacheco1/ma-quetelye-quenya)](https://api.reuse.software/info/github.com/brunopacheco1/ma-quetelye-quenya)
-![example workflow](https://github.com/brunopacheco1/ma-quetelye-quenya/actions/workflows/main.yml/badge.svg)
-![example workflow](https://github.com/brunopacheco1/ma-quetelye-quenya/actions/workflows/test.yml/badge.svg)
-![example workflow](https://github.com/brunopacheco1/ma-quetelye-quenya/actions/workflows/release.yml/badge.svg)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=brunopacheco1_ma-quetelye-quenya&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=brunopacheco1_ma-quetelye-quenya)
+![test workflow](https://github.com/brunopacheco1/ma-quetelye-quenya/actions/workflows/test.yml/badge.svg)
+![publish workflow](https://github.com/brunopacheco1/ma-quetelye-quenya/actions/workflows/publish.yml/badge.svg)
 [![GitHub contributors](https://img.shields.io/github/contributors/brunopacheco1/ma-quetelye-quenya)](https://github.com/brunopacheco1/ma-quetelye-quenya/graphs/contributors)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
