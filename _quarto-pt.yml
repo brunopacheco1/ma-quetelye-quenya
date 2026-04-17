@@ -7,7 +7,6 @@ book:
   language: pt
   chapters:
     - index.qmd
-    - docs/pt/index.qmd
     - docs/pt/intro.qmd
     - docs/pt/summary.qmd
     - docs/pt/references.qmd
