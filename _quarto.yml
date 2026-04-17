@@ -11,9 +11,10 @@ profile:
   default: en
 
 book:
-  title: "ma-quetelye-quenya"
-  author: "Norah Jones"
-  date: "4/15/2026"
+  title: "Ma Quetelye Quenya?"
+  author: "Bruno Pacheco"
+  date: "18/04/2026"
+  url: "https://ma-quetelye-quenya.tolkien.lu"
 
 bibliography: references.bib
 format:

@@ -1,0 +1,13 @@
+<!--
+SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+# Neologisms
+
+::: {#refs}
+:::
+
+| Neologism | Definition | Formation Type | Etymology |
+|-----------|------------|----------------|-----------|
+| *carincë* | Chapter of a book. | Compound noun from words [car-](https://www.eldamo.org/content/words/word-3597380807.html?neo) and [-incë](https://www.eldamo.org/content/words/word-3809934845.html?neo). | [here](https://www.etymonline.com/search?q=chapter) |

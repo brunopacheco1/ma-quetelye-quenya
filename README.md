@@ -30,4 +30,36 @@ To build this book locally, you will need:
 ### Building the Book
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/](https://github.com/)[username]/[repo-name].git
+   git clone https://github.com/brunopacheco1/ma-quetelye-quenya.git
+   cd ma-quetelye-quenya
+   ```
+
+### Previewing Locally
+To actively edit and preview the book, Quarto provides a live-reloading server:
+```bash
+# Preview the default English version
+quarto preview
+
+# Preview the Portuguese version
+quarto preview --profile pt
+```
+
+### Rendering
+To generate the final static files (HTML, PDF, EPUB) without starting a server:
+```bash
+# Render the default English version
+quarto render
+
+# Render the Portuguese version
+quarto render --profile pt
+```
+
+## License
+
+This project complies with the [REUSE specification](https://reuse.software/). Because a textbook contains different types of media, multiple licenses are used depending on the content:
+
+- **Text and Educational Content:** Licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSES/CC-BY-4.0.txt).
+- **Code and Configuration:** Workflows, automation scripts, and project configurations are licensed under the [Apache License 2.0](LICENSES/Apache-2.0.txt).
+- **Fonts:** Included custom fonts are licensed under the [SIL Open Font License 1.1 (OFL-1.1)](LICENSES/OFL-1.1.txt).
+
+You can find the exact license pertaining to any specific file by checking its SPDX header or its accompanying `.license` file.

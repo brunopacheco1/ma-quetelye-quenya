@@ -6,5 +6,3 @@ SPDX-License-Identifier: CC-BY-4.0
 # Introdução
 
 Este é um livro criado a partir de markdown e código executável.
-
-Veja @knuth84 para discussão adicional de programação literária.
