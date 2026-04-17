@@ -34,20 +34,81 @@ jobs:
             VERSION="v$VERSION"
           fi
           
-          # Create the new changelog block
-          NEW_BLOCK="## [$VERSION] - $DATE\n\n### Added\n\n### Changed\n\n### Deprecated\n\n### Removed\n\n### Fixed\n\n### Security\n"
-          
-          # Insert the new block after the Semantic Versioning line
-          awk -v block="$NEW_BLOCK" '
-            /Semantic Versioning/ {
-              print $0
-              print ""
-              printf "%s", block
-              next
-            }
-            { print $0 }
-          ' CHANGELOG.md > CHANGELOG_NEW.md
-          mv CHANGELOG_NEW.md CHANGELOG.md
+          python3 -c "
+          import subprocess
+          import sys
+          import re
+
+          version = '$VERSION'
+          date = '$DATE'
+
+          # Get previous tag to determine commit range
+          try:
+              prev_tag = subprocess.check_output(['git', 'describe', '--tags', '--abbrev=0'], stderr=subprocess.DEVNULL).decode().strip()
+              cmd = ['git', 'log', f'{prev_tag}..HEAD', '--pretty=format:%s']
+          except Exception:
+              cmd = ['git', 'log', '--pretty=format:%s']
+
+          commits_out = subprocess.run(cmd, capture_output=True, text=True).stdout.strip()
+          commits = commits_out.split('\n') if commits_out else []
+
+          categories = {
+              'Added': [],
+              'Changed': [],
+              'Deprecated': [],
+              'Removed': [],
+              'Fixed': [],
+              'Security': []
+          }
+
+          for commit in commits:
+              commit = commit.strip()
+              if not commit: continue
+              
+              match = re.match(r'^([\w\-]+)(?:\([^)]+\))?:\s*(.*)', commit)
+              if match:
+                  prefix = match.group(1).lower()
+                  msg = match.group(2)
+              else:
+                  prefix = 'unknown'
+                  msg = commit
+
+              if prefix == 'feat':
+                  categories['Added'].append(msg)
+              elif prefix == 'fix':
+                  categories['Fixed'].append(msg)
+              elif prefix in ('deprecate', 'deprecated'):
+                  categories['Deprecated'].append(msg)
+              elif prefix in ('remove', 'removed', 'drop'):
+                  categories['Removed'].append(msg)
+              elif prefix in ('sec', 'security'):
+                  categories['Security'].append(msg)
+              else:
+                  # catch-all for chore, docs, test, build, refactor, perf, etc.
+                  categories['Changed'].append(msg)
+
+          block = f'## [{version}] - {date}\n\n'
+          for cat, items in categories.items():
+              if items:
+                  block += f'### {cat}\n\n'
+                  for item in items:
+                      block += f'- {item}\n'
+                  block += '\n'
+
+          if block.endswith('\n\n\n'):
+              block = block[:-1]
+
+          with open('CHANGELOG.md', 'r') as f:
+              lines = f.readlines()
+
+          for i, line in enumerate(lines):
+              if 'Semantic Versioning' in line:
+                  lines.insert(i + 1, '\n' + block)
+                  break
+
+          with open('CHANGELOG.md', 'w') as f:
+              f.writelines(lines)
+          "
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6

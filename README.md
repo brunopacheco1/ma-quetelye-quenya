@@ -20,14 +20,12 @@ This book is written "as code" to ensure it remains open, maintainable, and easi
 
 ### Tech Stack
 - **[Quarto](https://quarto.org/):** A scientific and technical publishing system built on Pandoc.
-- **[babelquarto](https://docs.ropensci.org/babelquarto/):** An extension to support the rendering of the book in multiple languages simultaneously.
 
 ## Getting Started
 
 ### Prerequisites
 To build this book locally, you will need:
 1. [Quarto](https://quarto.org/docs/get-started/) installed on your machine.
-2. [R](https://www.r-project.org/) and the `babelquarto` package.
 
 ### Building the Book
 1. Clone the repository:
