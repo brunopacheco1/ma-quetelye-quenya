@@ -64,10 +64,7 @@ jobs:
         run: quarto install tinytex
       - name: Build documentation
         run: |
-          quarto render --to html
-          quarto render --to pdf
-          quarto render --to epub
-          quarto render --profile pt --to html
+          quarto render
           quarto render --profile pt --to pdf
           quarto render --profile pt --to epub
       - name: Prepare Release Artifacts
@@ -75,6 +72,7 @@ jobs:
         run: |
           mkdir -p release_artifacts
           VERSION="${{ steps.version.outputs.version }}"
+          ls -R _book
           cp _book/en/ma-quetelye-quenya.pdf release_artifacts/ma-quetelye-quenya-en-${VERSION}.pdf
           cp _book/en/ma-quetelye-quenya.epub release_artifacts/ma-quetelye-quenya-en-${VERSION}.epub
           cp _book/pt/ma-quetelye-quenya.pdf release_artifacts/ma-quetelye-quenya-pt-${VERSION}.pdf
@@ -88,7 +86,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
-          path: ./_book
+          path: ./_book/en
 
   deploy:
     environment:
