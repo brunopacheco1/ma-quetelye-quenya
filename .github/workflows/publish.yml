@@ -64,9 +64,8 @@ jobs:
         run: quarto install tinytex
       - name: Build documentation
         run: |
-          quarto render
-          quarto render --profile pt --to pdf
-          quarto render --profile pt --to epub
+          quarto render --profile en
+          quarto render --profile pt
       - name: Prepare Release Artifacts
         if: steps.version.outputs.is_release == 'true'
         run: |
