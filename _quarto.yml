@@ -12,6 +12,7 @@ profile:
 
 book:
   title: "Ma Quetelye Quenya?"
+  output-file: "ma-quetelye-quenya"
   author: "Bruno Pacheco"
   date: "18/04/2026"
   url: "https://ma-quetelye-quenya.tolkien.lu"
