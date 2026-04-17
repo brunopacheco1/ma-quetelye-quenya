@@ -1,0 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+# Introdução
+
+Este é um livro criado a partir de markdown e código executável.
+
+Veja @knuth84 para discussão adicional de programação literária.

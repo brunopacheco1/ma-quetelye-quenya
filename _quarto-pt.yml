@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+#
+# SPDX-License-Identifier: Apache-2.0
+project:
+  output-dir: _book/pt
+book:
+  language: pt
+  chapters:
+    - index.qmd
+    - docs/pt/index.qmd
+    - docs/pt/intro.qmd
+    - docs/pt/summary.qmd
+    - docs/pt/references.qmd
+    - docs/global.qmd
