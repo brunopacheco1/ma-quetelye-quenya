@@ -1,0 +1,57 @@
+# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+#
+# SPDX-License-Identifier: Apache-2.0
+
+name: Prepare Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version number (e.g. v1.0.1)'
+        required: true
+        type: string
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Update Changelog
+        run: |
+          VERSION="${{ github.event.inputs.version }}"
+          DATE=$(date +'%Y-%m-%d')
+          
+          # Ensure version starts with v
+          if [[ $VERSION != v* ]]; then
+            VERSION="v$VERSION"
+          fi
+          
+          # Create the new changelog block
+          NEW_BLOCK="## [$VERSION] - $DATE\n\n### Added\n\n### Changed\n\n### Deprecated\n\n### Removed\n\n### Fixed\n\n### Security\n"
+          
+          # Insert the new block after the Semantic Versioning line
+          awk -v block="$NEW_BLOCK" '
+            /Semantic Versioning/ {
+              print $0
+              print ""
+              printf "%s", block
+              next
+            }
+            { print $0 }
+          ' CHANGELOG.md > CHANGELOG_NEW.md
+          mv CHANGELOG_NEW.md CHANGELOG.md
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: release/${{ github.event.inputs.version }}
+          title: "Release ${{ github.event.inputs.version }}"
+          body: "This PR was automatically generated to prepare for release ${{ github.event.inputs.version }}. Please review and fill in the changelog before merging."
+          labels: release
+          commit-message: "chore: prepare release ${{ github.event.inputs.version }}"
