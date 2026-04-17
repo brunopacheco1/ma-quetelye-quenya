@@ -3,6 +3,4 @@ SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopachec
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
-# Introduction
-
-This is a book created from markdown and executable code.
+# Carincë 4

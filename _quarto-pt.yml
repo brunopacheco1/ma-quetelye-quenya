@@ -8,6 +8,11 @@ book:
   chapters:
     - index.qmd
     - docs/pt/intro.qmd
-    - docs/pt/summary.qmd
-    - docs/pt/references.qmd
-    - docs/global.qmd
+    - docs/carince_1.qmd
+    - docs/carince_2.qmd
+    - docs/carince_3.qmd
+    - docs/carince_4.qmd
+    - docs/carince_5.qmd
+    - docs/carince_6.qmd
+    - docs/pt/neologisms.qmd
+    - docs/cariquettar.qmd
