@@ -1,0 +1,13 @@
+<!--
+SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+# Table of Contents {.unnumbered}
+
+| [@sec-carince-1] | Conteúdo | pronúncia e gramática |
+| [@sec-carince-2] | Conteúdo | pronúncia e gramática |
+| [@sec-carince-3] | Conteúdo | pronúncia e gramática |
+| [@sec-carince-4] | Conteúdo | pronúncia e gramática |
+| [@sec-carince-5] | Conteúdo | pronúncia e gramática |
+| [@sec-carince-6] | Conteúdo | pronúncia e gramática |

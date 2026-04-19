@@ -3,6 +3,22 @@ SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopachec
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
-# Introdução
+Bem-vindo a esta jornada de aprendizado do Quenya!
 
-Este é um livro criado a partir de markdown e código executável.
+Minha intenção com este livro é tornar o aprendizado do Quenya uma experiência lúdica, gradual e muito prática. Imagine que você está em uma sala de aula, aprendendo um idioma vivo passo a passo, com foco na comunicação e em cenários reais, em vez de uma teoria linguística árida.
+
+Você não precisa de nenhum conhecimento teórico prévio de linguística, nem de um conhecimento profundo e enciclopédico do Legendarium de J.R.R. Tolkien. Se você ama o som dessa língua élfica e quer aprender a falá-la, você está no lugar certo!
+
+A estrutura deste livro é inspirada na excelente série de ensino de idiomas *Schwätzt Dir Lëtzebuergesch?*. Vamos focar em diálogos, situações do dia a dia e na construção do seu vocabulário e gramática de forma orgânica à medida que progredimos. O objetivo é fazer com que você fale e entenda o Quenya de uma maneira natural e intuitiva.
+
+*Elen síla lúmenn' omentielvo!* (Uma estrela brilha na hora do nosso encontro!)
+
+## Como Contribuir
+
+Contribuições para este projeto são mais do que bem-vindas! Seja escrevendo novos capítulos, revisando conteúdo, criando ilustrações ou fornecendo traduções, sua ajuda é muito apreciada. Para mais informações sobre como participar, leia nosso guia [CONTRIBUTING.md](https://github.com/brunopacheco1/ma-quetelye-quenya/blob/main/CONTRIBUTING.md).
+
+## Licença
+
+Esta obra está licenciada sob a [Licença Creative Commons Atribuição 4.0 Internacional (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/). Para mais detalhes sobre as licenças específicas usadas neste projeto, consulte o diretório [LICENSES](https://github.com/brunopacheco1/ma-quetelye-quenya/tree/main/LICENSES).
+
+Adicionalmente, este livro utiliza dados do léxico do [ELDAMO](https://www.eldamo.org). Os dados do léxico do ELDAMO são copyright © 2008 - 2026 por Paul Strack e estão licenciados sob a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).

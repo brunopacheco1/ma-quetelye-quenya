@@ -3,4 +3,8 @@ SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopachec
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
-# Carincë 1
+# Carincë {#sec-carince-1}
+
+Content
+
+## Pronunciation and Grammar

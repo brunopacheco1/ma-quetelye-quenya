@@ -17,3 +17,7 @@ This product is licensed under the following licenses:
 
 - Source code: Apache License, Version 2.0 (Apache-2.0)
 - Images and text: Creative Commons Attribution 4.0 International License (CC-BY-4.0)
+
+# ELDAMO Lexicon Data
+
+The work published on [ELDAMO](https://www.eldamo.org) is © 2008 - 2026, Paul Strack and licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).

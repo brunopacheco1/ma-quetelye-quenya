@@ -3,4 +3,14 @@ SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopachec
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
-# Ma Quetelye Quenya?
+::: {.content-visible when-profile="en"}
+# Introduction {.unnumbered}
+
+{{< include docs/en/intro.qmd >}}
+:::
+
+::: {.content-visible when-profile="pt"}
+# Introdução {.unnumbered}
+
+{{< include docs/pt/intro.qmd >}}
+:::
