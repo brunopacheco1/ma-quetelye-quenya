@@ -24,4 +24,4 @@ format:
   pdf:
     documentclass: scrreprt
   epub:
-    cover-image: cover.png
+    cover-image: ma_quetelya_quenya_cover.png

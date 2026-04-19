@@ -7,7 +7,7 @@ book:
   language: en
   chapters:
     - index.qmd
-    - docs/en/intro.qmd
+    - docs/en/toc.qmd
     - docs/carince_1.qmd
     - docs/carince_2.qmd
     - docs/carince_3.qmd

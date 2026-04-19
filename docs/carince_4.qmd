@@ -3,4 +3,7 @@ SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopachec
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
-# Carincë 4
+# Carincë {#sec-carince-4}
+
+Content
+

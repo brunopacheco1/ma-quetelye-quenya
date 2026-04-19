@@ -3,11 +3,11 @@ SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopachec
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
-# Neologisms
+# Neologisms {.unnumbered}
 
 ::: {#refs}
 :::
 
 | Neologism | Definition | Formation Type | Etymology |
 |-----------|------------|----------------|-----------|
-| *carincë* | Chapter of a book. | Compound noun from words [car-](https://www.eldamo.org/content/words/word-3597380807.html?neo) and [-incë](https://www.eldamo.org/content/words/word-3809934845.html?neo). | [here](https://www.etymonline.com/search?q=chapter) |
+| *carincë* | Chapter of a book. | Compound noun from the stem [car-](https://www.eldamo.org/content/words/word-3597380807.html?neo) (head) and suffix [-incë](https://www.eldamo.org/content/words/word-3809934845.html?neo) (diminutive). | [here](https://www.etymonline.com/search?q=chapter) |
