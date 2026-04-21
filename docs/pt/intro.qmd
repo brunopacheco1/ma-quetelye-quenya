@@ -17,8 +17,23 @@ A estrutura deste livro é inspirada na excelente série de ensino de idiomas *S
 
 Contribuições para este projeto são mais do que bem-vindas! Seja escrevendo novos capítulos, revisando conteúdo, criando ilustrações ou fornecendo traduções, sua ajuda é muito apreciada. Para mais informações sobre como participar, leia nosso guia [CONTRIBUTING.md](https://github.com/brunopacheco1/ma-quetelye-quenya/blob/main/CONTRIBUTING.md).
 
+## Atribuição
+Ao contribuir, você concorda que suas contribuições serão licenciadas sob a [Licença Creative Commons Atribuição 4.0 Internacional (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/) do projeto.
+
 ## Licença
 
-Esta obra está licenciada sob a [Licença Creative Commons Atribuição 4.0 Internacional (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/). Para mais detalhes sobre as licenças específicas usadas neste projeto, consulte o diretório [LICENSES](https://github.com/brunopacheco1/ma-quetelye-quenya/tree/main/LICENSES).
+Este projeto está em conformidade com a [especificação REUSE](https://reuse.software/). Devido ao fato de um livro didático conter diferentes tipos de mídia, várias licenças são usadas dependendo do conteúdo:
 
-Adicionalmente, este livro utiliza dados do léxico do [ELDAMO](https://www.eldamo.org). Os dados do léxico do ELDAMO são copyright © 2008 - 2026 por Paul Strack e estão licenciados sob a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+- **Texto e Conteúdo Educacional:** Licenciados sob a [Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](LICENSES/CC-BY-4.0.txt).
+- **Código e Configuração:** Workflows, scripts de automação e configurações de projeto são licenciados sob a [Licença Apache 2.0](LICENSES/Apache-2.0.txt).
+- **Fontes:** As fontes personalizadas incluídas são licenciadas sob a [SIL Open Font License 1.1](https://opensource.org/license/OFL-1.1).
+
+Você pode encontrar a licença exata pertencente a qualquer arquivo específico verificando o cabeçalho SPDX ou seu arquivo `.license` acompanhante.
+
+## Ativos Externos
+
+Os dados do léxico usados neste livro são publicados no [ELDAMO](https://www.eldamo.org). Estes dados são © 2008 - 2026 de Paul Strack e estão licenciados sob a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+Este livro inclui fontes fornecidas por Toshi Omagari (https://tosche.net|tosche@mac.com), licenciadas sob a [SIL Open Font License 1.1](https://opensource.org/license/OFL-1.1).
+
+Para mais detalhes, por favor consulte o arquivo [NOTICE.md](https://github.com/brunopacheco1/ma-quetelye-quenya/blob/main/NOTICE.md).

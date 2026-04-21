@@ -17,8 +17,23 @@ The structure of this book is inspired by the excellent language learning series
 
 Contributions to this project are more than welcome! Whether you are interested in writing new chapters, reviewing content, creating illustrations, or providing translations, your help is deeply appreciated. Please check out our [CONTRIBUTING.md](https://github.com/brunopacheco1/ma-quetelye-quenya/blob/main/CONTRIBUTING.md) guide for more details on how to get involved.
 
+## Attribution
+By contributing, you agree that your contributions will be licensed under the project's [Creative Commons Attribution 4.0 International License (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/).
+
 ## License
 
-This work is licensed under the [Creative Commons Attribution 4.0 International License (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/). For more details on the specific licenses used in this project, please refer to the [LICENSES](https://github.com/brunopacheco1/ma-quetelye-quenya/tree/main/LICENSES) directory.
+This project complies with the [REUSE specification](https://reuse.software/). Because a textbook contains different types of media, multiple licenses are used depending on the content:
 
-Additionally, this book utilizes lexicon data from [ELDAMO](https://www.eldamo.org). The lexicon data from ELDAMO is copyright © 2008 - 2026 by Paul Strack and is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+- **Text and Educational Content:** Licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSES/CC-BY-4.0.txt).
+- **Code and Configuration:** Workflows, automation scripts, and project configurations are licensed under the [Apache License 2.0](LICENSES/Apache-2.0.txt).
+- **Fonts:** Included custom fonts are licensed under the [SIL Open Font License 1.1](https://opensource.org/license/OFL-1.1).
+
+You can find the exact license pertaining to any specific file by checking its SPDX header or its accompanying `.license` file.
+
+## External Assets
+
+The lexicon data used in this book is published on [ELDAMO](https://www.eldamo.org). This data is © 2008 - 2026 by Paul Strack and licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+This book includes font assets provided by Toshi Omagari (https://tosche.net|tosche@mac.com), licensed under the [SIL Open Font License 1.1](https://opensource.org/license/OFL-1.1).
+
+For more details, please refer to the [NOTICE.md](https://github.com/brunopacheco1/ma-quetelye-quenya/blob/main/NOTICE.md) file.

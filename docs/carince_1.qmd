@@ -5,6 +5,22 @@ SPDX-License-Identifier: CC-BY-4.0
 -->
 # Carincë {#sec-carince-1}
 
-Content
+## Aiya!... ar Namárië!
 
-## Pronunciation and Grammar
+![Greetings](../images/greetings.jpg){#fig-greetings}
+
+- **Alla** - Hi, behold (informal)
+- **mesta*** - bye (informal)
+- **Aiya** - Hi! Behold! (formal)
+- **Namárië!** - Farewell (formal)
+
+## Lúmë
+
+![lúme](../images/daytime.jpg){#fig-daytime}
+
+- **Mára aurë** - Good day
+- **Mára amaurë** - Good morning
+- **Mára endaurë** - Good midday / noon
+- **Mára aparilë** - Good afternoon
+- **Mára sinyë[þ]** - Good evening
+- **Mára lómë** - Good night
