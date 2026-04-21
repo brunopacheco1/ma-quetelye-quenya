@@ -31,6 +31,7 @@ Use GitHub Issues to report:
 This project uses **Quarto Profiles** to support multiple languages. To start a new translation:
 - Create a new language sub-directory under `docs/` (e.g., `docs/es/`).
 - Create a corresponding profile configuration file at the root (e.g., `_quarto-es.yml`).
+- Update `index.qmd` to conditionally include the new language's introduction (e.g., using `::: {.content-visible when-profile="es"}`).
 - Ensure that the structure of chapters remains consistent with the main version.
 
 ## Technical Guidelines
@@ -51,7 +52,7 @@ Use the following prefixes in your commit messages:
 *Example:* `git commit -m "fix: corrected typo in the Tengwar chart"`
 
 ## Code of Conduct
-Please be respectful and constructive in all interactions. Our goal is to create a welcoming environment for all fans of Tolkien’s languages.
+Please be respectful and constructive in all interactions. Our goal is to create a welcoming environment for all fans of Tolkien’s languages. For more details, please refer to the [CODE_OF_CONDUCT.md](https://github.com/brunopacheco1/ma-quetelye-quenya/blob/main/CODE_OF_CONDUCT.md) file.
 
 ## Attribution
-By contributing, you agree that your contributions will be licensed under the project's **CC BY 4.0 License**.
+By contributing, you agree that your contributions will be licensed under the project's [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
