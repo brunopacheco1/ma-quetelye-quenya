@@ -3,9 +3,8 @@
 This book was developed by Bruno Pacheco.
 Copyright (c) 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com).
 
-This book incorporates contributions from:
-
-- xxx
+This book incorporates contributions from the people listed at
+https://github.com/brunopacheco1/ma-quetelye-quenya/graphs/contributors.
 
 # License
 
@@ -28,4 +27,4 @@ This book uses **Quarto** (https://quarto.org|https://github.com/quarto-dev/quar
 
 # Image Assets
 
-xxx
+The images in `images/` and `raw_images/` were created by Bruno Pacheco and are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).

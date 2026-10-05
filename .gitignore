@@ -3,9 +3,12 @@
 # SPDX-License-Identifier: Apache-2.0
 _render/
 _book/
+_site/
+/site/
 .DS_Store
 .vscode/
 /.quarto/
+.specify/extensions/.cache/
 
 **/*.quarto_ipynb
 *.tex
