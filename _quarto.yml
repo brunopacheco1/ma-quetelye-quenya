@@ -6,6 +6,8 @@ project:
   type: book
   render:
     - docs/
+  resources:
+    - audio/**/*.mp3
 
 profile:
   default: en
@@ -18,6 +20,8 @@ book:
   url: "https://ma-quetelye-quenya.tolkien.lu"
 
 bibliography: references.bib
+filters:
+  - filters/alt-text.lua
 format:
   html:
     theme: cosmo
