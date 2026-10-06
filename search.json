@@ -1,0 +1,132 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ma Quetelye Quenya?",
+    "section": "",
+    "text": "Introduction\nWelcome to this journey of learning Quenya!\nMy intention with this book is to make learning Quenya a playful, gradual, and highly practical experience. Imagine you are in a classroom, learning a living language step by step, focusing on communication and real-world-like scenarios rather than dry linguistic theory.\nYou don’t need any prior theoretical background in linguistics, nor do you need to possess a deep, encyclopedic knowledge of J.R.R. Tolkien’s Legendarium. If you love the sound of this Elven tongue and want to learn how to speak it, you are in the right place!\nThe structure of this book is inspired by the excellent language learning series Schwätzt Dir Lëtzebuergesch?. We will focus on dialogues, everyday situations, and building your vocabulary and grammar organically as we progress. The goal is to get you speaking and understanding Quenya in a natural, intuitive way.\nElen síla lúmenn’ omentielvo! (A star shines on the hour of our meeting!)",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#contributing",
+    "href": "index.html#contributing",
+    "title": "Ma Quetelye Quenya?",
+    "section": "Contributing",
+    "text": "Contributing\nContributions to this project are more than welcome! Whether you are interested in writing new chapters, reviewing content, creating illustrations, or providing translations, your help is deeply appreciated. Please check out our CONTRIBUTING.md guide for more details on how to get involved.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#attribution",
+    "href": "index.html#attribution",
+    "title": "Ma Quetelye Quenya?",
+    "section": "Attribution",
+    "text": "Attribution\nBy contributing, you agree that your contributions will be licensed under the project’s Creative Commons Attribution 4.0 International License (CC-BY-4.0).",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#license",
+    "href": "index.html#license",
+    "title": "Ma Quetelye Quenya?",
+    "section": "License",
+    "text": "License\nThis project complies with the REUSE specification. Because a textbook contains different types of media, multiple licenses are used depending on the content:\n\nText and Educational Content: Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0).\nCode and Configuration: Workflows, automation scripts, and project configurations are licensed under the Apache License 2.0.\nFonts: Included custom fonts are licensed under the SIL Open Font License 1.1.\n\nYou can find the exact license pertaining to any specific file by checking its SPDX header or its accompanying .license file.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#external-assets",
+    "href": "index.html#external-assets",
+    "title": "Ma Quetelye Quenya?",
+    "section": "External Assets",
+    "text": "External Assets\nThe lexicon data used in this book is published on ELDAMO. This data is © 2008 - 2026 by Paul Strack and licensed under the Creative Commons Attribution 4.0 International License.\nThis book includes font assets provided by Toshi Omagari (https://tosche.net|tosche@mac.com), licensed under the SIL Open Font License 1.1.\nFor more details, please refer to the NOTICE.md file.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "docs/en/toc.html",
+    "href": "docs/en/toc.html",
+    "title": "Table of Contents",
+    "section": "",
+    "text": "1  Carincë | Content | pronunciation and grammar |\n2  Carincë | Content | pronunciation and grammar |\n3  Carincë | Content | pronunciation and grammar |\n4  Carincë | Content | pronunciation and grammar |\n5  Carincë | Content | pronunciation and grammar |\n6  Carincë | Content | pronunciation and grammar |",
+    "crumbs": [
+      "Table of Contents"
+    ]
+  },
+  {
+    "objectID": "docs/carince_1.html",
+    "href": "docs/carince_1.html",
+    "title": "1  Carincë",
+    "section": "",
+    "text": "1.1 Aiya!… ar Namárië!",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/carince_1.html#aiya-ar-namárië",
+    "href": "docs/carince_1.html#aiya-ar-namárië",
+    "title": "1  Carincë",
+    "section": "",
+    "text": "Figure 1.1: Greetings\n\n\n\n\nAlla - Hi, behold (informal)\nmesta* - bye (informal)\nAiya - Hi! Behold! (formal)\nNamárië! - Farewell (formal)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/carince_1.html#lúmë",
+    "href": "docs/carince_1.html#lúmë",
+    "title": "1  Carincë",
+    "section": "1.2 Lúmë",
+    "text": "1.2 Lúmë\n\n\n\n\n\n\nFigure 1.2: lúme\n\n\n\n\nMára aurë - Good day\nMára amaurë - Good morning\nMára endaurë - Good midday / noon\nMára aparilë - Good afternoon\nMára sinyë[þ] - Good evening\nMára lómë - Good night",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/carince_4.html",
+    "href": "docs/carince_4.html",
+    "title": "4  Carincë",
+    "section": "",
+    "text": "Content",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/carince_5.html",
+    "href": "docs/carince_5.html",
+    "title": "5  Carincë",
+    "section": "",
+    "text": "Content",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/carince_6.html",
+    "href": "docs/carince_6.html",
+    "title": "6  Carincë",
+    "section": "",
+    "text": "Content",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/en/neologisms.html",
+    "href": "docs/en/neologisms.html",
+    "title": "Neologisms",
+    "section": "",
+    "text": "Neologism\nDefinition\nFormation Type\nEtymology\n\n\n\n\ncarincë\nChapter of a book.\nCompound noun from the stem car- (head) and suffix -incë (diminutive).\nhere",
+    "crumbs": [
+      "Neologisms"
+    ]
+  }
+]
