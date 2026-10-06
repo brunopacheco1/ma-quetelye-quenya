@@ -1,0 +1,212 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ma Quetelye Quenya?",
+    "section": "",
+    "text": "Introdução\nBem-vindo a esta jornada de aprendizado do Quenya!\nMinha intenção com este livro é tornar o aprendizado do Quenya uma experiência lúdica, gradual e muito prática. Imagine que você está em uma sala de aula, aprendendo um idioma vivo passo a passo, com foco na comunicação e em cenários reais, em vez de uma teoria linguística árida.\nVocê não precisa de nenhum conhecimento teórico prévio de linguística, nem de um conhecimento profundo e enciclopédico do Legendarium de J.R.R. Tolkien. Se você ama o som dessa língua élfica e quer aprender a falá-la, você está no lugar certo!\nA estrutura deste livro é inspirada na excelente série de ensino de idiomas Schwätzt Dir Lëtzebuergesch?. Vamos focar em diálogos, situações do dia a dia e na construção do seu vocabulário e gramática de forma orgânica à medida que progredimos. O objetivo é fazer com que você fale e entenda o Quenya de uma maneira natural e intuitiva.\nElen síla lúmenn’ omentielvo! (Uma estrela brilha na hora do nosso encontro!)",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#como-ler-este-livro",
+    "href": "index.html#como-ler-este-livro",
+    "title": "Ma Quetelye Quenya?",
+    "section": "Como ler este livro",
+    "text": "Como ler este livro\n\nOs capítulos estão apenas em Quenya. As imagens, os diálogos e as gravações carregam o significado. Quando você precisar de uma tradução, todas as palavras de um capítulo estão listadas no fim dele, em Quettar (palavras) e Essi (nomes), e cada uma leva à sua entrada no Eldamo, o léxico que este livro segue.\nÁ lasta! (“ouça!”) seguido de um número, como 1.2, marca uma gravação: o primeiro número é o capítulo, o segundo é a faixa. No site a gravação toca ali mesmo; no PDF e no EPUB o número indica qual arquivo ouvir na pasta de áudio do livro.\nA coluna Eldamo diz como a palavra está atestada, na notação do próprio Eldamo: Q. palavra do Quenya tardio de Tolkien; MQ. dos escritos de “Quenya Médio” dos anos 1930 e 1940; EQ. do “Qenya” inicial dos anos 1910 e 1920; NQ. neologismo neo-Quenya registrado no Eldamo; * forma reconstruída ou extrapolada; # palavra atestada apenas dentro de uma palavra ou nome mais longo. Nada é inventado em silêncio: as nossas próprias criações estão reunidas no capítulo Neologismos.\nA gramática é mostrada, não explicada. Tabelas de padrões colocam as peças lado a lado, com a terminação em negrito depois do radical. Leia as linhas em voz alta com a gravação e o padrão vai se assentar.\nOs exercícios vêm no fim de cada capítulo em Carië (“fazer”); as respostas estão em Hanquentar (“respostas”), escondidas no site para que você possa tentar primeiro.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#como-contribuir",
+    "href": "index.html#como-contribuir",
+    "title": "Ma Quetelye Quenya?",
+    "section": "Como Contribuir",
+    "text": "Como Contribuir\nContribuições para este projeto são mais do que bem-vindas! Seja escrevendo novos capítulos, revisando conteúdo, criando ilustrações ou fornecendo traduções, sua ajuda é muito apreciada. Para mais informações sobre como participar, leia nosso guia CONTRIBUTING.md.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#atribuição",
+    "href": "index.html#atribuição",
+    "title": "Ma Quetelye Quenya?",
+    "section": "Atribuição",
+    "text": "Atribuição\nAo contribuir, você concorda que suas contribuições serão licenciadas sob a Licença Creative Commons Atribuição 4.0 Internacional (CC-BY-4.0) do projeto.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#licença",
+    "href": "index.html#licença",
+    "title": "Ma Quetelye Quenya?",
+    "section": "Licença",
+    "text": "Licença\nEste projeto está em conformidade com a especificação REUSE. Devido ao fato de um livro didático conter diferentes tipos de mídia, várias licenças são usadas dependendo do conteúdo:\n\nTexto e Conteúdo Educacional: Licenciados sob a Creative Commons Atribuição 4.0 Internacional (CC BY 4.0).\nCódigo e Configuração: Workflows, scripts de automação e configurações de projeto são licenciados sob a Licença Apache 2.0.\nFontes: As fontes personalizadas incluídas são licenciadas sob a SIL Open Font License 1.1.\n\nVocê pode encontrar a licença exata pertencente a qualquer arquivo específico verificando o cabeçalho SPDX ou seu arquivo .license acompanhante.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#ativos-externos",
+    "href": "index.html#ativos-externos",
+    "title": "Ma Quetelye Quenya?",
+    "section": "Ativos Externos",
+    "text": "Ativos Externos\nOs dados do léxico usados neste livro são publicados no ELDAMO. Estes dados são © 2008 - 2026 de Paul Strack e estão licenciados sob a Creative Commons Attribution 4.0 International License.\nEste livro inclui fontes fornecidas por Toshi Omagari (https://tosche.net|tosche@mac.com), licenciadas sob a SIL Open Font License 1.1.\nPara mais detalhes, por favor consulte o arquivo NOTICE.md.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "docs/pt/toc.html",
+    "href": "docs/pt/toc.html",
+    "title": "Sumário",
+    "section": "",
+    "text": "Capítulo\nConteúdo\nPronúncia e gramática\n\n\n\n\n1  Carincë\nCumprimentar e despedir-se, informal e formalmente; as horas do dia; perguntar e dizer o nome; dizer de onde você vem e a que povo pertence; dizer que língua você fala; contar até dez\nVogais, ditongos e as grafias c, qu, y; ná- (ser); as terminações -n (eu) e -lyë (você); -nya (meu) e -lya (seu); -llo (de, origem); perguntas com ma, respondidas com ná ou ui\n\n\n2  Carincë\nConteúdo\npronúncia e gramática\n\n\n3  Carincë\nConteúdo\npronúncia e gramática\n\n\n4  Carincë\nConteúdo\npronúncia e gramática\n\n\n5  Carincë\nConteúdo\npronúncia e gramática\n\n\n6  Carincë\nConteúdo\npronúncia e gramática",
+    "crumbs": [
+      "Sumário"
+    ]
+  },
+  {
+    "objectID": "docs/carince_1.html",
+    "href": "docs/carince_1.html",
+    "title": "1  Carincë",
+    "section": "",
+    "text": "1.1 Aiya!… ar Namárië!",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/carince_1.html#aiya-ar-namárië",
+    "href": "docs/carince_1.html#aiya-ar-namárië",
+    "title": "1  Carincë",
+    "section": "",
+    "text": "Figure 1.1: Aiya!\n\n\n\n\nÁ lasta! 1.1\n\n\n\n\nAlla! … Mesta!\nAiya! … Namárië!\n\n\nElenwë ar Nerdanel\n\nÁ lasta! 1.2\n\n\n\nElenwë: Alla, Nerdanel!\nNerdanel: Alla, Elenwë! Manen nalyë?\nElenwë: Mára, hantanyel. Ar elyë?\nNerdanel: Mára.\nElenwë: Mesta, Nerdanel!\nNerdanel: Mesta!\n\n\nElendil ar Rúmil\n\nÁ lasta! 1.3\n\n\n\nElendil: Aiya, Rúmil! Elen síla lúmenn’ omentielvo.\nRúmil: Aiya, Elendil! Elen síla lúmenn’ omentielvo. Manen nalyë?\nElendil: Mára, hantanyel. Ar elyë?\nRúmil: Mára. Namárië, Elendil!\nElendil: Namárië!\n\n\n\nManen nalyë?\nMára, hantanyel. Ar elyë?\n\n\n\n\nManen nalyë?\nMára.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/carince_1.html#lúmë",
+    "href": "docs/carince_1.html#lúmë",
+    "title": "1  Carincë",
+    "section": "1.2 Lúmë",
+    "text": "1.2 Lúmë\n\n\n\n\n\n\nFigure 1.2: Lúmë\n\n\n\n\nÁ lasta! 1.4\n\n\n\n\n\n\nlúmë\nMára …!\n\n\n\n\namaurë\nMára amaurë!\n\n\naurë\nMára aurë!\n\n\nendaurë\nMára endaurë!\n\n\napárilë\nMára apárilë!\n\n\nundómë\n\n\n\nsinyë\nMára sinyë!\n\n\nlómë\nMára lómë!\n\n\n\n\nÁ lasta! 1.5\n\n\n\nVoronwë: Mára amaurë, Nerdanel!\nNerdanel: Mára amaurë, Voronwë!\nRúmil: Mára sinyë, Elenwë!\nElenwë: Mára sinyë, Rúmil! Manen nalyë?\nRúmil: Mára, hantanyel.\nElendil: Mára lómë, Voronwë!\nVoronwë: Mára lómë, Elendil! Namárië!",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/carince_1.html#mana-esselya",
+    "href": "docs/carince_1.html#mana-esselya",
+    "title": "1  Carincë",
+    "section": "1.3 Mana esselya?",
+    "text": "1.3 Mana esselya?\n\n\n\n\n\n\nFigure 1.3: Mana esselya?\n\n\n\n\nMi Avallónë\n\nÁ lasta! 1.6\n\n\n\nRúmil: Aiya! Essenya ná Rúmil. Nanyë istyar. Mana esselya?\nElenwë: Aiya, Rúmil! Essenya ná Elenwë.\nRúmil: Ar elyë? Mana esselya?\nVoronwë: Essenya ná Voronwë.\nRúmil: Ar elyë?\nNerdanel: Essenya ná Nerdanel.\nRúmil: Ar elyë?\nElendil: Essenya ná Elendil.\nRúmil: Alla, Elenwë! Alla, Voronwë! Alla, Nerdanel! Alla, Elendil!\n\n\n\nessë\n\n\n\n\n\nni\nessënya\n\n\nelyë\nessëlya\n\n\n\n\n\n\n\nná-\n\n\n\n\nni\nnanyë\n\n\nelyë\nnalyë\n\n\nse\nná\n\n\n\n\n\n\nMana esselya?\nEssenya ná Elenwë.\n\n\n\n\nMana esselya?\nEssenya ná Rúmil. Nanyë istyar.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/carince_1.html#mallo-tulilyë",
+    "href": "docs/carince_1.html#mallo-tulilyë",
+    "title": "1  Carincë",
+    "section": "1.4 Mallo tulilyë?",
+    "text": "1.4 Mallo tulilyë?\n\n\n\n\n\n\nFigure 1.4: Mallo tulilyë?\n\n\n\n\nÁ lasta! 1.7\n\n\n\nRúmil: Elenwë, mallo tulilyë?\nElenwë: Tulin Valimarello. Nanyë Vanya.\nRúmil: Ar elyë, Nerdanel? Mallo tulilyë?\nNerdanel: Tulin Tirionello. Nanyë Noldo.\nRúmil: Voronwë, mallo tulilyë?\nVoronwë: Tulin Endórello. Nanyë Noldo.\nRúmil: Ma quetilyë Quenya?\nVoronwë: Ná, quetin Quenya ar Sindarin.\nRúmil: Ar elyë, Elendil? Mallo tulilyë?\nElendil: Tulin Númenórello. Nanyë Atan.\nRúmil: Ma quetilyë Sindarin?\nElendil: Ui, lá quetin Sindarin. Quetin Quenya.\n\n\n\n\n-llo\n\n\n\n\nValimar\nValimarello\n\n\nTirion\nTirionello\n\n\nAlqualondë\nAlqualondello\n\n\nAvallónë\nAvallónello\n\n\nEndórë\nEndórello\n\n\nNúmenórë\nNúmenórello\n\n\n\n\n\n\n\ntul-\nquet-\nná-\n\n\n\n\nni\ntulin\nquetin\nnanyë\n\n\nelyë\ntulilyë\nquetilyë\nnalyë\n\n\nse\ntulë\nquetë\nná\n\n\n\n\n\n\n\n\n\n\n\nMa …?\nNá.\nUi.\n\n\n\n\nMa quetilyë Quenya?\nNá, quetin Quenya.\nUi, lá quetin Quenya.\n\n\nMa tulilyë Tirionello?\nNá, tulin Tirionello.\nUi, tulin Valimarello.\n\n\n\n\n\n\nElda\nAtan\n\n\n\n\nNoldo · Vanya · Teler · Sinda",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/carince_1.html#nóti",
+    "href": "docs/carince_1.html#nóti",
+    "title": "1  Carincë",
+    "section": "1.5 Nóti",
+    "text": "1.5 Nóti\n\n\n\n\n\n\nFigure 1.5: Nóti\n\n\n\n\nÁ lasta! 1.8\n\n\n\n\n\n\n\nnótë\n\n\n\n\n1\nminë\n\n\n2\natta\n\n\n3\nneldë\n\n\n4\ncanta\n\n\n5\nlempë\n\n\n6\nenquë\n\n\n7\notso\n\n\n8\ntolto\n\n\n9\nnertë\n\n\n10\nquëan",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/carince_1.html#lammar",
+    "href": "docs/carince_1.html#lammar",
+    "title": "1  Carincë",
+    "section": "1.6 Lammar",
+    "text": "1.6 Lammar\n\nÁ lasta! 1.9\n\n\n\n\n\n\nlamma\nquettar\n\n\n\n\na\nAman, Atan\n\n\ná\nmára, málo\n\n\ne\nElda, Elendil\n\n\né\nnér\n\n\ni\nTirion, minë\n\n\ní\nnís, síla\n\n\no\nNoldo, otso\n\n\nó\nlómë, Endórë\n\n\nu\ntulin, undómë\n\n\nú\nRúmil, Númenórë\n\n\nai\naiya\n\n\nau\naurë, amaurë\n\n\noi\nOiolossë\n\n\nui\nui, Uinen\n\n\neu\nleuca\n\n\nc\ncanta, cenda\n\n\nqu\nQuenya, quëan\n\n\ny\nVanya, aiya",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/carince_1.html#carië",
+    "href": "docs/carince_1.html#carië",
+    "title": "1  Carincë",
+    "section": "1.7 Carië",
+    "text": "1.7 Carië\n\n1. Á lasta ar á tecë!\n\nÁ lasta! 1.10\n\n\n\namaurë · endaurë · sinyë · lómë\n\n\n\n\nMára …!\n\n\n\n\n1\nMára ________!\n\n\n2\nMára ________!\n\n\n3\nMára ________!\n\n\n4\nMára ________!\n\n\n\n\n\n2. Á quanta!\nAlla · hantanyel · Manen · Mára · Mesta\nNerdanel: ________, Elenwë!\nElenwë: Alla, Nerdanel! ________ nalyë?\nNerdanel: ________, hantanyel. Ar elyë?\nElenwë: Mára, ________.\nNerdanel: ________, Elenwë!\n\n\n3. Á cenda ar á tecë i nóti: 1, 2, 3, 4, 5!\n\n\n\n___\nRúmil: Aiya, Elendil! Manen nalyë?\n\n\n___\nElendil: Namárië!\n\n\n___\nElendil: Aiya, Rúmil!\n\n\n___\nRúmil: Mára. Namárië, Elendil!\n\n\n___\nElendil: Mára, hantanyel. Ar elyë?\n\n\n\n\n\n4. Á cenda (1.7) ar á tecë i hanquentar!\n\nMallo tulë Elenwë?\nMallo tulë Voronwë?\nMallo tulë Elendil?\nMan quetë Sindarin?\nMa quetë Elendil Sindarin?\nMan ná i istyar?\n\n\n\n5. Á tecë!\nElda · Atan · Noldo · Vanya · Teler · Sinda\nEssenya ná ________.\nNanyë ________.\nTulin ________.\nQuetin ________.\n\n\n6. Á notë ar á tecë!\n\n\n\n3\nneldë\n\n\n5\n________\n\n\n1\n________\n\n\n8\n________\n\n\n10\n________\n\n\n________\ncanta\n\n\n________\notso\n\n\n________\natta\n\n\n________\nnertë\n\n\n________\nenquë\n\n\n\n\n\n7. Á lasta (1.9) ar á enquetë!\nAman · mára · Elda · nér · Tirion · nís · Noldo · lómë · tulin · Rúmil · aiya · aurë · Oiolossë · ui · leuca · canta · Quenya · Vanya\n\n\n8. Á quetë as málo!\n\n\n\n\n\n\n\nElyë\nMálolya\n\n\n\n\nElenwë · Valimarello · Vanya · Quenya\nElendil · Númenórello · Atan · Quenya\n\n\nNerdanel · Tirionello · Noldo · Quenya\nVoronwë · Endórello · Noldo · Quenya ar Sindarin\n\n\n\nAiya! Essenya ná ________. Mana esselya?\nMallo tulilyë?\nMa quetilyë ________?\nNamárië!\n\n\n\n\n\n\nNoteHanquentar\n\n\n\n\n\n1. 1 sinyë · 2 amaurë · 3 lómë · 4 endaurë\n2. Alla · Manen · Mára · hantanyel · Mesta\n3. 2 · 5 · 1 · 4 · 3\n4. 1 Valimarello. · 2 Endórello. · 3 Númenórello. · 4 Voronwë. · 5 Ui. · 6 Rúmil.\n6. lempë · minë · tolto · quëan · 4 · 7 · 2 · 9 · 6",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/carince_1.html#quettar",
+    "href": "docs/carince_1.html#quettar",
+    "title": "1  Carincë",
+    "section": "1.8 Quettar",
+    "text": "1.8 Quettar\n\n\n\nQuetta\nEldamo\n\n\n\n\ná\nQ.\n\n\naiya\nQ.\n\n\nalla\nQ.\n\n\namaurë\nQ.*\n\n\napárilë\nNQ.\n\n\nar\nQ.\n\n\nas\nQ.#\n\n\nAtan\nQ.\n\n\natta\nQ.\n\n\naurë\nQ.\n\n\ncanta\nQ.\n\n\ncarië\nQ.\n\n\ncenda-\nQ.\n\n\nElda\nQ.\n\n\nelen\nQ.\n\n\nelen síla lúmenn’ omentielvo\nQ.\n\n\nelyë\nQ.\n\n\nendaurë\nNQ.\n\n\nenquë\nQ.\n\n\nenquet-\nQ.\n\n\nessë\nQ.\n\n\nhanquenta\nQ.\n\n\nhanta-\nNQ.\n\n\ni\nQ.\n\n\nistyar\nMQ.\n\n\nlá\nQ.\n\n\nlamma\nMQ.\n\n\nlasta-\nQ.\n\n\nlempë\nQ.\n\n\nleuca\nQ.\n\n\nlómë\nQ.\n\n\nlúmë\nQ.\n\n\nma\nQ.\n\n\nmálo\nQ.\n\n\nmallo\nMQ.\n\n\nman\nQ.\n\n\nmana\nQ.\n\n\nmanen\nQ.\n\n\nmára\nQ.\n\n\nmesta\nEQ.\n\n\nmi\nQ.\n\n\nminë\nMQ.\n\n\nná-\nQ.\n\n\nná\nQ.\n\n\nnamárië\nQ.\n\n\nneldë\nQ.\n\n\nnér\nQ.\n\n\nnertë\nQ.\n\n\nni\nQ.\n\n\nnís\nQ.\n\n\nNoldo\nQ.\n\n\nnot-\nQ.\n\n\nnótë\nMQ.\n\n\nomentië\nQ.\n\n\notso\nQ.\n\n\nquanta-\nQ.\n\n\nquëan\nQ.\n\n\nQuenya\nQ.\n\n\nquet-\nQ.\n\n\nquetta\nQ.\n\n\nse\nQ.\n\n\nsil-\nQ.\n\n\nSinda\nQ.\n\n\nSindarin\nQ.\n\n\nsinyë [þ]\nMQ.\n\n\ntec-\nMQ.\n\n\nTeler\nQ.\n\n\ntolto\nQ.\n\n\ntul-\nQ.\n\n\nui\nQ.\n\n\nundómë\nQ.\n\n\nVanya\nQ.\n\n\n-llo\nQ.\n\n\n-lya\nQ.\n\n\n-lyë\nQ.\n\n\n-n\nQ.\n\n\n-nya\nQ.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/carince_1.html#essi",
+    "href": "docs/carince_1.html#essi",
+    "title": "1  Carincë",
+    "section": "1.9 Essi",
+    "text": "1.9 Essi\n\n\n\nEssë\nEldamo\n\n\n\n\nAlqualondë\nQ.\n\n\nAman\nQ.\n\n\nAvallónë\nQ.\n\n\nElendil\nQ.\n\n\nElenwë\nQ.\n\n\nEndórë\nQ.\n\n\nNerdanel\nQ.\n\n\nNúmenórë\nQ.\n\n\nOiolossë\nQ.\n\n\nRúmil\nQ.\n\n\nTirion\nQ.\n\n\nUinen\nQ.\n\n\nValimar\nQ.\n\n\nVoronwë\nQ.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/carince_4.html",
+    "href": "docs/carince_4.html",
+    "title": "4  Carincë",
+    "section": "",
+    "text": "Content",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/carince_5.html",
+    "href": "docs/carince_5.html",
+    "title": "5  Carincë",
+    "section": "",
+    "text": "Content",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/carince_6.html",
+    "href": "docs/carince_6.html",
+    "title": "6  Carincë",
+    "section": "",
+    "text": "Content",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Carincë</span>"
+    ]
+  },
+  {
+    "objectID": "docs/pt/neologisms.html",
+    "href": "docs/pt/neologisms.html",
+    "title": "Neologismos",
+    "section": "",
+    "text": "Neologismo\nDefinição\nTipo de Formação\nEtimologia\n\n\n\n\ncarincë\nCapítulo de um livro.\nSubstantivo composto a partir do radical car- (cabeça) e do sufixo -incë (diminutivo).\naqui",
+    "crumbs": [
+      "Neologismos"
+    ]
+  }
+]
