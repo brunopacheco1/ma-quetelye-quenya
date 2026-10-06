@@ -25,6 +25,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Determine Version
         id: version
@@ -47,6 +49,16 @@ jobs:
             echo "is_release=false" >> $GITHUB_OUTPUT
           fi
 
+          # A manual run redeploys the site from the latest release tag
+          # without creating a new release.
+          if [[ "${{ github.event_name }}" == 'workflow_dispatch' && "${{ github.ref }}" != refs/tags/v* ]]; then
+            echo "redeploy_tag=$(git describe --tags --abbrev=0 --match 'v*')" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check out latest release
+        if: steps.version.outputs.redeploy_tag != ''
+        run: git checkout ${{ steps.version.outputs.redeploy_tag }}
+
       - name: Push Tag
         if: steps.version.outputs.is_release == 'true' && github.event_name == 'pull_request'
         run: |
@@ -57,9 +69,6 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - name: Install TinyTeX
         run: quarto install tinytex
       - name: Build documentation
@@ -82,25 +91,22 @@ jobs:
         with:
           name: book-artifacts
           path: release_artifacts/
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
-        with:
-          path: ./_book/en
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    if: needs.build.outputs.is_release == 'true'
-    permissions:
-      pages: write
-      id-token: write
-    steps:
+      - name: Assemble site
+        if: steps.version.outputs.is_release == 'true' || steps.version.outputs.redeploy_tag != ''
+        run: |
+          mkdir -p site/pt
+          cp -r _book/en/. site/
+          cp -r _book/pt/. site/pt/
+          echo "ma-quetelye-quenya.tolkien.lu" > site/CNAME
+          touch site/.nojekyll
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
+        if: steps.version.outputs.is_release == 'true' || steps.version.outputs.redeploy_tag != ''
+        uses: JamesIves/github-pages-deploy-action@fa24774553152dd7873cd16ebd8d959b010c5445 # v4.9.0
+        with:
+          branch: gh-pages
+          folder: site
+          clean-exclude: pr-preview/
+          force: false
 
   release:
     runs-on: ubuntu-latest

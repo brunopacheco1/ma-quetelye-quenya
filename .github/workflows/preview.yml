@@ -1,0 +1,42 @@
+# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+#
+# SPDX-License-Identifier: Apache-2.0
+
+name: Preview
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
+
+concurrency: preview-${{ github.ref }}
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    # Forks get a read-only token, so they cannot push to gh-pages.
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        if: github.event.action != 'closed'
+        uses: quarto-dev/quarto-actions/setup@v2
+      - name: Build HTML
+        if: github.event.action != 'closed'
+        run: |
+          quarto render --profile en --to html
+          quarto render --profile pt --to html
+          mkdir -p site/pt
+          cp -r _book/en/. site/
+          cp -r _book/pt/. site/pt/
+
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@ffa7509e91a3ec8dfc2e5536c4d5c1acdf7a6de9 # v1.8.1
+        with:
+          source-dir: site
+          pages-base-url: ma-quetelye-quenya.tolkien.lu
+          qr-code: "false"

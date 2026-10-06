@@ -32,3 +32,19 @@ jobs:
           lintquarto -l pylint -p .
       - name: REUSE Compliance Check
         uses: fsfe/reuse-action@676e2d560c9a403aa252096d99fcab3e1132b0f5 # v6.0.0
+
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+      - name: Install TinyTeX
+        run: quarto install tinytex
+      - name: Render all languages and formats
+        run: |
+          quarto render --profile en
+          quarto render --profile pt

@@ -5,6 +5,7 @@ project:
   output-dir: _book/pt
 book:
   language: pt
+  url: "https://ma-quetelye-quenya.tolkien.lu/pt"
   chapters:
     - index.qmd
     - docs/pt/toc.qmd
@@ -16,3 +17,8 @@ book:
     - docs/carince_6.qmd
     - docs/pt/neologisms.qmd
     - docs/cariquettar.qmd
+  sidebar:
+    tools:
+      - icon: translate
+        text: "English"
+        href: https://ma-quetelye-quenya.tolkien.lu/

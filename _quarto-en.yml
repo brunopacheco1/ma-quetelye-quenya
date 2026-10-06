@@ -16,3 +16,8 @@ book:
     - docs/carince_6.qmd
     - docs/en/neologisms.qmd
     - docs/cariquettar.qmd
+  sidebar:
+    tools:
+      - icon: translate
+        text: "Português"
+        href: https://ma-quetelye-quenya.tolkien.lu/pt/
