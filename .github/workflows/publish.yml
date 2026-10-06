@@ -25,6 +25,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Determine Version
         id: version
@@ -46,6 +48,16 @@ jobs:
           else
             echo "is_release=false" >> $GITHUB_OUTPUT
           fi
+
+          # A manual run redeploys the site from the latest release tag
+          # without creating a new release.
+          if [[ "${{ github.event_name }}" == 'workflow_dispatch' && "${{ github.ref }}" != refs/tags/v* ]]; then
+            echo "redeploy_tag=$(git describe --tags --abbrev=0 --match 'v*')" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check out latest release
+        if: steps.version.outputs.redeploy_tag != ''
+        run: git checkout ${{ steps.version.outputs.redeploy_tag }}
 
       - name: Push Tag
         if: steps.version.outputs.is_release == 'true' && github.event_name == 'pull_request'
@@ -80,7 +92,7 @@ jobs:
           name: book-artifacts
           path: release_artifacts/
       - name: Assemble site
-        if: steps.version.outputs.is_release == 'true'
+        if: steps.version.outputs.is_release == 'true' || steps.version.outputs.redeploy_tag != ''
         run: |
           mkdir -p site/pt
           cp -r _book/en/. site/
@@ -88,7 +100,7 @@ jobs:
           echo "ma-quetelye-quenya.tolkien.lu" > site/CNAME
           touch site/.nojekyll
       - name: Deploy to GitHub Pages
-        if: steps.version.outputs.is_release == 'true'
+        if: steps.version.outputs.is_release == 'true' || steps.version.outputs.redeploy_tag != ''
         uses: JamesIves/github-pages-deploy-action@fa24774553152dd7873cd16ebd8d959b010c5445 # v4.9.0
         with:
           branch: gh-pages
