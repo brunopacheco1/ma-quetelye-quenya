@@ -24,3 +24,9 @@ path = "specs/**"
 precedence = "closest"
 SPDX-FileCopyrightText = "2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)"
 SPDX-License-Identifier = "CC-BY-4.0"
+
+# GitHub Pages custom-domain file; it cannot carry a comment header.
+[[annotations]]
+path = "CNAME"
+SPDX-FileCopyrightText = "2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)"
+SPDX-License-Identifier = "Apache-2.0"
