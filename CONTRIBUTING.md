@@ -41,14 +41,19 @@ illustrators, voice recorders and developers.
   [#36](https://github.com/brunopacheco1/ma-quetelye-quenya/pull/36) shows what a
   full chapter looks like (dialogues, grammar boxes, exercises, audio script and
   image prompts). It stays open as a draft for everyone to comment on and improve.
+- **Many languages, one book:** the book is published in several language
+  editions. The editions share the same Quenya chapters; only the introduction,
+  the table of contents and the neologism notes are written in each edition's
+  language. The current editions are English and Portuguese, and new languages
+  are welcome (see [Adding a new language](#adding-a-new-language)).
 - **Everything happens on GitHub:** issues for tasks, pull requests for changes,
   and discussions for questions and decisions.
 
 ## Ground rules for all content
 
-1. **Chapters are written only in Quenya.** English, Portuguese and other
-   languages appear only in the introductions (`docs/<lang>/intro.qmd`) and in
-   the neologism notes (`docs/<lang>/neologisms.qmd`). Image alt text is the one
+1. **Chapters are written only in Quenya.** The languages of the editions
+   appear only in the introductions (`docs/<lang>/intro.qmd`) and in the
+   neologism notes (`docs/<lang>/neologisms.qmd`). Image alt text is the one
    exception, because it must be readable with a screen reader.
 2. **[Eldamo](https://eldamo.org/) is the source of truth for every Quenya word.**
    For every word you add, link its Eldamo entry and mark it as one of these:
@@ -60,9 +65,10 @@ illustrators, voice recorders and developers.
    `vocabulary` label and the coordinator will decide.
 3. **Cite your sources** for any other linguistic claim (for example
    *Parma Eldalamberon* or *The History of Middle-earth*).
-4. **Languages stay in parallel.** If you change an introduction or a neologism
-   note in one language, change it in the others too, or say in your pull request
-   which languages still need the change.
+4. **Languages stay in parallel.** If you change an introduction, a neologism
+   note or alt text in one language, change it in every other edition too, or
+   say in your pull request which languages still need the change, so that
+   translators can pick it up.
 5. **Pedagogy first.** Lessons follow the structure of *Schwätzt Dir
    Lëtzebuergesch?*: short, practical, communicative steps built around real-life
    situations and pictures, with grammar kept light.
@@ -104,8 +110,10 @@ words for that chapter.
 
 ### Translation (`translation`)
 
-Translate and keep up to date the introductions and neologism notes in English,
-Portuguese or a new language (see [Adding a new language](#adding-a-new-language)).
+Translate and keep up to date the introduction, table of contents, neologism
+notes and image alt text of one edition. You can join an existing edition
+(currently English and Portuguese) or start a new one (see
+[Adding a new language](#adding-a-new-language)).
 *You need:* fluency in the target language.
 
 ### Illustration (`images`)
@@ -116,7 +124,8 @@ show.
 
 - Submit your original artwork as PNG or JPG, at least 1600 px wide, and keep
   your source file in case changes are needed.
-- Give each image alt text in English and in Portuguese.
+- Describe each image in a short alt text, in any edition's language.
+  Translators add it to the other editions.
 - Images are published under CC-BY-4.0 (see
   [Credit and licensing](#credit-and-licensing)).
 - If you used any generative tool, say so in the pull request.
@@ -258,15 +267,15 @@ spelling convention, or how to handle a word Eldamo lacks.
 3. Preview the book while you edit:
 
    ```bash
-   quarto preview                 # English edition
-   quarto preview --profile pt    # Portuguese edition
+   quarto preview                     # default edition (English)
+   quarto preview --profile <lang>    # another edition, e.g. pt
    ```
 
 4. Before you open a pull request, render every edition and check it:
 
    ```bash
-   quarto render
-   quarto render --profile pt
+   quarto render                      # default edition (English)
+   quarto render --profile <lang>     # repeat for each other edition
    reuse lint
    ```
 
@@ -286,11 +295,20 @@ The book uses **Quarto profiles** for each language. Chapters are shared by
 every language, so a new language only needs its own introduction, table of
 contents and neologism notes:
 
-1. Create `docs/<lang>/` with `intro.qmd`, `toc.qmd` and `neologisms.qmd`
-   (copy them from `docs/en/`).
-2. Create the profile file `_quarto-<lang>.yml` (copy `_quarto-pt.yml`).
-3. Open an issue first, so the coordinator can plan the publishing and keep the
-   language in parallel with the others.
+1. Open an issue first, so the coordinator can plan the new edition and find
+   reviewers who speak the language.
+2. Create `docs/<lang>/` with `intro.qmd`, `toc.qmd` and `neologisms.qmd`,
+   translated from an existing edition (for example `docs/en/`).
+3. Create the profile file `_quarto-<lang>.yml` (copy `_quarto-pt.yml`), and
+   include the new introduction in `index.qmd` with
+   `::: {.content-visible when-profile="<lang>"}`.
+4. Add the new profile to the build and publishing workflows in
+   `.github/workflows/`, so the edition is checked on every pull request and
+   published at `/<lang>/` on the website. Ask for help with this step if you
+   need it.
+
+From then on, the new edition is kept in parallel with the others like any
+other language.
 
 ### Semantic commit messages
 
