@@ -61,8 +61,11 @@ illustrators, voice recorders and developers.
    - **reconstructed:** built from attested material, as Eldamo records it.
    - **neologism:** a modern coinage, explained in the neologism notes.
 
-   Never invent a word. If Eldamo has nothing usable, open an issue with the
-   `vocabulary` label and the coordinator will decide.
+   Never invent a word silently. If Eldamo has nothing
+   usable, propose a neologism directly in your pull request: mark it as a
+   neologism, explain how it is formed (roots and Eldamo links) in the neologism
+   notes, and say why it is needed. It is reviewed in that pull request like
+   the rest of your change. No separate issue is needed.
 3. **Cite your sources** for any other linguistic claim (for example
    *Parma Eldalamberon* or *The History of Middle-earth*).
 4. **Languages stay in parallel.** If you change an introduction, a neologism
@@ -180,7 +183,7 @@ project, because they keep the Quenya accurate.
 | Change | Required reviews (besides the coordinator) |
 |---|---|
 | Lesson text (dialogues, grammar, exercises, vocabulary) | 1 Quenya review + 1 pedagogy review |
-| Neologism notes | 1 Quenya review + 1 review per language changed |
+| New neologisms and neologism notes | 1 Quenya review of the coinage + 1 review per language changed, in the same pull request |
 | Introductions and other translations | 1 review by a fluent speaker of that language |
 | Audio | 1 Quenya review (pronunciation) |
 | Images | 1 review that the picture matches its prompt and its alt text |
@@ -211,6 +214,8 @@ The author of a pull request can't review it themselves.
   exception.
 - New words and grammar are introduced before they are used.
 - Exercises have answers in the answer key.
+- Each new neologism is justified (Eldamo has nothing usable), built from
+  attested roots with Eldamo links, and explained in the neologism notes.
 - Neologisms and introductions are updated in every language, or the missing
   languages are listed.
 - New files have a REUSE license header or annotation.
