@@ -21,3 +21,12 @@ book:
       - icon: translate
         text: "Português"
         href: https://ma-quetelye-quenya.tolkien.lu/pt/
+
+# Alt text for the pictures of the shared, Quenya-only chapters, applied by
+# filters/alt-text.lua. Keep in step with _quarto-pt.yml and raw_images/prompts/.
+alt-text:
+  greetings.jpg: "Four scenes of people greeting each other: two students waving in front of a school, a woman and a man talking at an office desk, two elderly neighbours chatting over a garden fence, and a young man at a reception counter. The speech bubbles are empty."
+  daytime.jpg: "Six panels of the times of day, each labelled in Tengwar and Latin letters: a sunny landscape (aurë), a starry night (lómë), a boy waking at dawn (amaurë), children playing in the afternoon (apárilë), a boy drawing in the kitchen in the evening (sinyë) and the boy asleep at night (lómë)."
+  carince_1_essi.jpg: "A teacher with long silver hair and round glasses stands by an empty whiteboard, hand on his chest, introducing himself to four adult students sitting in a half circle; a young woman with golden hair answers him with her hand on her chest. All wear blank name tags."
+  carince_1_mallo.jpg: "Travellers with suitcases come down a ferry gangway onto a sunny quay with white houses and a small lighthouse; a bearded man is greeted by an older man with silver hair who waves, and a young woman with a yellow backpack reads a paper map. A small boat with a swan-shaped prow is moored nearby."
+  carince_1_noti.jpg: "Ten round paper lanterns in different colours hang in a straight line across a street at dusk; below them a woman and a man at a café table point up at the lanterns and count on their fingers."

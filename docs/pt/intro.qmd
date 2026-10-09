@@ -13,6 +13,14 @@ A estrutura deste livro é inspirada na excelente série de ensino de idiomas *S
 
 *Elen síla lúmenn' omentielvo!* (Uma estrela brilha na hora do nosso encontro!)
 
+## Como ler este livro
+
+- **Os capítulos estão apenas em Quenya.** As imagens, os diálogos e as gravações carregam o significado. Quando você precisar de uma tradução, todas as palavras de um capítulo estão listadas no fim dele, em *Quettar* (palavras) e *Essi* (nomes), e cada uma leva à sua entrada no [Eldamo](https://eldamo.org/), o léxico que este livro segue.
+- **Á lasta!** ("ouça!") seguido de um número, como 1.2, marca uma gravação: o primeiro número é o capítulo, o segundo é a faixa. No site a gravação toca ali mesmo; no PDF e no EPUB o número indica qual arquivo ouvir na pasta de áudio do livro.
+- **A coluna Eldamo** diz como a palavra está atestada, na notação do próprio Eldamo: **Q.** palavra do Quenya tardio de Tolkien; **MQ.** dos escritos de "Quenya Médio" dos anos 1930 e 1940; **EQ.** do "Qenya" inicial dos anos 1910 e 1920; **NQ.** neologismo neo-Quenya registrado no Eldamo; `*` forma reconstruída ou extrapolada; `#` palavra atestada apenas dentro de uma palavra ou nome mais longo. Nada é inventado em silêncio: as nossas próprias criações estão reunidas no capítulo Neologismos.
+- **A gramática é mostrada, não explicada.** Tabelas de padrões colocam as peças lado a lado, com a terminação em negrito depois do radical. Leia as linhas em voz alta com a gravação e o padrão vai se assentar.
+- **Os exercícios** vêm no fim de cada capítulo em *Carië* ("fazer"); as respostas estão em *Hanquentar* ("respostas"), escondidas no site para que você possa tentar primeiro.
+
 ## Como Contribuir
 
 Contribuições para este projeto são mais do que bem-vindas! Seja escrevendo novos capítulos, revisando conteúdo, criando ilustrações ou fornecendo traduções, sua ajuda é muito apreciada. Para mais informações sobre como participar, leia nosso guia [CONTRIBUTING.md](https://github.com/brunopacheco1/ma-quetelye-quenya/blob/main/CONTRIBUTING.md).

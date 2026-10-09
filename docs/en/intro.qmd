@@ -13,6 +13,14 @@ The structure of this book is inspired by the excellent language learning series
 
 *Elen síla lúmenn' omentielvo!* (A star shines on the hour of our meeting!)
 
+## How to read this book
+
+- **The chapters are in Quenya only.** Pictures, dialogues and recordings carry the meaning. When you need a translation, every word of a chapter is listed at its end under *Quettar* (words) and *Essi* (names), and each one links to its entry in [Eldamo](https://eldamo.org/), the lexicon this book follows.
+- **Á lasta!** ("listen!") followed by a number, such as 1.2, marks a recording: the first number is the chapter, the second the track. On the website the recording plays in place; in the PDF and EPUB the number tells you which file to play from the book's audio folder.
+- **The Eldamo column** says how a word is attested, in Eldamo's own notation: **Q.** a word from Tolkien's later Quenya; **MQ.** from his "Middle Quenya" writings of the 1930s and 1940s; **EQ.** from his early "Qenya" of the 1910s and 1920s; **NQ.** a Neo-Quenya neologism recorded by Eldamo; `*` a reconstructed or extrapolated form; `#` a word attested only inside a longer word or name. Nothing is invented silently: our own coinages are collected in the Neologisms chapter.
+- **Grammar is shown, not explained.** Pattern tables set the pieces side by side, with the ending in bold after the stem. Say the rows aloud with the recording and the pattern will settle.
+- **Exercises** come at the end of each chapter under *Carië* ("doing"); the answers are under *Hanquentar* ("answers"), folded away on the website so you can try first.
+
 ## Contributing
 
 Contributions to this project are more than welcome! Whether you are interested in writing new chapters, reviewing content, creating illustrations, or providing translations, your help is deeply appreciated. Please check out our [CONTRIBUTING.md](https://github.com/brunopacheco1/ma-quetelye-quenya/blob/main/CONTRIBUTING.md) guide for more details on how to get involved.

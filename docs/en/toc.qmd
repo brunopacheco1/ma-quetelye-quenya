@@ -5,7 +5,9 @@ SPDX-License-Identifier: CC-BY-4.0
 -->
 # Table of Contents {.unnumbered}
 
-| [@sec-carince-1] | Content | pronunciation and grammar |
+| Chapter | Topics | Pronunciation and grammar |
+|---------|--------|---------------------------|
+| [@sec-carince-1] | Greeting and saying goodbye, informally and formally; the times of day; asking and giving a name; saying where you come from and which people you belong to; saying which language you speak; counting to ten | Vowels, diphthongs and the spellings *c*, *qu*, *y*; *ná-* (to be); the endings *-n* (I) and *-lyë* (you); *-nya* (my) and *-lya* (your); *-llo* (from); questions with *ma*, answered with *ná* or *ui* |
 | [@sec-carince-2] | Content | pronunciation and grammar |
 | [@sec-carince-3] | Content | pronunciation and grammar |
 | [@sec-carince-4] | Content | pronunciation and grammar |
