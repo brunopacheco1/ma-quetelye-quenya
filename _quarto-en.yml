@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
 #
 # SPDX-License-Identifier: Apache-2.0
 project:
@@ -20,7 +20,7 @@ book:
     tools:
       - icon: translate
         text: "Português"
-        href: https://ma-quetelye-quenya.tolkien.lu/pt/
+        href: https://ma-quetilye-quenya.tolkien.lu/pt/
 
 # Alt text for the pictures of the shared, Quenya-only chapters, applied by
 # filters/alt-text.lua. Keep in step with _quarto-pt.yml and raw_images/prompts/.

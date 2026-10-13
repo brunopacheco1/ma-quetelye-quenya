@@ -1,11 +1,11 @@
-# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
 #
 # SPDX-License-Identifier: Apache-2.0
 project:
   output-dir: _book/pt
 book:
   language: pt
-  url: "https://ma-quetelye-quenya.tolkien.lu/pt"
+  url: "https://ma-quetilye-quenya.tolkien.lu/pt"
   chapters:
     - index.qmd
     - docs/pt/toc.qmd
@@ -21,7 +21,7 @@ book:
     tools:
       - icon: translate
         text: "English"
-        href: https://ma-quetelye-quenya.tolkien.lu/
+        href: https://ma-quetilye-quenya.tolkien.lu/
 
 # Texto alternativo das imagens dos capítulos compartilhados, só em Quenya,
 # aplicado por filters/alt-text.lua. Manter em sincronia com _quarto-en.yml e raw_images/prompts/.

@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
 #
 # SPDX-License-Identifier: Apache-2.0
 
@@ -38,5 +38,5 @@ jobs:
         uses: rossjrw/pr-preview-action@ffa7509e91a3ec8dfc2e5536c4d5c1acdf7a6de9 # v1.8.1
         with:
           source-dir: site
-          pages-base-url: ma-quetelye-quenya.tolkien.lu
+          pages-base-url: ma-quetilye-quenya.tolkien.lu
           qr-code: "false"

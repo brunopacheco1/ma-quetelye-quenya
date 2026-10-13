@@ -1,7 +1,7 @@
 # Notice for Ma Quetilyë Quenya?
 
 This book was developed by Bruno Pacheco.
-Copyright (c) 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com).
+Copyright (c) 2026 Bruno Pacheco (https://bruno.pacheco.lu).
 
 This book incorporates contributions from the people listed at
 https://github.com/brunopacheco1/ma-quetelye-quenya/graphs/contributors.

@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
 #
 # SPDX-License-Identifier: Apache-2.0
 
@@ -17,7 +17,7 @@ book:
   output-file: "ma-quetelye-quenya"
   author: "Bruno Pacheco"
   date: "2026-04-18"
-  url: "https://ma-quetelye-quenya.tolkien.lu"
+  url: "https://ma-quetilye-quenya.tolkien.lu"
 
 bibliography: references.bib
 filters:

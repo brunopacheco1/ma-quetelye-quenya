@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
 #
 # SPDX-License-Identifier: Apache-2.0
 
@@ -97,7 +97,7 @@ jobs:
           mkdir -p site/pt
           cp -r _book/en/. site/
           cp -r _book/pt/. site/pt/
-          echo "ma-quetelye-quenya.tolkien.lu" > site/CNAME
+          echo "ma-quetilye-quenya.tolkien.lu" > site/CNAME
           touch site/.nojekyll
       - name: Deploy to GitHub Pages
         if: steps.version.outputs.is_release == 'true' || steps.version.outputs.redeploy_tag != ''
