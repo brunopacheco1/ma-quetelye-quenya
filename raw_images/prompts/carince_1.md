@@ -69,15 +69,15 @@ hair in a blue sailor's coat; a tall bearded man in a traveller's coat with a
 suitcase beside his chair. All have slightly pointed ears except the bearded
 man. No text, no letters, no writing anywhere. 16:9.`
 
-**Alt text (EN).** A teacher with long silver hair and round glasses stands
-by an empty whiteboard, hand on his chest, introducing himself to four adult
-students sitting in a half circle; a young woman with golden hair answers him
-with her hand on her chest. All wear blank name tags.
+**Alt text (EN).** A teacher with long silver hair and round glasses stands by
+an empty whiteboard, hand on his chest, introducing himself to four adult
+students sitting in a curved row; a young woman with golden hair answers him
+with her hand on her chest. The students wear blank name tags.
 
 **Alt text (PT).** Um professor de cabelo comprido prateado e óculos redondos
-está junto a um quadro branco vazio, com a mão no peito, a apresentar-se a
-quatro alunos adultos sentados em meio círculo; uma jovem de cabelo dourado
-responde a ele com a mão no peito. Todos usam crachás em branco.
+está junto a um quadro branco vazio, com a mão no peito, se apresentando a
+quatro alunos adultos sentados em uma fileira curva; uma jovem de cabelo
+dourado responde a ele com a mão no peito. Os alunos usam crachás em branco.
 
 ## 2. `carince_1_mallo.jpeg` – *Mallo tulilyë?*
 
@@ -110,7 +110,7 @@ nearby.
 **Alt text (PT).** Viajantes com malas descem a rampa de uma balsa para um
 cais ensolarado com casas brancas e um pequeno farol; um homem de barba é
 recebido por um homem mais velho de cabelo prateado que acena para ele, e uma
-jovem de mochila amarela consulta um mapa de papel. Um pequeno barco com proa
+jovem com mochila amarela consulta um mapa de papel. Um pequeno barco com proa
 em forma de cisne está atracado ao lado.
 
 ## 3. `carince_1_noti.jpeg` – *Nóti*
@@ -133,10 +133,10 @@ All have slightly pointed ears  sit at a small café table and point up at the l
 counting on their fingers. Simple background, no other lights. No text, no
 letters, no signs, no writing anywhere. 16:9.`
 
-**Alt text (EN).** Ten round paper lanterns in different colours hang in a
-straight line across a street at dusk; below them a woman and a man at a café
-table point up at the lanterns and count on their fingers.
+**Alt text (EN).** Ten round paper lanterns in different colours hang in a row
+across a street at dusk; below them a woman and a man at a café table point up
+at the lanterns.
 
-**Alt text (PT).** Dez lanternas de papel redondas de cores diferentes
-pendem em linha reta sobre uma rua ao anoitecer; por baixo, uma mulher e um
-homem em uma mesa de café apontam para as lanternas e contam pelos dedos.
+**Alt text (PT).** Dez lanternas de papel redondas de cores diferentes pendem
+em fileira sobre uma rua ao anoitecer; por baixo, uma mulher e um homem em uma
+mesa de café apontam para as lanternas.
