@@ -80,6 +80,12 @@
 - [x] T023 `reuse lint` and `lintquarto -l pylint -p .` pass
 - [x] T024 Read the rendered chapter for stray non-Quenya text; check alt text per edition; confirm the EPUB has no `<audio>` element
 
+## Review follow-up (Bruno, 2026-10-13)
+
+- [x] T025 Generated pictures replace the placeholders (`raw_images/carince_1_*.jpeg`, `images/carince_1_*.jpg`); alt texts checked against them and corrected (name tags, seating, lantern row)
+- [x] T026 Replace the informal farewell *mesta* (ᴱQ.) with *Á na márië!* (Q.) in the chapter, exercises, answer key, word list and recording script
+- [x] T027 Retitle the book *Ma Quetilyë Quenya?* (`_quarto.yml`, `references.bib`, README, CONTRIBUTING, NOTICE, constitution); the cover picture still shows the old title and needs a new image
+
 ---
 
 ## Dependencies & Execution Order
@@ -90,4 +96,4 @@
 
 ## Notes
 
-- Open points for Bruno are listed in research.md: *mesta* (EQ.), the book title's *Quetelyë*, and the kindred/places setting.
+- Bruno's decisions on the open points (farewell, title, setting) are recorded in research.md.

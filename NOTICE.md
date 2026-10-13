@@ -1,4 +1,4 @@
-# Notice for Ma Quetelyë Quenya?
+# Notice for Ma Quetilyë Quenya?
 
 This book was developed by Bruno Pacheco.
 Copyright (c) 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com).

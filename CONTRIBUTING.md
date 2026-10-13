@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-4.0
 
 <!-- omit in toc -->
 
-# Contributing to Ma Quetelyë Quenya?
+# Contributing to Ma Quetilyë Quenya?
 
 First off, thanks for taking the time to contribute! ❤️
 

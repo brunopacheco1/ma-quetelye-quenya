@@ -31,7 +31,7 @@ the chapter and the Eldamo links.
 
 1. **Given** a reader on the greetings section, **When** they read the two
    dialogues and listen to the recordings, **Then** they can tell apart the
-   informal pair (*Alla* / *mesta*) from the formal pair (*Aiya* /
+   informal pair (*Alla* / *Á na márië*) from the formal pair (*Aiya* /
    *Namárië*).
 2. **Given** the "Mana esselya?" section, **When** the reader follows the
    pattern table, **Then** they can produce *Essenya ná …* with their own name.
@@ -193,10 +193,10 @@ entry, and each rendered edition exposes alt text in its own language.
   Nerdanel, Voronwë, Elendil) for the sake of attested, pronounceable names;
   the chapter does not claim to follow their stories, and the scene is set in
   Avallónë, where Elves and Men met.
-- *mesta* (ᴱQ.) is kept as the informal farewell already present in the
-  chapter, marked as Early Qenya, pending Bruno's decision.
-- The book title *Ma Quetelyë Quenya?* is not changed by this feature; the
-  chapter uses the regular aorist form *quetilyë* (cf. attested *carilyë*,
-  *tulil*), and the discrepancy is raised with Bruno separately.
+- The informal farewell is *Á na márië!* (Q., PE17/162); *mesta* (ᴱQ.) was
+  dropped (Bruno, 2026-10-13).
+- The chapter and the book title use the regular aorist *quetilyë* (cf.
+  attested *quetir*, *carilyë*, *tulil*); the title becomes *Ma Quetilyë
+  Quenya?* (Bruno, 2026-10-13). The site address is changed separately.
 - Recordings and generated images are produced later; this feature delivers
   the text, the references, the script and the prompts.

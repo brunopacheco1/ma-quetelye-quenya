@@ -13,7 +13,7 @@ profile:
   default: en
 
 book:
-  title: "Ma Quetelye Quenya?"
+  title: "Ma Quetilye Quenya?"
   output-file: "ma-quetelye-quenya"
   author: "Bruno Pacheco"
   date: "2026-04-18"

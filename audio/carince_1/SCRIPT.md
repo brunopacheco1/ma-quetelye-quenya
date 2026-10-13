@@ -13,13 +13,13 @@ calm), **Voronwë** (man, friendly), **Elendil** (man, polite, a visitor).
 
 Stress falls on the second-to-last syllable in words of two syllables and on
 the third-to-last in longer words unless the second-to-last is long (*Namárië*
-→ na-MÁ-ri-ë, *Alqualondë* → al-qua-LON-dë, *Avallónë* → a-val-LÓ-në).
+→ na-MÁ-ri-ë, *márië* → MÁ-ri-ë, *Alqualondë* → al-qua-LON-dë, *Avallónë* → a-val-LÓ-në).
 
 ## 1.1 – `1-1.mp3` – greetings (word list)
 
 One speaker, each word twice: normal, then slow.
 
-> Alla! … Mesta! … Aiya! … Namárië!
+> Alla! … Á na márië! … Aiya! … Namárië!
 
 ## 1.2 – `1-2.mp3` – Elenwë and Nerdanel (informal)
 
@@ -29,8 +29,8 @@ Two friends meet in the street.
 > **Nerdanel:** Alla, Elenwë! Manen nalyë?
 > **Elenwë:** Mára, hantanyel. Ar elyë?
 > **Nerdanel:** Mára.
-> **Elenwë:** Mesta, Nerdanel!
-> **Nerdanel:** Mesta!
+> **Elenwë:** Á na márië, Nerdanel!
+> **Nerdanel:** Á na márië!
 
 ## 1.3 – `1-3.mp3` – Elendil and Rúmil (formal)
 

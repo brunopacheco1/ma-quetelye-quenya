@@ -36,5 +36,6 @@
   choices of this feature.
 - Two open points are recorded as assumptions rather than clarifications,
   because a reasonable default exists and Bruno can overrule it in review:
-  keeping *mesta* (ᴱQ.) as the informal farewell, and using the regular
-  aorist *quetilyë* in the chapter while the book title keeps *Quetelyë*.
+  the informal farewell and the aorist *quetilyë*. Bruno settled both on
+  2026-10-13: *Á na márië!* replaces *mesta* (ᴱQ.), and the title becomes
+  *Ma Quetilyë Quenya?*.

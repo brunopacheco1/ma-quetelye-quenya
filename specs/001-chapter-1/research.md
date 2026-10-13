@@ -34,17 +34,26 @@ Inflected forms used in the chapter and their attested models:
 | Previous chapter | Finding | Now |
 |------------------|---------|-----|
 | *aparilë* | Not in Eldamo. The neologism is *apárilë* (long *á*). | *apárilë*, marked NQ. |
+| *mesta* | Eldamo ᴱQ. only (LFC/30). | replaced by *á na márië* (Q., PE17/162), Bruno 2026-10-13 |
 | *sinyë[þ]* | Eldamo ᴹQ. *sinye* "evening" (Ety/THIN). | kept as *sinyë*; the word list notes [þ] |
 | English glosses and captions | Not allowed in a chapter. | removed; meanings reached through the Eldamo links |
 
-### Open points for Bruno
+### Decisions (Bruno, 2026-10-13)
 
-1. **mesta** is Early Qenya (EQ.) only. It stays as the informal farewell
-   because the chapter already taught it; say the word if you prefer to drop it.
-2. **Quetelyë.** The regular aorist with *-lyë* is *quetilyë* (cf. attested
-   *carilyë*, *tulil*). The chapter uses *quetilyë*; the book title keeps
-   *Ma Quetelyë Quenya?* until you decide.
-3. **Setting.** A present-day world where Quenya is spoken, with attested
+1. **Informal farewell.** *mesta* is Early Qenya (EQ.) only, from a single
+   1929 sentence in the Father Christmas letters (*Mára mesta…*, LFC/30). It is
+   replaced by *Á na márië!* "be well" (Q., PE17/162), which echoes *namárië*.
+   Other options considered: *namárië* for both registers (LotR), *nai elen
+   siluva lyenna* "may a star shine upon you" (Q., VT49/40).
+2. **Aorist.** Basic verbs take the aorist ending *-i*, which stays before a
+   suffix and becomes *-ë* only word-finally (Eldamo, Quenya aorist; PE18/86,
+   PE22/95): *quetë* but *quetin*, *quetilyë*, and Tolkien's own *quetir* "they
+   say" (PE17/167), cf. *carilyë* (PE17/58), *tulil* (PE22/158). The aorist,
+   not the present *quéta-*, is right for "do you speak": it is timeless and
+   habitual, while the present is only what is happening now (PE22/95, 130).
+   The book title becomes *Ma Quetilyë Quenya?*; the site address and
+   repository name stay until Bruno changes them.
+3. **Setting** (confirmed). A present-day world where Quenya is spoken, with attested
    place names (Tirion, Valimar, Alqualondë, Avallónë, Endórë, Númenórë) and
    characters named after figures of the legendarium. Eldamo has no names for
    Portugal, Luxembourg or Brazil, and only a few neologisms for countries
@@ -56,6 +65,7 @@ Inflected forms used in the chapter and their attested models:
 | Word | Eldamo | Layer | Mark | Eldamo gloss | Note |
 |------|--------|-------|------|--------------|------|
 | *á* | [á](https://eldamo.org/content/words/word-3322232159.html) | Q. | — | imperative particle | imperative particle: *á lasta!* |
+| *á na márië* | [á na márië](https://eldamo.org/content/words/word-1851019677.html) | Q. | — | be well | informal farewell |
 | *aiya* | [aiya](https://eldamo.org/content/words/word-1827512751.html) | Q. | — | hail; behold, lo | formal greeting |
 | *alla* | [alla](https://eldamo.org/content/words/word-3260046495.html) | Q. | — | welcome, hail | informal greeting |
 | *amaurë* | [amaurë](https://eldamo.org/content/words/word-638905337.html) | Q. | * | dawn, early day, morning | dawn, morning; marked * by Eldamo |
@@ -94,7 +104,7 @@ Inflected forms used in the chapter and their attested models:
 | *mana* | [mana](https://eldamo.org/content/words/word-1718207319.html) | Q. | — | what | what: *mana esselya?* |
 | *manen* | [manen](https://eldamo.org/content/words/word-1385064761.html) | Q. | — | how | how: *manen nalyë?* |
 | *mára* | [mára](https://eldamo.org/content/words/word-3694760767.html) | Q. | — | good, proper | good |
-| *mesta* | [mesta](https://eldamo.org/content/words/word-3196837737.html) | EQ. | — | bye | bye; Early Qenya, kept from the previous version of the chapter |
+| *márië* | [márië](https://eldamo.org/content/words/word-3281865629.html) | Q. | — | well, happily; goodness, being well | in *á na márië* |
 | *mi* | [mi](https://eldamo.org/content/words/word-2977012703.html) | Q. | — | in | in: *mi Avallónë* |
 | *minë* | [mine](https://eldamo.org/content/words/word-1902480509.html) | MQ. | — | one | one |
 | *ná-* | [ná-](https://eldamo.org/content/words/word-2562596025.html) | Q. | — | to be | to be: *nanyë*, *nalyë*, *ná* |

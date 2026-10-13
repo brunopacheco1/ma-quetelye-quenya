@@ -18,7 +18,7 @@ SPDX-License-Identifier: CC-BY-4.0
 
 ::::
 
-- **Alla!** … **Mesta!**
+- **Alla!** … **Á na márië!**
 - **Aiya!** … **Namárië!**
 
 ### Elenwë ar Nerdanel {.unnumbered}
@@ -36,8 +36,8 @@ SPDX-License-Identifier: CC-BY-4.0
 **Nerdanel:** Alla, Elenwë! Manen nalyë?\
 **Elenwë:** Mára, hantanyel. Ar elyë?\
 **Nerdanel:** Mára.\
-**Elenwë:** Mesta, Nerdanel!\
-**Nerdanel:** Mesta!
+**Elenwë:** Á na márië, Nerdanel!\
+**Nerdanel:** Á na márië!
 
 ### Elendil ar Rúmil {.unnumbered}
 
@@ -274,7 +274,7 @@ amaurë · endaurë · sinyë · lómë
 
 ### 2. Á quanta! {.unnumbered}
 
-Alla · hantanyel · Manen · Mára · Mesta
+Á na márië · Alla · hantanyel · Manen · Mára
 
 **Nerdanel:** ________, Elenwë!\
 **Elenwë:** Alla, Nerdanel! ________ nalyë?\
@@ -345,7 +345,7 @@ Namárië!
 
 **1.** 1 sinyë · 2 amaurë · 3 lómë · 4 endaurë
 
-**2.** Alla · Manen · Mára · hantanyel · Mesta
+**2.** Alla · Manen · Mára · hantanyel · Á na márië
 
 **3.** 2 · 5 · 1 · 4 · 3
 
@@ -360,6 +360,7 @@ Namárië!
 | Quetta | Eldamo |
 |--------|--------|
 | *á* | [Q.](https://eldamo.org/content/words/word-3322232159.html) |
+| *á na márië* | [Q.](https://eldamo.org/content/words/word-1851019677.html) |
 | *aiya* | [Q.](https://eldamo.org/content/words/word-1827512751.html) |
 | *alla* | [Q.](https://eldamo.org/content/words/word-3260046495.html) |
 | *amaurë* | [Q.*](https://eldamo.org/content/words/word-638905337.html) |
@@ -398,7 +399,7 @@ Namárië!
 | *mana* | [Q.](https://eldamo.org/content/words/word-1718207319.html) |
 | *manen* | [Q.](https://eldamo.org/content/words/word-1385064761.html) |
 | *mára* | [Q.](https://eldamo.org/content/words/word-3694760767.html) |
-| *mesta* | [EQ.](https://eldamo.org/content/words/word-3196837737.html) |
+| *márië* | [Q.](https://eldamo.org/content/words/word-3281865629.html) |
 | *mi* | [Q.](https://eldamo.org/content/words/word-2977012703.html) |
 | *minë* | [MQ.](https://eldamo.org/content/words/word-1902480509.html) |
 | *ná-* | [Q.](https://eldamo.org/content/words/word-2562596025.html) |

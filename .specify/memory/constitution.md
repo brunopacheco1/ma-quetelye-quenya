@@ -1,12 +1,12 @@
 <!--
 Sync Impact Report
-Version change: template → 1.0.0
-Added principles: I–VII (initial ratification)
+Version change: 1.0.0 → 1.0.1 (PATCH: book title corrected to the regular aorist, Ma Quetilyë Quenya?)
+Previous: template → 1.0.0, principles I–VII (initial ratification)
 Templates requiring updates: none (plan/spec/tasks templates reference the constitution generically)
 Follow-up TODOs: none
 -->
 
-# Ma Quetelyë Quenya? Constitution
+# Ma Quetilyë Quenya? Constitution
 
 ## Core Principles
 
@@ -73,4 +73,4 @@ made by PR, bump the version (MAJOR for removed or redefined principles, MINOR
 for new principles or sections, PATCH for wording) and update the Sync Impact
 Report. The maintainer (Bruno Pacheco) approves every PR approval and merge.
 
-**Version**: 1.0.0 | **Ratified**: 2026-10-05 | **Last Amended**: 2026-10-05
+**Version**: 1.0.1 | **Ratified**: 2026-10-05 | **Last Amended**: 2026-10-13
