@@ -516,20 +516,24 @@ end
 
 
 -- One letter by its name, for tables that show a tengwa on its own:
--- quenya.letter("rómen") -> U+E020. Accents, the diaeresis and case are
--- ignored, and spaces or hyphens stand for "_" ("silmë nuquerna",
--- "long carrier"). Returns nil for an unknown name.
+-- quenya.letter("rómen") -> U+E020. Accents and the diaeresis (precomposed
+-- or combining), case and surrounding spaces are ignored, and spaces or
+-- hyphens stand for "_" ("silmë nuquerna", "long carrier"). Returns nil for
+-- an unknown name.
 local NAME_FOLD = { ["á"] = "a", ["é"] = "e", ["í"] = "i", ["ó"] = "o",
   ["ú"] = "u", ["ë"] = "e", ["Á"] = "a", ["É"] = "e", ["Í"] = "i",
   ["Ó"] = "o", ["Ú"] = "u", ["Ë"] = "e" }
 
 function M.letter(name)
+  name = name:gsub("^%s+", ""):gsub("%s+$", "")
   local key = {}
   for _, c in utf8.codes(name) do
-    local ch = utf8.char(c)
-    ch = NAME_FOLD[ch] or ch:lower()
-    if ch == " " or ch == "-" then ch = "_" end
-    key[#key + 1] = ch
+    if c ~= 0x0301 and c ~= 0x0308 then     -- combining acute, diaeresis
+      local ch = utf8.char(c)
+      ch = NAME_FOLD[ch] or ch:lower()
+      if ch == " " or ch == "-" then ch = "_" end
+      key[#key + 1] = ch
+    end
   end
   local cp = CP[table.concat(key)]
   if cp == nil or cp < 0xE000 or cp > 0xE02E then return nil end

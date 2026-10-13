@@ -28,6 +28,9 @@
 --
 --     [rómen]{.tengwa}
 --
+-- A span must hold plain text only: a note, link, image or code inside it is
+-- dropped when the text is replaced, so the filter warns about it.
+--
 -- The transcription itself is in tengwar/quenya.lua next to this file.
 
 local function script_dir()
@@ -75,9 +78,32 @@ local function read_meta(meta)
   return nil
 end
 
+-- Elements that stringify() would lose when the span becomes Tengwar.
+local function lost_elements(span)
+  local lost, seen = {}, {}
+  local function note(kind)
+    return function ()
+      if not seen[kind] then seen[kind] = true; lost[#lost + 1] = kind end
+    end
+  end
+  span.content:walk({
+    Note = note("a note"), Link = note("a link"), Image = note("an image"),
+    Code = note("code"), Math = note("math"), RawInline = note("raw markup"),
+    Cite = note("a citation"),
+  })
+  return lost
+end
+
 local function tengwar_span(span)
   local latin, result
-  if span.classes:includes("tengwa") then
+  local class = span.classes:includes("tengwa") and "tengwa"
+    or span.classes:includes("tengwar") and "tengwar" or nil
+  if class == nil then return nil end
+  for _, kind in ipairs(lost_elements(span)) do
+    warn(string.format("tengwar: [%s]{.%s}: %s inside the span is dropped; keep only text in it",
+      pandoc.utils.stringify(span.content), class, kind))
+  end
+  if class == "tengwa" then
     latin = pandoc.utils.stringify(span.content)
     local letter = quenya.letter(latin)
     if letter == nil then
@@ -87,14 +113,12 @@ local function tengwar_span(span)
     result = { text = letter }
     span.classes = span.classes:filter(function (c) return c ~= "tengwa" end)
     span.classes:insert("tengwar")
-  elseif span.classes:includes("tengwar") then
+  else
     latin = pandoc.utils.stringify(span.content)
     result = quenya.analyse(latin, opts)
     for _, w in ipairs(result.warnings) do
       warn(string.format("tengwar: [%s]{.tengwar}: %s: %s", latin, w.word, w.message))
     end
-  else
-    return nil
   end
 
   if is_latex() then

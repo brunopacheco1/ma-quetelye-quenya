@@ -6,7 +6,7 @@
 --
 -- Run with Quarto's bundled Pandoc as the Lua interpreter:
 --
---     quarto pandoc lua test/tengwar_test.lua
+--     quarto pandoc lua tests/tengwar_test.lua
 --
 -- Every expected value below was worked out by hand from the mode description
 -- (specs/001-chapter-1/tengwar-mode.md), not produced by the code under test. Each case has
@@ -360,6 +360,12 @@ if pandoc then
     "got " .. tostring(quenya.letter("silmë nuquerna")))
   check("letter long carrier", quenya.letter("long carrier") == utf8.char(0xE02C),
     "got " .. tostring(quenya.letter("long carrier")))
+  check("letter combining accents", quenya.letter("ro\u{301}men") == utf8.char(0xE020)
+    and quenya.letter("lambe\u{308}") == utf8.char(0xE022)
+    and quenya.letter("silme\u{308} nuquerna") == utf8.char(0xE025),
+    "decomposed accents must be ignored like precomposed ones")
+  check("letter surrounding spaces", quenya.letter(" rómen ") == utf8.char(0xE020),
+    "got " .. tostring(quenya.letter(" rómen ")))
   check("letter unknown", quenya.letter("tehta_a") == nil and quenya.letter("pusta") == nil
     and quenya.letter("xyz") == nil, "a mark, punctuation or unknown name must give nil")
   local html_letter = apply("[rómen]{.tengwa}", "html5")
@@ -375,6 +381,15 @@ if pandoc then
     .. quenya.transcribe("minë") .. '</span>'
   check("html no-title", html_quiz:find(expected_quiz, 1, true) ~= nil,
     "expected " .. expected_quiz .. "\n      got      " .. html_quiz)
+
+  -- Notes and links inside a span are dropped, with a warning.
+  local saved_quarto, warnings = quarto, {}
+  quarto = { log = { warning = function (msg) warnings[#warnings + 1] = msg end } }
+  apply("[ná[^1]]{.tengwar} [[rómen](https://example.org)]{.tengwa} [ar]{.tengwar}\n\n[^1]: A note.", "html5")
+  quarto = saved_quarto
+  check("lost note and link warned", #warnings == 2
+    and warnings[1]:find("a note", 1, true) ~= nil and warnings[2]:find("a link", 1, true) ~= nil,
+    "got " .. table.concat(warnings, " | "))
 
   local plain = apply("[namárië]{.tengwar} [namárië]{.other}", "plain")
   check("other formats", plain:find(T, 1, true) == 1 and plain:find("namárië", 1, true) ~= nil,
