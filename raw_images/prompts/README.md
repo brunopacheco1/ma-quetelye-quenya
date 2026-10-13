@@ -90,7 +90,8 @@ stone tower on the hill.
 Places that come back: the quay where the ferry docks, the café with the
 striped awning, the street with the ten paper lanterns (`parande_1_noti`), the
 community-centre classroom, the lighthouse on the headland and the stone tower
-on the hill.
+on the hill. From chapter 2 on: the narrow white house with the green door, the
+health centre and the empty shop on the quay.
 
 ## The cast
 
@@ -101,7 +102,7 @@ Man and has round ears.
 
 ### Rúmil
 
-Rúmil is the teacher of the welcome class. Colour key: taupe-grey cardigan, cream shirt, silver hair, round glasses.
+Rúmil is the teacher of the class. Colour key: taupe-grey cardigan, cream shirt, silver hair, round glasses.
 
 ```text
 Rúmil, an elderly elf man who looks about seventy, tall and slim, fair warm
@@ -119,7 +120,7 @@ trousers, brown leather lace-up shoes.
 
 ### Elenwë
 
-Elenwë is a student, new in town. Colour key: mustard yellow, white, light-blue jeans, golden hair.
+Elenwë is a Vanya from Valimar, new in town. Colour key: mustard yellow, white, light-blue jeans, golden hair.
 
 ```text
 Elenwë, a slim young elf woman in her early twenties, fair peach skin, rosy
@@ -137,7 +138,7 @@ white toe caps.
 
 ### Nerdanel
 
-Nerdanel is Elenwë's old friend. Colour key: sage green, oatmeal grey, coral sneakers, copper curls.
+Nerdanel is a Noldo from Tirion and Elenwë's old friend. Colour key: sage green, oatmeal grey, coral sneakers, copper curls.
 
 ```text
 Nerdanel, an elf woman in her early thirties, soft medium build, fair peachy
@@ -155,7 +156,7 @@ canvas high-top sneakers with white toe caps.
 
 ### Voronwë
 
-Voronwë is an officer on the ferry. Colour key: navy coat with gold trim, striped shirt, cream trousers.
+Voronwë is a Noldo from Endórë and an officer on the ferry. Colour key: navy coat with gold trim, striped shirt, cream trousers.
 
 ```text
 Voronwë, a slim elf man about thirty, light warm peach skin, clean-shaven oval
@@ -174,7 +175,7 @@ leather shoes.
 
 ### Elendil
 
-Elendil is a Man from Númenórë, just arrived. Colour key: camel coat, sage-green T-shirt, charcoal trousers, brown boots, silver-streaked beard.
+Elendil is a Man (Atan) from Númenórë, just off the ferry. Colour key: camel coat, sage-green T-shirt, charcoal trousers, brown boots, silver-streaked beard.
 
 ```text
 Elendil, a tall broad-shouldered human man in his late forties with round
@@ -189,7 +190,87 @@ T-shirt; charcoal-grey trousers tucked into tall brown cuffed boots.
 
 **Seen in** `parande_1_essi` (reference view), `parande_1_mallo`.
 
-<!-- STORY-ARC -->
+## Story arc (proposal)
+
+The pictures tell one story across the six chapters, so that a reader who only
+looks at them sees the class become a group of friends. This is a proposal:
+the open questions at the end need Bruno's answer before chapter 2's pictures
+are made.
+
+**Premise.** One year in Avallónë, one Quenya season per chapter, from
+*yávië* to *lairë*. Elendil comes off the ferry alone to start as the town's
+new doctor; his partner and their daughter, about eight, will follow when the
+school year ends. In Rúmil's weekly evening class he meets Elenwë, a student
+who came on the same ferry and lodges with her old friend Nerdanel, a potter
+saving up for a shop on the quay, and Voronwë, a ferry officer and single
+father who lives with his mother and his small daughter. By the end Elendil
+has a home, Nerdanel has her shop, Elenwë shows other people the way, and the
+book closes on the quay where it began: the ferry brings Elendil's family, and
+the friends greet them with *Elen síla lúmenn' omentielvo*.
+
+| Chapter | Season | Story | New pictures |
+|---------|--------|-------|--------------|
+| 1 | *yávië*, late summer | Elendil and Elenwë arrive; the first lesson; ten lanterns at dusk. | Redo the greetings, times-of-day and cover pictures with the cast. |
+| 2 | *quellë*, golden autumn | Family photos and jobs in class; Voronwë's daughter turns seven and the class comes to the party; Elendil smiles for the first time. | Who does what (six jobs); Elendil's rented room with the family photo; a family tree with no text; the birthday with seven candles. |
+| 3 | *hrívë*, winter | Elendil shops at the winter market and miscounts the eggs; Nerdanel's stall and coin jar; dinner in Nerdanel's kitchen; the friends give him a red scarf; first snow on the lanterns. | The market; a food still life for labelling; the café with Elenwë in an apron; likes and dislikes; dinner; walking home under the snowy lanterns. |
+| 4 | *coirë*, stormy early spring | Everyone's week; Elendil crosses days off a calendar; the friends find one free hour and Nerdanel unlocks the empty shop. | Voronwë's day in six panels; same hour, different lives; free time; finding a time on a blank grid; Elendil's calendar; the empty shop. |
+| 5 | *tuilë*, spring | Elendil moves into the top floor of the narrow white house; the friends paint Nerdanel's shop; Elenwë, now on a yellow bicycle, gives a lost traveller directions. | A cut-away of the house; moving day; where things are; painting the shop in many colours; a map of Avallónë with no names. |
+| 6 | *lairë*, summer | The shop opens; Rúmil catches a cold in a downpour and Dr Elendil treats him; the ferry brings Elendil's family. | The year in six panels; the shop opening; caught in the rain; at the doctor's; the ending, drawn like `parande_1_mallo`. |
+
+### How the cast changes
+
+Clothes change with the season, but each character keeps their colours.
+Props build up and never vanish without a reason in the story.
+
+- **Rúmil** stays the same. He catches a cold in chapter 6 and stands on the
+  quay in the last picture exactly where he stood in `parande_1_mallo`.
+- **Elenwë**: map and yellow backpack (1); map in her back pocket (2); café
+  apron (from 3); yellow bicycle (from 5); she gives her map away (6).
+- **Nerdanel**: market stall and coin jar (3); shop key (4); paint-spattered
+  dungarees (5); her open shop with a cup-shaped sign with no writing (6).
+- **Voronwë** wears his officer's coat on the ferry in every chapter. His
+  daughter, an Elf child dressed in red, and his mother join the cast in
+  chapter 2.
+- **Elendil**: suitcase, serious face (1); family photo by his bed, first smile
+  (2); shopping bag and red scarf (3); calendar of crossed-off days (4); keys
+  and a little room with a bed for his daughter (5); his family, and a broad
+  smile (6). At work he wears a white coat over his sage-green T-shirt.
+- **Elendil's partner and daughter** are Men with round ears. They appear in a
+  photo in chapter 2, on a screen in chapters 3 and 4, and in person only at
+  the end. They need their own cast blocks before chapter 2's pictures, and the
+  last picture must match the photo.
+
+### Rules for every picture
+
+- The quay in chapter 6 is drawn from the same viewpoint as in
+  `parande_1_mallo`. The lantern street always has exactly ten lanterns.
+- Count what the text counts (seven candles, ten lanterns) and regenerate
+  until the count is right.
+- Clocks have hands and tick marks but no numerals. Calendars and timetables
+  are blank grids, screens show pictures, maps show only coastlines and dots.
+- Draw only objects that have a Quenya word in Eldamo when the picture is
+  meant for labelling.
+- The names come from the legends, but their stories do not: no sculpture for
+  Nerdanel, no ice for Elenwë, no shipwreck for Voronwë, no Downfall for
+  Elendil, no script-making for Rúmil.
+- Every scene shows people of all ages and skin tones and different kinds of
+  family. A wheelchair user appears at the market and at the shop opening.
+  Problems stay small: a miscount, a storm that keeps the ferry in port, a
+  summer cold.
+
+### Open questions for Bruno
+
+1. Jobs: Elendil as the doctor (Q. *asarta*) or a carpenter (Q. *tautamo*)?
+   Is Nerdanel as a potter too close to the legendary Nerdanel the sculptor?
+   If so, she could keep the same shop story as a market gardener.
+2. Seasons: chapter 1 in *yávië* and the end in *lairë*, as above?
+3. Names for Voronwë's daughter and mother and for Elendil's partner and
+   daughter, or only kin words (*yeldë*, *amil*)? Names from the legends with
+   their own stories, such as Isilmë, Ancalimë or Írimë, are best avoided.
+4. Elendil's partner: a woman or a man, and what do they look like? The
+   chapter 2 photo fixes it for the rest of the book.
+5. The week in chapter 4: the six-day Elvish week or the seven-day week of
+   Númenor? The calendar picture needs the answer.
 
 ## Prompt template
 
