@@ -8,6 +8,8 @@ project:
     - docs/
   resources:
     - audio/**/*.mp3
+  # Writes _epub-default.css, pandoc's default EPUB stylesheet (see the script).
+  pre-render: epub_default_css.py
 
 profile:
   default: en
@@ -38,5 +40,8 @@ format:
     cover-image: images/cover.jpg
     epub-fonts:
       - fonts/AlcarinTengwar-Regular.otf
-    # Not `css:`, which would replace pandoc's default EPUB stylesheet.
-    include-in-header: epub-tengwar.html
+    # A `css:` list replaces pandoc's default stylesheet, so the default comes
+    # first (written by epub_default_css.py) and the Tengwar rules after it.
+    css:
+      - _epub-default.css
+      - epub-tengwar.css

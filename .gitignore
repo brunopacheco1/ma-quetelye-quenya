@@ -12,4 +12,5 @@ _site/
 
 **/*.quarto_ipynb
 *.tex
+_epub-default.css
 .venv

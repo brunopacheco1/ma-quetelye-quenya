@@ -1,0 +1,19 @@
+/*
+ * SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ *
+ * Tengwar in the EPUB. Pandoc puts this file in EPUB/styles/, so the font
+ * path below works from every page, the navigation page included.
+ */
+@font-face {
+  font-family: "Alcarin Tengwar";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/AlcarinTengwar-Regular.otf");
+}
+
+.tengwar {
+  font-family: "Alcarin Tengwar", serif;
+  font-size: 1.3em;
+}
