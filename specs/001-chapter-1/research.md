@@ -51,8 +51,9 @@ Inflected forms used in the chapter and their attested models:
    say" (PE17/167), cf. *carilyë* (PE17/58), *tulil* (PE22/158). The aorist,
    not the present *quéta-*, is right for "do you speak": it is timeless and
    habitual, while the present is only what is happening now (PE22/95, 130).
-   The book title becomes *Ma Quetilyë Quenya?*; the site address and
-   repository name stay until Bruno changes them.
+   The book title becomes *Ma Quetilyë Quenya?* and the site moves to
+   ma-quetilye-quenya.tolkien.lu; the repository name stays until Bruno
+   changes it.
 3. **Setting** (confirmed). A present-day world where Quenya is spoken, with attested
    place names (Tirion, Valimar, Alqualondë, Avallónë, Endórë, Númenórë) and
    characters named after figures of the legendarium. Eldamo has no names for
@@ -65,6 +66,15 @@ Inflected forms used in the chapter and their attested models:
    `audio/parande_*`, `raw_images/prompts/parande_*.md`, `#sec-parande-*`).
    Other options considered: *asta* "part; month" (Q.), *tyellë* "grade, step"
    (Q.).
+5. **Tengwar** (in this PR). Each chapter gets a short *Tengwar* section and
+   two exercises, reading and writing, with only the letters it needs.
+   Chapter 1 teaches the five tehtar, the two carriers and *númen*, *malta*,
+   *lambë*, *rómen* and *órë*. The spelling is the classical Quenya mode of
+   Tolkien's tengwar *Namárië*, with the choices in
+   [tengwar-mode.md](tengwar-mode.md) (long vowels on the long carrier, every
+   *a* written, rómen before a vowel and órë elsewhere). Authors write
+   `[namárië]{.tengwar}` and `filters/tengwar.lua` writes the Tengwar in the
+   book's font, Alcarin Tengwar, in all three formats.
 
 ### Words
 

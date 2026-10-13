@@ -240,6 +240,9 @@ them together in an image editor:
 - save the labelled page as `raw_images/daytime.jpeg` and the unlabelled
   panels in `raw_images/unlabelled/`.
 
+Spell the Tengwar labels the way the book does (`filters/tengwar.lua`). The
+current picture writes *sinyë* with *súlë*; the book writes it with *silmë*.
+
 
 ### 5.1 *amaurë*
 

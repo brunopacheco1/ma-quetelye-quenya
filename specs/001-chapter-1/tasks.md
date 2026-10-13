@@ -86,6 +86,8 @@
 - [x] T026 Replace the informal farewell *mesta* (ᴱQ.) with *Á na márië!* (Q.) in the chapter, exercises, answer key, word list and recording script
 - [x] T027 Retitle the book *Ma Quetilyë Quenya?* (`_quarto.yml`, `references.bib`, README, CONTRIBUTING, NOTICE, constitution); the cover picture still shows the old title and needs a new image
 - [x] T028 Call chapters *parandë* (NQ., Eldamo) instead of the coinage *carincë*: headings, neologism pages, word list, and file names (`parande_*`)
+- [x] T029 Picture guide `raw_images/prompts/README.md` (style, Avallónë, one block per character, story arc) and cast-based prompts for the greetings, times-of-day and cover pictures; the labelled times-of-day picture restored, with labelled masters kept apart from unlabelled originals
+- [x] T030 Tengwar: font wired into HTML, PDF and EPUB; `filters/tengwar.lua` with tests (`tests/tengwar_test.lua`, run in CI); chapter 1 *Tengwar* section, exercises 9–10 with answers, new words in *Quettar*; mode rules in `tengwar-mode.md`; both introductions explain the sections
 
 ---
 

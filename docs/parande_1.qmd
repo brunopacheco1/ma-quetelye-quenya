@@ -250,6 +250,28 @@ SPDX-License-Identifier: CC-BY-4.0
 | **qu** | Quenya, quëan |
 | **y** | Vanya, aiya |
 
+## Tengwar
+
+| a | e | i | o | u |
+|:-:|:-:|:-:|:-:|:-:|
+| [a]{.tengwar} | [e]{.tengwar} | [i]{.tengwar} | [o]{.tengwar} | [u]{.tengwar} |
+
+| á | é | í | ó | ú |
+|:-:|:-:|:-:|:-:|:-:|
+| [á]{.tengwar} | [é]{.tengwar} | [í]{.tengwar} | [ó]{.tengwar} | [ú]{.tengwar} |
+
+| tengwa | | | quetta | |
+|--------|:-:|:-:|:-:|------|
+| *númen* | [númen]{.tengwa} | n | [ná]{.tengwar} | ná |
+| *malta* | [malta]{.tengwa} | m | [ma]{.tengwar} | ma |
+| *lambë* | [lambë]{.tengwa} | l | [lómë]{.tengwar} | lómë |
+| *rómen* | [rómen]{.tengwa} | r | [mára]{.tengwar} | mára |
+| *órë* | [órë]{.tengwa} | r | [ar]{.tengwar} | ar |
+
+| n | na | ná | namárië |
+|:-:|:-:|:-:|:-:|
+| [n]{.tengwar} | [na]{.tengwar} | [ná]{.tengwar} | [namárië]{.tengwar} |
+
 ## Carië
 
 ### 1. Á lasta ar á tecë! {.unnumbered}
@@ -341,6 +363,27 @@ Mallo tulilyë?\
 Ma quetilyë ________?\
 Namárië!
 
+### 9. Á cenda i tengwar! {.unnumbered}
+
+| | |
+|---|---|
+| [minë]{.tengwar .no-title} | ________ |
+| [lúmë]{.tengwar .no-title} | ________ |
+| [manen]{.tengwar .no-title} | ________ |
+| [Rúmil]{.tengwar .no-title} | ________ |
+| [elen]{.tengwar .no-title} | ________ |
+| [Númenórë]{.tengwar .no-title} | ________ |
+
+### 10. Á tecë tengwar! {.unnumbered}
+
+| | |
+|---|---|
+| ar | ________ |
+| mára | ________ |
+| lómë | ________ |
+| namárië | ________ |
+| Á na márië! | ________ |
+
 ::: {.callout-note collapse="true" title="Hanquentar" icon="false"}
 
 **1.** 1 sinyë · 2 amaurë · 3 lómë · 4 endaurë
@@ -352,6 +395,10 @@ Namárië!
 **4.** 1 Valimarello. · 2 Endórello. · 3 Númenórello. · 4 Voronwë. · 5 Ui. · 6 Rúmil.
 
 **6.** lempë · minë · tolto · quëan · 4 · 7 · 2 · 9 · 6
+
+**9.** minë · lúmë · manen · Rúmil · elen · Númenórë
+
+**10.** [ar]{.tengwar} · [mára]{.tengwar} · [lómë]{.tengwar} · [namárië]{.tengwar} · [Á na márië!]{.tengwar}
 
 :::
 
@@ -386,6 +433,7 @@ Namárië!
 | *i* | [Q.](https://eldamo.org/content/words/word-1717330255.html) |
 | *istyar* | [MQ.](https://eldamo.org/content/words/word-2784207637.html) |
 | *lá* | [Q.](https://eldamo.org/content/words/word-1952675039.html) |
+| *lambë* | [Q.](https://eldamo.org/content/words/word-1468650059.html) |
 | *lamma* | [MQ.](https://eldamo.org/content/words/word-5602183.html) |
 | *lasta-* | [Q.](https://eldamo.org/content/words/word-1622669023.html) |
 | *lempë* | [Q.](https://eldamo.org/content/words/word-3652543649.html) |
@@ -395,6 +443,7 @@ Namárië!
 | *ma* | [Q.](https://eldamo.org/content/words/word-2780872089.html) |
 | *málo* | [Q.](https://eldamo.org/content/words/word-294283349.html) |
 | *mallo* | [MQ.](https://eldamo.org/content/words/word-3026611147.html) |
+| *malta* | [Q.](https://eldamo.org/content/words/word-4049611703.html) |
 | *man* | [Q.](https://eldamo.org/content/words/word-2560163767.html) |
 | *mana* | [Q.](https://eldamo.org/content/words/word-1718207319.html) |
 | *manen* | [Q.](https://eldamo.org/content/words/word-1385064761.html) |
@@ -413,7 +462,9 @@ Namárië!
 | *Noldo* | [Q.](https://eldamo.org/content/words/word-840869727.html) |
 | *not-* | [Q.](https://eldamo.org/content/words/word-90143813.html) |
 | *nótë* | [MQ.](https://eldamo.org/content/words/word-1985025859.html) |
+| *númen* | [Q.](https://eldamo.org/content/words/word-1285367433.html) |
 | *omentië* | [Q.](https://eldamo.org/content/words/word-2911858939.html) |
+| *órë* | [Q.](https://eldamo.org/content/words/word-2864436961.html) |
 | *otso* | [Q.](https://eldamo.org/content/words/word-1176036159.html) |
 | *parandë* | [NQ.](https://eldamo.org/content/words/word-1387298955.html?neo) |
 | *quanta-* | [Q.](https://eldamo.org/content/words/word-2659335039.html) |
@@ -421,6 +472,7 @@ Namárië!
 | *Quenya* | [Q.](https://eldamo.org/content/words/word-793854069.html) |
 | *quet-* | [Q.](https://eldamo.org/content/words/word-2355375457.html) |
 | *quetta* | [Q.](https://eldamo.org/content/words/word-106071007.html) |
+| *rómen* | [Q.](https://eldamo.org/content/words/word-3503146575.html) |
 | *se* | [Q.](https://eldamo.org/content/words/word-825068199.html) |
 | *sil-* | [Q.](https://eldamo.org/content/words/word-2448984617.html) |
 | *Sinda* | [Q.](https://eldamo.org/content/words/word-3270080025.html) |
@@ -428,6 +480,7 @@ Namárië!
 | *sinyë [þ]* | [MQ.](https://eldamo.org/content/words/word-1448889201.html) |
 | *tec-* | [MQ.](https://eldamo.org/content/words/word-2010168083.html) |
 | *Teler* | [Q.](https://eldamo.org/content/words/word-933169263.html) |
+| *tengwa* | [Q.](https://eldamo.org/content/words/word-2998780483.html) |
 | *tolto* | [Q.](https://eldamo.org/content/words/word-301365983.html) |
 | *tul-* | [Q.](https://eldamo.org/content/words/word-2588932767.html) |
 | *ui* | [Q.](https://eldamo.org/content/words/word-1487107687.html) |
