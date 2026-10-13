@@ -68,7 +68,7 @@
 
 - [x] T017 [P] [US4] `raw_images/prompts/carince_1.md`: art direction, prompts, file names and alt texts (EN, PT) for every picture of the chapter
 - [x] T018 [US4] `alt-text` maps in `_quarto-en.yml` and `_quarto-pt.yml` for the five pictures
-- [x] T019 [P] [US4] Placeholder images `raw_images/carince_1_*.png` and `images/carince_1_*.jpg` with `.license` sidecars, so the render passes until the pictures are generated
+- [x] T019 [P] [US4] Placeholder images `raw_images/carince_1_*.jpeg` and `images/carince_1_*.jpg` with `.license` sidecars, so the render passes until the pictures are generated
 
 ---
 

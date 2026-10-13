@@ -7,7 +7,7 @@ SPDX-License-Identifier: CC-BY-4.0
 # Carincë 1 – image prompts
 
 Prompts for the pictures of chapter 1, to be run through an image generator.
-Save each result as the PNG named below in `raw_images/`, add its `.license`
+Save each result as the jpeg named below in `raw_images/`, add its `.license`
 sidecar, and run `compress_images.py` to produce the JPG in `images/`. Until
 then, a neutral placeholder with the same name keeps the book rendering.
 
@@ -45,7 +45,7 @@ fantasy, extra fingers`.
 | `greetings.jpg` | *Aiya!... ar Namárië!* | Four scenes of people greeting each other: two students waving in front of a school, a woman and a man talking at an office desk, two elderly neighbours chatting over a garden fence, and a young man at a reception counter. The speech bubbles are empty. / Quatro cenas de pessoas se cumprimentando: dois estudantes acenam em frente a uma escola, uma mulher e um homem conversam em uma mesa de escritório, dois vizinhos idosos conversam por cima de uma cerca de jardim e um jovem está no balcão de uma recepção. Os balões de fala estão vazios. |
 | `daytime.jpg` | *Lúmë* | Six panels of the times of day, each labelled in Tengwar and Latin letters: a sunny landscape (aurë), a starry night (lómë), a boy waking at dawn (amaurë), children playing in the afternoon (apárilë), a boy drawing in the kitchen in the evening (sinyë) and the boy asleep at night (lómë). / Seis painéis com as horas do dia, cada um com legenda em Tengwar e em letras latinas: uma paisagem solarenga (aurë), uma noite estrelada (lómë), um menino acordando ao amanhecer (amaurë), crianças brincando à tarde (apárilë), um menino desenhando na cozinha ao entardecer (sinyë) e o menino dormindo à noite (lómë). |
 
-## 1. `carince_1_essi.png` – *Mana esselya?*
+## 1. `carince_1_essi.jpeg` – *Mana esselya?*
 
 **Scene.** The first lesson. A bright community-centre classroom with large
 windows onto a seaside town; a whiteboard with nothing written on it. Rúmil
@@ -79,7 +79,7 @@ está junto a um quadro branco vazio, com a mão no peito, a apresentar-se a
 quatro alunos adultos sentados em meio círculo; uma jovem de cabelo dourado
 responde a ele com a mão no peito. Todos usam crachás em branco.
 
-## 2. `carince_1_mallo.png` – *Mallo tulilyë?*
+## 2. `carince_1_mallo.jpeg` – *Mallo tulilyë?*
 
 **Scene.** Arrivals at the harbour of Avallónë on a bright morning. A quay
 with white houses and a small lighthouse. A modern ferry is moored on the
@@ -113,7 +113,7 @@ recebido por um homem mais velho de cabelo prateado que acena para ele, e uma
 jovem de mochila amarela consulta um mapa de papel. Um pequeno barco com proa
 em forma de cisne está atracado ao lado.
 
-## 3. `carince_1_noti.png` – *Nóti*
+## 3. `carince_1_noti.jpeg` – *Nóti*
 
 **Scene.** A pedestrian street at dusk with exactly **ten** round paper
 lanterns strung in one straight line across the street, evenly spaced, each a
@@ -127,9 +127,9 @@ regenerate if it is not ten.)
 clean brown outlines, friendly cartoon realism on textured paper. A quiet
 pedestrian street at dusk. Exactly ten round paper lanterns hang in one
 straight evenly spaced line across the street, each a different soft colour,
-all fully visible, none overlapping, large and easy to count. Below them a
-woman with red curly hair in green overalls and a man with dark hair in a blue
-sailor's coat sit at a small café table and point up at the lanterns,
+all fully visible, none overlapping, large and easy to count. Below them a woman 
+with red curly hair in green overalls; a man with dark hair in a blue sailor's coat. 
+All have slightly pointed ears  sit at a small café table and point up at the lanterns,
 counting on their fingers. Simple background, no other lights. No text, no
 letters, no signs, no writing anywhere. 16:9.`
 

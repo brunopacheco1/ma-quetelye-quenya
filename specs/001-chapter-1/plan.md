@@ -79,7 +79,7 @@ _quarto-en.yml, _quarto-pt.yml  # alt-text maps
 audio/README.md               # recording conventions
 audio/carince_1/SCRIPT.md     # what to record for chapter 1
 raw_images/prompts/carince_1.md  # image-generation prompts and alt texts
-raw_images/carince_1_*.png    # placeholders until the pictures are generated
+raw_images/carince_1_*.jpeg    # placeholders until the pictures are generated
 images/carince_1_*.jpg        # compressed copies, as compress_images.py would produce
 ```
 
