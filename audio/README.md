@@ -16,14 +16,14 @@ show only the reference.
 ```text
 audio/
 ├── README.md               # this file
-└── carince_1/
+└── parande_1/
     ├── SCRIPT.md           # what to record, line by line
     ├── 1-1.mp3             # track 1.1
     ├── 1-1.mp3.license     # REUSE sidecar (CC-BY-4.0)
     └── ...
 ```
 
-- One folder per chapter: `audio/carince_<chapter>/`.
+- One folder per chapter: `audio/parande_<chapter>/`.
 - One file per reference: `<chapter>-<track>.mp3`, e.g. `1-2.mp3` for 1.2.
 - Each file gets a `.license` sidecar naming the speakers as copyright
   holders, licensed CC-BY-4.0, like the images in `images/`.

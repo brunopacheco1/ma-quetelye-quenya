@@ -8,6 +8,6 @@ SPDX-License-Identifier: CC-BY-4.0
 ::: {#refs}
 :::
 
-| Neologism | Definition | Formation Type | Etymology |
-|-----------|------------|----------------|-----------|
-| *carincë* | Chapter of a book. | Compound noun from the stem [car-](https://www.eldamo.org/content/words/word-3597380807.html?neo) (head) and suffix [-incë](https://www.eldamo.org/content/words/word-3809934845.html?neo) (diminutive). | [here](https://www.etymonline.com/search?q=chapter) |
+The book does not coin any words of its own. Chapters are called *parandë* "(school) lesson", a Neo-Quenya word recorded in [Eldamo](https://eldamo.org/content/words/word-1387298955.html?neo) (from *par-* "to learn"), which replaced our earlier coinage *carincë*. Every word marked **NQ.** in the word lists is a neologism from Eldamo, which names its author and explains how it was formed.
+
+If a future chapter needs a word that neither Tolkien nor Eldamo provides, it will be listed here with its formation and the Eldamo entries it is built from.

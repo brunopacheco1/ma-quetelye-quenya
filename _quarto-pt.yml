@@ -9,12 +9,12 @@ book:
   chapters:
     - index.qmd
     - docs/pt/toc.qmd
-    - docs/carince_1.qmd
-    - docs/carince_2.qmd
-    - docs/carince_3.qmd
-    - docs/carince_4.qmd
-    - docs/carince_5.qmd
-    - docs/carince_6.qmd
+    - docs/parande_1.qmd
+    - docs/parande_2.qmd
+    - docs/parande_3.qmd
+    - docs/parande_4.qmd
+    - docs/parande_5.qmd
+    - docs/parande_6.qmd
     - docs/pt/neologisms.qmd
     - docs/cariquettar.qmd
   sidebar:
@@ -28,6 +28,6 @@ book:
 alt-text:
   greetings.jpg: "Quatro cenas de pessoas se cumprimentando: dois estudantes acenam em frente a uma escola, uma mulher e um homem conversam em uma mesa de escritório, dois vizinhos idosos conversam por cima de uma cerca de jardim e um jovem está no balcão de uma recepção. Os balões de fala estão vazios."
   daytime.jpg: "Seis painéis com as horas do dia, cada um com legenda em Tengwar e em letras latinas: uma paisagem solarenga (aurë), uma noite estrelada (lómë), um menino acordando ao amanhecer (amaurë), crianças brincando à tarde (apárilë), um menino desenhando na cozinha ao entardecer (sinyë) e o menino dormindo à noite (lómë)."
-  carince_1_essi.jpg: "Um professor de cabelo comprido prateado e óculos redondos está junto a um quadro branco vazio, com a mão no peito, se apresentando a quatro alunos adultos sentados em uma fileira curva; uma jovem de cabelo dourado responde a ele com a mão no peito. Os alunos usam crachás em branco."
-  carince_1_mallo.jpg: "Viajantes com malas descem a rampa de uma balsa para um cais ensolarado com casas brancas e um pequeno farol; um homem de barba é recebido por um homem mais velho de cabelo prateado que acena para ele, e uma jovem com mochila amarela consulta um mapa de papel. Um pequeno barco com proa em forma de cisne está atracado ao lado."
-  carince_1_noti.jpg: "Dez lanternas de papel redondas de cores diferentes pendem em fileira sobre uma rua ao anoitecer; por baixo, uma mulher e um homem em uma mesa de café apontam para as lanternas."
+  parande_1_essi.jpg: "Um professor de cabelo comprido prateado e óculos redondos está junto a um quadro branco vazio, com a mão no peito, se apresentando a quatro alunos adultos sentados em uma fileira curva; uma jovem de cabelo dourado responde a ele com a mão no peito. Os alunos usam crachás em branco."
+  parande_1_mallo.jpg: "Viajantes com malas descem a rampa de uma balsa para um cais ensolarado com casas brancas e um pequeno farol; um homem de barba é recebido por um homem mais velho de cabelo prateado que acena para ele, e uma jovem com mochila amarela consulta um mapa de papel. Um pequeno barco com proa em forma de cisne está atracado ao lado."
+  parande_1_noti.jpg: "Dez lanternas de papel redondas de cores diferentes pendem em fileira sobre uma rua ao anoitecer; por baixo, uma mulher e um homem em uma mesa de café apontam para as lanternas."

@@ -8,6 +8,6 @@ SPDX-License-Identifier: CC-BY-4.0
 ::: {#refs}
 :::
 
-| Neologismo | Definição | Tipo de Formação | Etimologia |
-|-----------|------------|----------------|-----------|
-| *carincë* | Capítulo de um livro. | Substantivo composto a partir do radical [car-](https://www.eldamo.org/content/words/word-3597380807.html?neo) (cabeça) e do sufixo [ -incë](https://www.eldamo.org/content/words/word-3809934845.html?neo) (diminutivo). | [aqui](https://www.dicionarioetimologico.com.br/capitulo/) |
+O livro não cria palavras próprias. Os capítulos se chamam *parandë* "lição (escolar)", uma palavra do neo-Quenya registrada no [Eldamo](https://eldamo.org/content/words/word-1387298955.html?neo) (de *par-* "aprender"), que substituiu a nossa criação anterior *carincë*. Toda palavra marcada **NQ.** nas listas de palavras é um neologismo do Eldamo, que indica o seu autor e explica como foi formada.
+
+Se um capítulo futuro precisar de uma palavra que nem Tolkien nem o Eldamo oferecem, ela será listada aqui com a sua formação e as entradas do Eldamo de que é feita.

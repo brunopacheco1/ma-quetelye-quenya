@@ -7,7 +7,7 @@
 Source: Eldamo's data file `eldamo-data.xml` (version 0.8.13, © Paul Strack,
 CC-BY-4.0), fetched from the public Eldamo repository because eldamo.org is
 not reachable from the build environment. Every word, name and inflected form
-used in `docs/carince_1.qmd` was looked up there. Layers and marks are
+used in `docs/parande_1.qmd` was looked up there. Layers and marks are
 Eldamo's own:
 
 - **Q.** Tolkien's later Quenya (1950s onwards); **MQ.** Middle Quenya
@@ -59,6 +59,12 @@ Inflected forms used in the chapter and their attested models:
    Portugal, Luxembourg or Brazil, and only a few neologisms for countries
    (*Faranconórë*, *Italinórë*, *Hellenórë*, *Tyena*), so real-world origins
    would need coinages.
+4. **Chapter word.** *carincë* was the book's own coinage and not in Eldamo.
+   Chapters are now *parandë* "(school) lesson" (NQ., Eldamo, from *par-* "to
+   learn"); the files follow (`docs/parande_*.qmd`, `images/parande_*`,
+   `audio/parande_*`, `raw_images/prompts/parande_*.md`, `#sec-parande-*`).
+   Other options considered: *asta* "part; month" (Q.), *tyellë* "grade, step"
+   (Q.).
 
 ### Words
 

@@ -8,12 +8,12 @@ book:
   chapters:
     - index.qmd
     - docs/en/toc.qmd
-    - docs/carince_1.qmd
-    - docs/carince_2.qmd
-    - docs/carince_3.qmd
-    - docs/carince_4.qmd
-    - docs/carince_5.qmd
-    - docs/carince_6.qmd
+    - docs/parande_1.qmd
+    - docs/parande_2.qmd
+    - docs/parande_3.qmd
+    - docs/parande_4.qmd
+    - docs/parande_5.qmd
+    - docs/parande_6.qmd
     - docs/en/neologisms.qmd
     - docs/cariquettar.qmd
   sidebar:
@@ -27,6 +27,6 @@ book:
 alt-text:
   greetings.jpg: "Four scenes of people greeting each other: two students waving in front of a school, a woman and a man talking at an office desk, two elderly neighbours chatting over a garden fence, and a young man at a reception counter. The speech bubbles are empty."
   daytime.jpg: "Six panels of the times of day, each labelled in Tengwar and Latin letters: a sunny landscape (aurë), a starry night (lómë), a boy waking at dawn (amaurë), children playing in the afternoon (apárilë), a boy drawing in the kitchen in the evening (sinyë) and the boy asleep at night (lómë)."
-  carince_1_essi.jpg: "A teacher with long silver hair and round glasses stands by an empty whiteboard, hand on his chest, introducing himself to four adult students sitting in a curved row; a young woman with golden hair answers him with her hand on her chest. The students wear blank name tags."
-  carince_1_mallo.jpg: "Travellers with suitcases come down a ferry gangway onto a sunny quay with white houses and a small lighthouse; a bearded man is greeted by an older man with silver hair who waves, and a young woman with a yellow backpack reads a paper map. A small boat with a swan-shaped prow is moored nearby."
-  carince_1_noti.jpg: "Ten round paper lanterns in different colours hang in a row across a street at dusk; below them a woman and a man at a café table point up at the lanterns."
+  parande_1_essi.jpg: "A teacher with long silver hair and round glasses stands by an empty whiteboard, hand on his chest, introducing himself to four adult students sitting in a curved row; a young woman with golden hair answers him with her hand on her chest. The students wear blank name tags."
+  parande_1_mallo.jpg: "Travellers with suitcases come down a ferry gangway onto a sunny quay with white houses and a small lighthouse; a bearded man is greeted by an older man with silver hair who waves, and a young woman with a yellow backpack reads a paper map. A small boat with a swan-shaped prow is moored nearby."
+  parande_1_noti.jpg: "Ten round paper lanterns in different colours hang in a row across a street at dusk; below them a woman and a man at a café table point up at the lanterns."

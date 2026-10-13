@@ -6,7 +6,7 @@
 
 ## Summary
 
-Rewrite `docs/carince_1.qmd` from two word lists into a full A1 first lesson in
+Rewrite `docs/parande_1.qmd` from two word lists into a full A1 first lesson in
 Quenya only: five dialogues plus time-of-day exchanges, pattern tables for the
 grammar, numbers one to ten, a pronunciation table, eight exercises and an
 answer key, and a word list that links every word to Eldamo with its
@@ -68,7 +68,7 @@ specs/001-chapter-1/
 ### Source Code (repository root)
 
 ```text
-docs/carince_1.qmd            # the chapter (shared by both profiles)
+docs/parande_1.qmd            # the chapter (shared by both profiles)
 docs/en/intro.qmd             # "How to read this book" section
 docs/pt/intro.qmd             # same, in Portuguese
 docs/en/toc.qmd               # chapter 1 row and table header
@@ -77,10 +77,10 @@ filters/alt-text.lua          # per-language alt text from profile metadata
 _quarto.yml                   # registers the filter and the audio resources
 _quarto-en.yml, _quarto-pt.yml  # alt-text maps
 audio/README.md               # recording conventions
-audio/carince_1/SCRIPT.md     # what to record for chapter 1
-raw_images/prompts/carince_1.md  # image-generation prompts and alt texts
-raw_images/carince_1_*.jpeg    # placeholders until the pictures are generated
-images/carince_1_*.jpg        # compressed copies, as compress_images.py would produce
+audio/parande_1/SCRIPT.md     # what to record for chapter 1
+raw_images/prompts/parande_1.md  # image-generation prompts and alt texts
+raw_images/parande_1_*.jpeg    # placeholders until the pictures are generated
+images/parande_1_*.jpg        # compressed copies, as compress_images.py would produce
 ```
 
 **Structure Decision**: Keep the existing single-chapter-file layout. New
@@ -97,7 +97,7 @@ top-level folders so later chapters reuse them.
    every format; the intro maps them to Eldamo's own notation.
 3. **Recordings.** Each recording is referred to as *Á lasta!* plus a
    chapter-scoped number (1.1, 1.2, …). The file lives at
-   `audio/carince_<chapter>/<chapter>-<track>.mp3`. On HTML an `<audio>`
+   `audio/parande_<chapter>/<chapter>-<track>.mp3`. On HTML an `<audio>`
    element is emitted inside `::: {.content-visible when-format="html"
    unless-format="epub"}`; PDF and EPUB show only the reference (checked: a
    plain `when-format="html"` leaks into the EPUB). `_quarto.yml` lists

@@ -38,7 +38,7 @@
 
 **Goal**: A Quenya-only chapter that teaches greetings, times of day, names, origin, people, language and numbers through dialogues and pattern tables
 
-- [x] T006 [US1] Rewrite `docs/carince_1.qmd`: greetings section with two dialogues (informal, formal) and *Á lasta!* references
+- [x] T006 [US1] Rewrite `docs/parande_1.qmd`: greetings section with two dialogues (informal, formal) and *Á lasta!* references
 - [x] T007 [US1] Time-of-day section: word list, six greetings, three short exchanges
 - [x] T008 [US1] "Mana esselya?" section: dialogue, *essë* + *-nya/-lya*, *ná-* table
 - [x] T009 [US1] "Mallo tulilyë?" section: dialogue, ablative table, verb table, *ma … ? ná / ui*
@@ -60,15 +60,15 @@
 ## Phase 5: User Story 3 - Hear every dialogue (Priority: P3)
 
 - [x] T015 [US3] Audio block for every reference (1.1–1.10) with an HTML-only player
-- [x] T016 [P] [US3] `audio/carince_1/SCRIPT.md` with speakers, lines and file names for every reference
+- [x] T016 [P] [US3] `audio/parande_1/SCRIPT.md` with speakers, lines and file names for every reference
 
 ---
 
 ## Phase 6: User Story 4 - Produce the pictures (Priority: P4)
 
-- [x] T017 [P] [US4] `raw_images/prompts/carince_1.md`: art direction, prompts, file names and alt texts (EN, PT) for every picture of the chapter
+- [x] T017 [P] [US4] `raw_images/prompts/parande_1.md`: art direction, prompts, file names and alt texts (EN, PT) for every picture of the chapter
 - [x] T018 [US4] `alt-text` maps in `_quarto-en.yml` and `_quarto-pt.yml` for the five pictures
-- [x] T019 [P] [US4] Placeholder images `raw_images/carince_1_*.jpeg` and `images/carince_1_*.jpg` with `.license` sidecars, so the render passes until the pictures are generated
+- [x] T019 [P] [US4] Placeholder images `raw_images/parande_1_*.jpeg` and `images/parande_1_*.jpg` with `.license` sidecars, so the render passes until the pictures are generated
 
 ---
 
@@ -82,9 +82,10 @@
 
 ## Review follow-up (Bruno, 2026-10-13)
 
-- [x] T025 Generated pictures replace the placeholders (`raw_images/carince_1_*.jpeg`, `images/carince_1_*.jpg`); alt texts checked against them and corrected (name tags, seating, lantern row)
+- [x] T025 Generated pictures replace the placeholders (`raw_images/parande_1_*.jpeg`, `images/parande_1_*.jpg`); alt texts checked against them and corrected (name tags, seating, lantern row)
 - [x] T026 Replace the informal farewell *mesta* (ᴱQ.) with *Á na márië!* (Q.) in the chapter, exercises, answer key, word list and recording script
 - [x] T027 Retitle the book *Ma Quetilyë Quenya?* (`_quarto.yml`, `references.bib`, README, CONTRIBUTING, NOTICE, constitution); the cover picture still shows the old title and needs a new image
+- [x] T028 Call chapters *parandë* (NQ., Eldamo) instead of the coinage *carincë*: headings, neologism pages, word list, and file names (`parande_*`)
 
 ---
 

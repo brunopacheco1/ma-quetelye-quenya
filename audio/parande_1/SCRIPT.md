@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopachec
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Carincë 1 – recording script
+# Parandë 1 – recording script
 
 Ten tracks. The scene for every dialogue is Avallónë, today: a seaside town
 where Quenya is the everyday language. Voices: **Rúmil** (older man, warm,

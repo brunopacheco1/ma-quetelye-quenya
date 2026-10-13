@@ -3,7 +3,7 @@ SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopachec
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
-# Carincë {#sec-carince-1}
+# Parandë {#sec-parande-1}
 
 ## Aiya!... ar Namárië!
 
@@ -13,7 +13,7 @@ SPDX-License-Identifier: CC-BY-4.0
 **Á lasta!** 1.1
 
 ::: {.content-visible when-format="html" unless-format="epub"}
-<audio controls preload="none" src="../audio/carince_1/1-1.mp3"></audio>
+<audio controls preload="none" src="../audio/parande_1/1-1.mp3"></audio>
 :::
 
 ::::
@@ -27,7 +27,7 @@ SPDX-License-Identifier: CC-BY-4.0
 **Á lasta!** 1.2
 
 ::: {.content-visible when-format="html" unless-format="epub"}
-<audio controls preload="none" src="../audio/carince_1/1-2.mp3"></audio>
+<audio controls preload="none" src="../audio/parande_1/1-2.mp3"></audio>
 :::
 
 ::::
@@ -45,7 +45,7 @@ SPDX-License-Identifier: CC-BY-4.0
 **Á lasta!** 1.3
 
 ::: {.content-visible when-format="html" unless-format="epub"}
-<audio controls preload="none" src="../audio/carince_1/1-3.mp3"></audio>
+<audio controls preload="none" src="../audio/parande_1/1-3.mp3"></audio>
 :::
 
 ::::
@@ -68,7 +68,7 @@ SPDX-License-Identifier: CC-BY-4.0
 **Á lasta!** 1.4
 
 ::: {.content-visible when-format="html" unless-format="epub"}
-<audio controls preload="none" src="../audio/carince_1/1-4.mp3"></audio>
+<audio controls preload="none" src="../audio/parande_1/1-4.mp3"></audio>
 :::
 
 ::::
@@ -87,7 +87,7 @@ SPDX-License-Identifier: CC-BY-4.0
 **Á lasta!** 1.5
 
 ::: {.content-visible when-format="html" unless-format="epub"}
-<audio controls preload="none" src="../audio/carince_1/1-5.mp3"></audio>
+<audio controls preload="none" src="../audio/parande_1/1-5.mp3"></audio>
 :::
 
 ::::
@@ -104,7 +104,7 @@ SPDX-License-Identifier: CC-BY-4.0
 
 ## Mana esselya?
 
-![Mana esselya?](../images/carince_1_essi.jpg){#fig-essi}
+![Mana esselya?](../images/parande_1_essi.jpg){#fig-essi}
 
 ### Mi Avallónë {.unnumbered}
 
@@ -112,7 +112,7 @@ SPDX-License-Identifier: CC-BY-4.0
 **Á lasta!** 1.6
 
 ::: {.content-visible when-format="html" unless-format="epub"}
-<audio controls preload="none" src="../audio/carince_1/1-6.mp3"></audio>
+<audio controls preload="none" src="../audio/parande_1/1-6.mp3"></audio>
 :::
 
 ::::
@@ -144,13 +144,13 @@ SPDX-License-Identifier: CC-BY-4.0
 
 ## Mallo tulilyë?
 
-![Mallo tulilyë?](../images/carince_1_mallo.jpg){#fig-mallo}
+![Mallo tulilyë?](../images/parande_1_mallo.jpg){#fig-mallo}
 
 :::: {.lasta}
 **Á lasta!** 1.7
 
 ::: {.content-visible when-format="html" unless-format="epub"}
-<audio controls preload="none" src="../audio/carince_1/1-7.mp3"></audio>
+<audio controls preload="none" src="../audio/parande_1/1-7.mp3"></audio>
 :::
 
 ::::
@@ -194,13 +194,13 @@ SPDX-License-Identifier: CC-BY-4.0
 
 ## Nóti
 
-![Nóti](../images/carince_1_noti.jpg){#fig-noti}
+![Nóti](../images/parande_1_noti.jpg){#fig-noti}
 
 :::: {.lasta}
 **Á lasta!** 1.8
 
 ::: {.content-visible when-format="html" unless-format="epub"}
-<audio controls preload="none" src="../audio/carince_1/1-8.mp3"></audio>
+<audio controls preload="none" src="../audio/parande_1/1-8.mp3"></audio>
 :::
 
 ::::
@@ -224,7 +224,7 @@ SPDX-License-Identifier: CC-BY-4.0
 **Á lasta!** 1.9
 
 ::: {.content-visible when-format="html" unless-format="epub"}
-<audio controls preload="none" src="../audio/carince_1/1-9.mp3"></audio>
+<audio controls preload="none" src="../audio/parande_1/1-9.mp3"></audio>
 :::
 
 ::::
@@ -258,7 +258,7 @@ SPDX-License-Identifier: CC-BY-4.0
 **Á lasta!** 1.10
 
 ::: {.content-visible when-format="html" unless-format="epub"}
-<audio controls preload="none" src="../audio/carince_1/1-10.mp3"></audio>
+<audio controls preload="none" src="../audio/parande_1/1-10.mp3"></audio>
 :::
 
 ::::
@@ -415,6 +415,7 @@ Namárië!
 | *nótë* | [MQ.](https://eldamo.org/content/words/word-1985025859.html) |
 | *omentië* | [Q.](https://eldamo.org/content/words/word-2911858939.html) |
 | *otso* | [Q.](https://eldamo.org/content/words/word-1176036159.html) |
+| *parandë* | [NQ.](https://eldamo.org/content/words/word-1387298955.html?neo) |
 | *quanta-* | [Q.](https://eldamo.org/content/words/word-2659335039.html) |
 | *quëan* | [Q.](https://eldamo.org/content/words/word-2306974725.html) |
 | *Quenya* | [Q.](https://eldamo.org/content/words/word-793854069.html) |
