@@ -26,7 +26,7 @@ Inflected forms used in the chapter and their attested models:
 | *Valimarello*, *Tirionello*, *Alqualondello*, *Avallónello*, *Endórello*, *Númenórello* | place + *-llo* / *-ello* | *Eärello* "from the sea" (LotR), *Rómello* "from the East" (Namárië), *sindanóriello* (Namárië) |
 | *hantanyel* | *hanta-* + *-nyë* + *-l* | Neo-Quenya convention; *hanta-* itself is a neologism (NQ.) |
 | *Á lasta!*, *Á quetë!*, *Á cenda!*, *Á tecë!*, *Á enquetë!*, *Á quanta!*, *Á notë!* | *á* + verb | *á vala Manwë*, *á carë* (PE17, VT43) |
-| *Hanquentar*, *Nóti*, *Lammar*, *Quettar*, *Essi* | plural *-r* / *-i* | *quettar* "words" (WJ/391), *essi* "names" (PM/339) |
+| *Hanquentar*, *Nóti*, *Lammar*, *Quettar*, *Essi*, *Tengwar* | plural *-r* / *-i* | *quettar* "words" (WJ/391), *essi* "names" (PM/339), *tengwar* "letters" (LotR, Appendix E) |
 | *Mára aurë!* and the other time-of-day greetings | *mára* + noun | Neo-Quenya convention already used by the previous version of the chapter; both words attested |
 
 ### Words replaced or dropped
@@ -107,6 +107,7 @@ Inflected forms used in the chapter and their attested models:
 | *i* | [i¹](https://eldamo.org/content/words/word-1717330255.html) | Q. | — | the | the |
 | *istyar* | [istyar](https://eldamo.org/content/words/word-2784207637.html) | MQ. | — | scholar, learned man, lore-master, wizard | scholar, lore-master; used for the teacher |
 | *lá* | [lá¹](https://eldamo.org/content/words/word-1952675039.html) | Q. | — | no, not | not: *lá quetin* |
+| *lambë* | [lambë](https://eldamo.org/content/words/word-1468650059.html) | Q. | — | language, tongue, dialect | name of the tengwa for *l* |
 | *lamma* | [lamma](https://eldamo.org/content/words/word-5602183.html) | MQ. | — | sound | sound; heading *Lammar* |
 | *lasta-* | [lasta-](https://eldamo.org/content/words/word-1622669023.html) | Q. | — | to listen | to listen: *á lasta!* |
 | *lempë* | [lempë](https://eldamo.org/content/words/word-3652543649.html) | Q. | — | five | five |
@@ -116,6 +117,7 @@ Inflected forms used in the chapter and their attested models:
 | *ma* | [ma²](https://eldamo.org/content/words/word-2780872089.html) | Q. | — | interrogative particle | yes/no question particle |
 | *málo* | [málo](https://eldamo.org/content/words/word-294283349.html) | Q. | — | friend, comrade | friend: *as málo*, *málolya* |
 | *mallo* | [mallo](https://eldamo.org/content/words/word-3026611147.html) | MQ. | — | whence | whence: *mallo tulilyë?* |
+| *malta* | [malta](https://eldamo.org/content/words/word-4049611703.html) | Q. | — | gold (metal), gold as material | name of the tengwa for *m* |
 | *man* | [man](https://eldamo.org/content/words/word-2560163767.html) | Q. | — | who | who |
 | *mana* | [mana](https://eldamo.org/content/words/word-1718207319.html) | Q. | — | what | what: *mana esselya?* |
 | *manen* | [manen](https://eldamo.org/content/words/word-1385064761.html) | Q. | — | how | how: *manen nalyë?* |
@@ -134,13 +136,16 @@ Inflected forms used in the chapter and their attested models:
 | *Noldo* | [Noldo](https://eldamo.org/content/words/word-840869727.html) | Q. | — | one of the wise folk, Gnome | a Noldo |
 | *not-* | [not-](https://eldamo.org/content/words/word-90143813.html) | Q. | — | to count | to count: *á notë!* |
 | *nótë* | [nóte](https://eldamo.org/content/words/word-1985025859.html) | MQ. | — | number | number; heading *Nóti* |
+| *númen* | [númen](https://eldamo.org/content/words/word-1285367433.html) | Q. | — | west, direction or region of the sunset, occident, (lit.) going down | name of the tengwa for *n* |
 | *omentië* | [omentië](https://eldamo.org/content/words/word-2911858939.html) | Q. | — | meeting (of pathways), (lit.) coming together of journey-path, meeting or junction of the directions of two people | meeting; in *omentielvo* |
+| *órë* | [órë](https://eldamo.org/content/words/word-2864436961.html) | Q. | — | heart (inner mind); warning, caution, (pre)monition | name of the tengwa for *r* before a consonant or at the end of a word |
 | *otso* | [otso](https://eldamo.org/content/words/word-1176036159.html) | Q. | — | seven | seven |
 | *quanta-* | [quanta-](https://eldamo.org/content/words/word-2659335039.html) | Q. | — | to fill | to fill: *á quanta!* |
 | *quëan* | [quëan](https://eldamo.org/content/words/word-2306974725.html) | Q. | — | ten | ten (Tolkien's latest form; *cainen* is the older one) |
 | *Quenya* | [Quenya](https://eldamo.org/content/words/word-793854069.html) | Q. | — | Elvish, High-elven, Elf-latin, †speech |  |
 | *quet-* | [quet-](https://eldamo.org/content/words/word-2355375457.html) | Q. | — | to say, speak, tell | to speak: *quetin*, *quetilyë*, *quetë* |
 | *quetta* | [quetta](https://eldamo.org/content/words/word-106071007.html) | Q. | — | word | word; heading *Quettar* |
+| *rómen* | [rómen](https://eldamo.org/content/words/word-3503146575.html) | Q. | — | east, uprising, sunrise | name of the tengwa for *r* before a vowel |
 | *se* | [se¹](https://eldamo.org/content/words/word-825068199.html) | Q. | — | him, her; he, she, it (animate) | he, she |
 | *sil-* | [sil-](https://eldamo.org/content/words/word-2448984617.html) | Q. | — | to shine (white) | to shine: *síla* |
 | *Sinda* | [Sinda](https://eldamo.org/content/words/word-3270080025.html) | Q. | — | Grey-elf | a Grey-elf |
@@ -148,6 +153,7 @@ Inflected forms used in the chapter and their attested models:
 | *sinyë [þ]* | [sinye](https://eldamo.org/content/words/word-1448889201.html) | MQ. | — | evening | evening |
 | *tec-* | [tek-](https://eldamo.org/content/words/word-2010168083.html) | MQ. | — | to write | to write: *á tecë!* |
 | *Teler* | [Teler](https://eldamo.org/content/words/word-933169263.html) | Q. | — | Last-comer, Hindmost | a Teler |
+| *tengwa* | [tengwa](https://eldamo.org/content/words/word-2998780483.html) | Q. | — | (written) letter; sign, token, indicator | letter; heading *Tengwar* |
 | *tolto* | [tolto](https://eldamo.org/content/words/word-301365983.html) | Q. | — | eight | eight |
 | *tul-* | [tul-](https://eldamo.org/content/words/word-2588932767.html) | Q. | — | to come | to come: *tulin*, *tulilyë*, *tulë* |
 | *ui* | [ui](https://eldamo.org/content/words/word-1487107687.html) | Q. | — | no, it is n[ot] | no |

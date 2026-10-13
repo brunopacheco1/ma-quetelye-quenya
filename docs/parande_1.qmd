@@ -382,7 +382,7 @@ Namárië!
 | mára | ________ |
 | lómë | ________ |
 | namárië | ________ |
-| Á na márië! | ________ |
+| Á na márië | ________ |
 
 ::: {.callout-note collapse="true" title="Hanquentar" icon="false"}
 
@@ -398,7 +398,7 @@ Namárië!
 
 **9.** minë · lúmë · manen · Rúmil · elen · Númenórë
 
-**10.** [ar]{.tengwar} · [mára]{.tengwar} · [lómë]{.tengwar} · [namárië]{.tengwar} · [Á na márië!]{.tengwar}
+**10.** [ar]{.tengwar} · [mára]{.tengwar} · [lómë]{.tengwar} · [namárië]{.tengwar} · [Á na márië]{.tengwar}
 
 :::
 

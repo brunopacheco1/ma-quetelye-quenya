@@ -306,7 +306,8 @@ The **nasal bar above** is not used. Quenya's nasal + stop clusters all have the
   * `Eldar` ends in óre.
   * `aurë` has rómen.
   * `Nerdanel` uses arda for rd.
-  * rd = arda and ld = alda follow the letter names, Eldamo and the transcribers below. No word with these clusters in Tolkien's tengwar *Namárië* confirms them.
+  * rd = arda and ld = alda follow the letter names in Appendix E (*arda* "region", *alda* "tree"), Eldamo and the transcribers below.
+  * Not yet checked against Tolkien's own hand: stanza 1 of the tengwar *Namárië* (§9.2) has *aldaron* and *yuldar* (ld) and *oromardi* and *Vardo* (rd). The calligraphy could not be reached when this was written. Whoever checks it (for example in DTS 20) should cite those words in §9.1 if they show arda and alda, or list them under the known deviations if they do not.
 * **s: silmë or silmë nuquerna.** Appendix E says the turned forms were "much used" when a tehta stands on the letter, and both Namárië manuscripts do so. The program rule: nuquerna exactly when the s carries a vowel tehta.
   * `sinyë` and `Sindarin` begin with silmë nuquerna+i.
   * `síla` begins with silmë, then the long carrier.

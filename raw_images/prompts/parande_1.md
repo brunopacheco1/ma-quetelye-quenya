@@ -241,7 +241,8 @@ them together in an image editor:
   panels in `raw_images/unlabelled/`.
 
 Spell the Tengwar labels the way the book does (`filters/tengwar.lua`). The
-current picture writes *sinyë* with *súlë*; the book writes it with *silmë*.
+current picture writes *sinyë* with *súlë*; the book writes it with *silmë
+nuquerna* (turned *silmë*), because the *s* carries the *i* mark.
 
 
 ### 5.1 *amaurë*
