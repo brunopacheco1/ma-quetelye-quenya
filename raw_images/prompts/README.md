@@ -41,7 +41,8 @@ and `raw_images/parande_1_essi.jpeg` as the reference for the cast, and saves
 the results in `raw_images/generated/`. That folder is not committed and the
 compression script does not read it: pick the good pictures there and carry on
 from step 2. It needs only Python 3 and an API key from
-[Google AI Studio](https://aistudio.google.com/apikey); Google bills every
+[Google AI Studio](https://aistudio.google.com/apikey) for a project with
+billing turned on: the free tier makes no pictures. Google bills every
 picture.
 
 ```sh

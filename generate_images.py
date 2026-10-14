@@ -138,6 +138,12 @@ def call_api(url, key, body=None, tries=4):
                 return json.load(response)
         except urllib.error.HTTPError as error:
             detail = error.read().decode("utf-8", "replace")
+            if error.code == 429 and "limit: 0" in detail:
+                raise SystemExit(
+                    "Gemini API: this key has no quota for this model (limit 0). Google "
+                    "makes pictures through the API only for a project with billing "
+                    "turned on: set up billing for the key's project in Google AI "
+                    "Studio, then run the script again.") from error
             if error.code in (429, 500, 503) and attempt < tries - 1:
                 wait = 20 * (attempt + 1)
                 print(f"  API busy ({error.code}), retrying in {wait} s")
