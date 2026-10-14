@@ -67,7 +67,9 @@ streets and furniture.
 - Thin warm-brown lines, not black; soft pastel colours, not saturated; lots
   of open cream paper. `raw_images/parande_1_essi.jpeg` is the reference.
 - Scenes are landscape 16:9, the cover portrait 2:3, at the largest size the
-  generator offers (the chapter 1 pictures are 1376 × 768).
+  generator offers (`generate_images.py` asks for 2K). Every picture is
+  full-bleed: no drawn border, frame or blank margin, because the book adds
+  frames itself when it puts panels together.
 - People in the background are of all ages and skin tones, in present-day
   clothes. Elves have pointed ears, Men round ones.
 
@@ -83,9 +85,9 @@ Negative prompt for every picture:
 
 ```text
 text, letters, words, numbers, writing, signage, captions, watermark, logo,
-signature, photo-realistic, 3D render, anime, heavy black outlines, saturated
-colours, medieval clothes, tunic, sash, armour, swords, dark fantasy, extra
-fingers
+signature, photo-realistic, 3D render, anime, comic book, cel shading, heavy
+black outlines, saturated colours, medieval clothes, tunic, sash, armour,
+swords, dark fantasy, extra fingers
 ```
 
 ## Avallónë
@@ -97,9 +99,9 @@ the classroom block.
 ```text
 Setting: Avallónë, a small present-day harbour town: white clapboard and
 plaster houses with grey and terracotta roofs, a stone quay with rope
-bollards, a café with a pink-and-white striped awning, a slim white lighthouse
-with a red top on a rocky headland, a pale stone tower on the green hill above
-the town, calm blue sea, gulls.
+bollards, a café with a pink-and-white striped awning and no sign or lettering,
+a slim white lighthouse with a red top on a rocky headland, a pale stone
+tower on the green hill above the town, calm blue sea, gulls.
 ```
 
 ```text
@@ -127,16 +129,18 @@ Man and has round ears.
 Rúmil is the teacher of the class. Colour key: taupe-grey cardigan, cream shirt, silver hair, round glasses.
 
 ```text
-Rúmil, an elderly elf man who looks about seventy, tall and slim, fair warm
-skin, lined clean-shaven face, warm smile, round thin dark-brown wire glasses;
-long silver-white hair swept back, the top part in a small bun at the back of
-the head, the rest loose past the shoulders; long leaf-shaped pointed elf ears
-angled up and back, tips showing past the hair; open taupe-grey knit cardigan
-with ribbed cuffs over a cream collared shirt, brown leather belt, tan
+Rúmil, an elderly elf man who looks about seventy, clearly a man, tall and
+slim, fair warm skin, lined clean-shaven face, warm smile, round thin
+dark-brown wire glasses always on his nose; long silver-white hair swept back
+in a half-up style: only the top section is gathered into a small bun high on
+the back of the head, the rest hangs loose down past the shoulders (not a full
+bun, not a ponytail); long leaf-shaped pointed elf ears angled up and back,
+tips showing past the hair; open taupe-grey knit cardigan with ribbed cuffs
+straight over a cream collared shirt (no waistcoat), brown leather belt, tan
 trousers, brown leather lace-up shoes.
 ```
 
-**Watch for.** Generators turn the cardigan cocoa brown, add a waistcoat, or tie all the hair into a low ponytail (all three happened in `parande_1_mallo`).
+**Watch for.** Generators turn the cardigan cocoa brown, add a waistcoat, or tie all the hair into a low ponytail (all three happened in `parande_1_mallo`). They also put all the hair in a full bun and drop the glasses, so that he reads as an old woman (the first `greetings` and *endaurë* panels). Check the half-up bun and the glasses in every picture.
 
 **Seen in** `parande_1_essi` (reference view), `parande_1_mallo`.
 
@@ -202,13 +206,14 @@ Elendil is a Man (Atan) from Númenórë, just off the ferry. Colour key: camel 
 ```text
 Elendil, a tall broad-shouldered human man in his late forties with round
 human ears, not pointed; light warm skin, long face, straight nose, thick dark
-brows, no glasses; wavy shoulder-length grey-brown hair swept back with silver
-streaks; full grey-brown beard with a silver streak down the chin; open
-below-knee camel-tan coat with wide lapels over a sage-green crew-neck
-T-shirt; charcoal-grey trousers tucked into tall brown cuffed boots.
+brows, no glasses; wavy shoulder-length grey-brown hair swept back from the
+forehead, with silver streaks; full grey-brown beard with a silver streak down
+the chin; open below-knee camel-tan coat with wide lapels over a plain
+sage-green crew-neck T-shirt (no collar, no buttons); charcoal-grey trousers
+tucked into tall knee-high brown cuffed leather boots.
 ```
 
-**Watch for.** Generators give him a laced tunic and a sash (`parande_1_mallo`), which look medieval, or slightly pointed ears. Always write "round human ears, not pointed". In chapter 1 he carries a vintage tan leather suitcase.
+**Watch for.** Generators give him a laced tunic and a sash (`parande_1_mallo`), which look medieval, or slightly pointed ears. Always write "round human ears, not pointed". They also swap the T-shirt for a shirt, henley or sweater and the tall boots for low shoes (the first *endaurë* panel). In chapter 1 he carries a vintage tan leather suitcase.
 
 **Seen in** `parande_1_essi` (reference view), `parande_1_mallo`.
 
@@ -269,7 +274,8 @@ Props build up and never vanish without a reason in the story.
 - Count what the text counts (seven candles, ten lanterns) and regenerate
   until the count is right.
 - Clocks have hands and tick marks but no numerals. Calendars and timetables
-  are blank grids, screens show pictures, maps show only coastlines and dots.
+  are blank grids, screens show pictures, maps show only an invented coastline
+  and dots, never Earth's continents.
 - Draw only objects that have a Quenya word in Eldamo when the picture is
   meant for labelling.
 - The names come from the legends, but their stories do not: no sculpture for
