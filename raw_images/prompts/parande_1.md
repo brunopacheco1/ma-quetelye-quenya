@@ -469,6 +469,11 @@ Spell the Tengwar labels the way the book does (`filters/tengwar.lua`). The
 current picture writes *sinyë* with *súlë*; the book writes it with *silmë
 nuquerna* (turned *silmë*), because the *s* carries the *i* mark.
 
+Only the dialogue panels 5.1, 5.6 and 5.7 have speech bubbles (empty); the
+other panels have none. The first run of 5.6 has no bubbles, so they are drawn
+in when the page is put together. Panels that come with their own drawn frame
+or cream margin are cropped to the drawing first.
+
 
 ### 5.1 *amaurë*
 
@@ -538,7 +543,7 @@ white toe caps.
 Full morning daylight, clear blue sky. Elenwë, with a mustard-yellow backpack,
 walks up a sunny white street of the town, looking at a paper map that shows
 only the blank coastline of an invented island and a few dots, not Earth's
-continents.
+continents. No speech bubbles.
 
 No text, letters, numbers or writing anywhere: no signs, no labels, no
 readable pages, no clock numerals. Speech bubbles, if any, are empty.
@@ -581,7 +586,8 @@ tucked into tall knee-high brown cuffed leather boots.
 
 Midday: the sun straight overhead, very short shadows right under people's
 feet, bright white light. Rúmil and Elendil sit on a bench on the quay eating
-sandwiches while two gulls watch them.
+sandwiches while two gulls watch them. Coiled rope on the bollards. No speech
+bubbles.
 
 No text, letters, numbers or writing anywhere: no signs, no labels, no
 readable pages, no clock numerals. Speech bubbles, if any, are empty.
@@ -620,9 +626,11 @@ the curls; sage-green dungarees with a bib pocket, brass buckles and rolled
 cuffs over a pale oatmeal-grey short-sleeved crew-neck T-shirt; coral-red
 canvas high-top sneakers with white toe caps.
 
-Afternoon: the sun lower in the west, long slanting golden light. Elenwë and
-Nerdanel sit at a small table under the café's striped awning with two cups of
-tea, laughing.
+Afternoon: the sun lower in the west, long slanting golden light, a warm
+blue-and-gold sky over the sea painted right up to the edges, with no vignette
+and no blank paper. Elenwë and Nerdanel sit at a small table under the café's
+striped awning, which hangs from the white plaster café front behind them, with
+two cups of tea and a plain teapot, laughing. No speech bubbles.
 
 No text, letters, numbers or writing anywhere: no signs, no labels, no
 readable pages, no clock numerals. Speech bubbles, if any, are empty.
@@ -697,7 +705,7 @@ hanging loose down his back below a small top knot, his glasses showing in
 profile; Elenwë, long straight golden hair; Nerdanel, a big mass of
 copper-orange curls, no braid; Voronwë, short near-black hair cropped above the
 collar, not blond; Elendil, grey-brown hair with silver streaks and a full
-thick beard, not stubble. Thin warm-brown ink lines and soft pastel watercolour
+thick beard, not stubble. No speech bubbles. Thin warm-brown ink lines and soft pastel watercolour
 washes even at dusk: no black outlines, no cel shading.
 
 No text, letters, numbers or writing anywhere: no signs, no labels, no
