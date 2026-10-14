@@ -81,10 +81,10 @@ jobs:
           mkdir -p release_artifacts
           VERSION="${{ steps.version.outputs.version }}"
           ls -R _book
-          cp _book/en/ma-quetelye-quenya.pdf release_artifacts/ma-quetelye-quenya-en-${VERSION}.pdf
-          cp _book/en/ma-quetelye-quenya.epub release_artifacts/ma-quetelye-quenya-en-${VERSION}.epub
-          cp _book/pt/ma-quetelye-quenya.pdf release_artifacts/ma-quetelye-quenya-pt-${VERSION}.pdf
-          cp _book/pt/ma-quetelye-quenya.epub release_artifacts/ma-quetelye-quenya-pt-${VERSION}.epub
+          cp _book/en/ma-quetilye-quenya.pdf release_artifacts/ma-quetilye-quenya-en-${VERSION}.pdf
+          cp _book/en/ma-quetilye-quenya.epub release_artifacts/ma-quetilye-quenya-en-${VERSION}.epub
+          cp _book/pt/ma-quetilye-quenya.pdf release_artifacts/ma-quetilye-quenya-pt-${VERSION}.pdf
+          cp _book/pt/ma-quetilye-quenya.epub release_artifacts/ma-quetilye-quenya-pt-${VERSION}.epub
       - name: Upload release artifacts
         if: steps.version.outputs.is_release == 'true'
         uses: actions/upload-artifact@v4

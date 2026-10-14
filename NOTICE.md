@@ -4,7 +4,7 @@ This book was developed by Bruno Pacheco.
 Copyright (c) 2026 Bruno Pacheco (https://bruno.pacheco.lu).
 
 This book incorporates contributions from the people listed at
-https://github.com/brunopacheco1/ma-quetelye-quenya/graphs/contributors.
+https://github.com/brunopacheco1/ma-quetilye-quenya/graphs/contributors.
 
 # License
 
