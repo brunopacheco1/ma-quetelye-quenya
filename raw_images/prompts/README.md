@@ -17,7 +17,7 @@ blocks below, copied word for word.
 1. Paste the prompt from the chapter's prompt file into the generator, with
    the negative prompt below. If the generator accepts reference images, also
    give it `raw_images/parande_1_essi.jpeg`, which shows the style and all five
-   characters.
+   characters. Or let `generate_images.py` do it (see below).
 2. Check the result against the prompt and the cast below: the right people,
    clothes and ears, and nothing written anywhere. Regenerate or retouch until
    it matches, and remove any generator watermark.
@@ -32,6 +32,27 @@ blocks below, copied word for word.
 6. Write the alt text in every language profile (`_quarto-en.yml`,
    `_quarto-pt.yml`, …) and in the chapter's prompt file.
 7. Render the book and look at the picture in HTML and PDF.
+
+### With Gemini's API
+
+`generate_images.py`, at the root of the repository, sends every ` ```text `
+prompt of a chapter's prompt file to Gemini, with the negative prompt below
+and `raw_images/parande_1_essi.jpeg` as the reference for the cast, and saves
+the results in `raw_images/generated/`. That folder is not committed and the
+compression script does not read it: pick the good pictures there and carry on
+from step 2. It needs only Python 3 and an API key from
+[Google AI Studio](https://aistudio.google.com/apikey); Google bills every
+picture.
+
+```sh
+export GEMINI_API_KEY=...
+python3 generate_images.py --dry-run          # list the pictures, no API call
+python3 generate_images.py                    # one version of each
+python3 generate_images.py --only 5.3 cover --count 3
+```
+
+`--prompts` picks another chapter's file, `--model` another model
+(`--list-models` lists them), and `--image-size` the resolution (default 2K).
 
 ## Style
 
