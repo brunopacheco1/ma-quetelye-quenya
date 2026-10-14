@@ -38,7 +38,7 @@ illustrators, voice recorders and developers.
   chapter has a parent issue on GitHub, split into smaller tasks (sub-issues),
   each sized for one person and one pull request.
 - **Worked example:** the draft pull request
-  [#36](https://github.com/brunopacheco1/ma-quetelye-quenya/pull/36) shows what a
+  [#36](https://github.com/brunopacheco1/ma-quetilye-quenya/pull/36) shows what a
   full chapter looks like (dialogues, grammar boxes, exercises, audio script and
   image prompts). It stays open as a draft for everyone to comment on and improve.
 - **Many languages, one book:** the book is published in several language
@@ -157,7 +157,7 @@ one of the most useful contributions, and a good first step.
 
 ## How to pick up a task
 
-1. Browse the [open issues](https://github.com/brunopacheco1/ma-quetelye-quenya/issues).
+1. Browse the [open issues](https://github.com/brunopacheco1/ma-quetilye-quenya/issues).
    Issues labelled `help wanted` are ready to take, and `good first issue` marks
    small ones for newcomers.
 2. Comment on the issue, for example "I'd like to take this". The coordinator

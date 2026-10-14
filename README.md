@@ -4,10 +4,10 @@ SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-[![REUSE status](https://api.reuse.software/badge/github.com/brunopacheco1/ma-quetelye-quenya)](https://api.reuse.software/info/github.com/brunopacheco1/ma-quetelye-quenya)
-![test workflow](https://github.com/brunopacheco1/ma-quetelye-quenya/actions/workflows/test.yml/badge.svg)
-![publish workflow](https://github.com/brunopacheco1/ma-quetelye-quenya/actions/workflows/publish.yml/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/brunopacheco1/ma-quetelye-quenya)](https://github.com/brunopacheco1/ma-quetelye-quenya/graphs/contributors)
+[![REUSE status](https://api.reuse.software/badge/github.com/brunopacheco1/ma-quetilye-quenya)](https://api.reuse.software/info/github.com/brunopacheco1/ma-quetilye-quenya)
+![test workflow](https://github.com/brunopacheco1/ma-quetilye-quenya/actions/workflows/test.yml/badge.svg)
+![publish workflow](https://github.com/brunopacheco1/ma-quetilye-quenya/actions/workflows/publish.yml/badge.svg)
+[![GitHub contributors](https://img.shields.io/github/contributors/brunopacheco1/ma-quetilye-quenya)](https://github.com/brunopacheco1/ma-quetilye-quenya/graphs/contributors)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
 # Ma Quetilyë Quenya?
@@ -30,8 +30,8 @@ To build this book locally, you will need:
 ### Building the Book
 1. Clone the repository:
    ```bash
-   git clone https://github.com/brunopacheco1/ma-quetelye-quenya.git
-   cd ma-quetelye-quenya
+   git clone https://github.com/brunopacheco1/ma-quetilye-quenya.git
+   cd ma-quetilye-quenya
    ```
 
 ### Previewing Locally

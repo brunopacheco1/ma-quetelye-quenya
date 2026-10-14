@@ -24,7 +24,7 @@ A estrutura deste livro é inspirada na excelente série de ensino de idiomas *S
 
 ## Como Contribuir
 
-Contribuições para este projeto são mais do que bem-vindas! Seja escrevendo novos capítulos, revisando conteúdo, criando ilustrações ou fornecendo traduções, sua ajuda é muito apreciada. Para mais informações sobre como participar, leia nosso guia [CONTRIBUTING.md](https://github.com/brunopacheco1/ma-quetelye-quenya/blob/main/CONTRIBUTING.md).
+Contribuições para este projeto são mais do que bem-vindas! Seja escrevendo novos capítulos, revisando conteúdo, criando ilustrações ou fornecendo traduções, sua ajuda é muito apreciada. Para mais informações sobre como participar, leia nosso guia [CONTRIBUTING.md](https://github.com/brunopacheco1/ma-quetilye-quenya/blob/main/CONTRIBUTING.md).
 
 ## Atribuição
 Ao contribuir, você concorda que suas contribuições serão licenciadas sob a [Licença Creative Commons Atribuição 4.0 Internacional (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/) do projeto.
@@ -45,4 +45,4 @@ Os dados do léxico usados neste livro são publicados no [ELDAMO](https://www.e
 
 Este livro inclui fontes fornecidas por Toshi Omagari (https://tosche.net|tosche@mac.com), licenciadas sob a [SIL Open Font License 1.1](https://opensource.org/license/OFL-1.1).
 
-Para mais detalhes, por favor consulte o arquivo [NOTICE.md](https://github.com/brunopacheco1/ma-quetelye-quenya/blob/main/NOTICE.md).
+Para mais detalhes, por favor consulte o arquivo [NOTICE.md](https://github.com/brunopacheco1/ma-quetilye-quenya/blob/main/NOTICE.md).
