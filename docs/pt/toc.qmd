@@ -1,13 +1,15 @@
 <!--
-SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
-# Table of Contents {.unnumbered}
+# Sumário {.unnumbered}
 
-| [@sec-carince-1] | Conteúdo | pronúncia e gramática |
-| [@sec-carince-2] | Conteúdo | pronúncia e gramática |
-| [@sec-carince-3] | Conteúdo | pronúncia e gramática |
-| [@sec-carince-4] | Conteúdo | pronúncia e gramática |
-| [@sec-carince-5] | Conteúdo | pronúncia e gramática |
-| [@sec-carince-6] | Conteúdo | pronúncia e gramática |
+| Capítulo | Conteúdo | Pronúncia e gramática |
+|----------|----------|-----------------------|
+| [@sec-parande-1] | Cumprimentar e despedir-se, informal e formalmente; as horas do dia; perguntar e dizer o nome; dizer de onde você vem e a que povo pertence; dizer que língua você fala; contar até dez | Vogais, ditongos e as grafias *c*, *qu*, *y*; *ná-* (ser); as terminações *-n* (eu) e *-lyë* (você); *-nya* (meu) e *-lya* (seu); *-llo* (de, origem); perguntas com *ma*, respondidas com *ná* ou *ui*; Tengwar: os sinais das vogais (*tehtar*) sobre as hastes curta e longa, *númen*, *malta*, *lambë*, *rómen* e *órë* |
+| [@sec-parande-2] | Conteúdo | pronúncia e gramática |
+| [@sec-parande-3] | Conteúdo | pronúncia e gramática |
+| [@sec-parande-4] | Conteúdo | pronúncia e gramática |
+| [@sec-parande-5] | Conteúdo | pronúncia e gramática |
+| [@sec-parande-6] | Conteúdo | pronúncia e gramática |

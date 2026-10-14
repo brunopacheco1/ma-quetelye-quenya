@@ -1,18 +1,18 @@
 <!--
 Sync Impact Report
-Version change: template → 1.0.0
-Added principles: I–VII (initial ratification)
+Version change: 1.0.0 → 1.0.1 (PATCH: book title corrected to the regular aorist, Ma Quetilyë Quenya?; chapter files renamed docs/parande_*.qmd after the chapter word parandë)
+Previous: template → 1.0.0, principles I–VII (initial ratification)
 Templates requiring updates: none (plan/spec/tasks templates reference the constitution generically)
 Follow-up TODOs: none
 -->
 
-# Ma Quetelyë Quenya? Constitution
+# Ma Quetilyë Quenya? Constitution
 
 ## Core Principles
 
 ### I. Quenya-Only Chapters
 
-Chapters (`docs/carince_*.qmd`) contain no language besides Quenya and are shared
+Chapters (`docs/parande_*.qmd`) contain no language besides Quenya and are shared
 by every language profile. Other languages appear only in the per-language
 introductions (`docs/<lang>/intro.qmd`), tables of contents (`docs/<lang>/toc.qmd`)
 and neologism notes (`docs/<lang>/neologisms.qmd`). Image alt text is the one
@@ -73,4 +73,4 @@ made by PR, bump the version (MAJOR for removed or redefined principles, MINOR
 for new principles or sections, PATCH for wording) and update the Sync Impact
 Report. The maintainer (Bruno Pacheco) approves every PR approval and merge.
 
-**Version**: 1.0.0 | **Ratified**: 2026-10-05 | **Last Amended**: 2026-10-05
+**Version**: 1.0.1 | **Ratified**: 2026-10-05 | **Last Amended**: 2026-10-13

@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
@@ -10,7 +10,7 @@ SPDX-License-Identifier: CC-BY-4.0
 [![GitHub contributors](https://img.shields.io/github/contributors/brunopacheco1/ma-quetelye-quenya)](https://github.com/brunopacheco1/ma-quetelye-quenya/graphs/contributors)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-# Ma Quetelyë Quenya?
+# Ma Quetilyë Quenya?
 
 An open-source, multi-language textbook designed to teach the Quenya language (the High-Elven tongue of J.R.R. Tolkien). This project adopts the pedagogical structure of "Schwatzt Dir Letzebuerg?" to provide a clear, modern, and accessible path to language proficiency.
 

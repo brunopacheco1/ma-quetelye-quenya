@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
 #
 # SPDX-License-Identifier: Apache-2.0
 
@@ -6,22 +6,42 @@ project:
   type: book
   render:
     - docs/
+  resources:
+    - audio/**/*.mp3
+  # Writes _epub-default.css, pandoc's default EPUB stylesheet (see the script).
+  pre-render: epub_default_css.py
 
 profile:
   default: en
 
 book:
-  title: "Ma Quetelye Quenya?"
+  title: "Ma Quetilye Quenya?"
   output-file: "ma-quetelye-quenya"
   author: "Bruno Pacheco"
   date: "2026-04-18"
-  url: "https://ma-quetelye-quenya.tolkien.lu"
+  url: "https://ma-quetilye-quenya.tolkien.lu"
 
 bibliography: references.bib
+filters:
+  - filters/alt-text.lua
+  - filters/tengwar.lua
 format:
   html:
-    theme: cosmo
+    theme:
+      - cosmo
+      - styles.scss
   pdf:
     documentclass: scrreprt
+    # LuaLaTeX cannot read WOFF2, so the PDF uses the static OTF of the same font.
+    include-in-header:
+      text: |
+        \newfontfamily\tengwarfont{AlcarinTengwar-Regular.otf}[Path=./fonts/, Renderer=HarfBuzz, Scale=1.3]
   epub:
     cover-image: images/cover.jpg
+    epub-fonts:
+      - fonts/AlcarinTengwar-Regular.otf
+    # A `css:` list replaces pandoc's default stylesheet, so the default comes
+    # first (written by epub_default_css.py) and the Tengwar rules after it.
+    css:
+      - _epub-default.css
+      - epub-tengwar.css

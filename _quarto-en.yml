@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
 #
 # SPDX-License-Identifier: Apache-2.0
 project:
@@ -8,16 +8,25 @@ book:
   chapters:
     - index.qmd
     - docs/en/toc.qmd
-    - docs/carince_1.qmd
-    - docs/carince_2.qmd
-    - docs/carince_3.qmd
-    - docs/carince_4.qmd
-    - docs/carince_5.qmd
-    - docs/carince_6.qmd
+    - docs/parande_1.qmd
+    - docs/parande_2.qmd
+    - docs/parande_3.qmd
+    - docs/parande_4.qmd
+    - docs/parande_5.qmd
+    - docs/parande_6.qmd
     - docs/en/neologisms.qmd
     - docs/cariquettar.qmd
   sidebar:
     tools:
       - icon: translate
         text: "Português"
-        href: https://ma-quetelye-quenya.tolkien.lu/pt/
+        href: https://ma-quetilye-quenya.tolkien.lu/pt/
+
+# Alt text for the pictures of the shared, Quenya-only chapters, applied by
+# filters/alt-text.lua. Keep in step with _quarto-pt.yml and raw_images/prompts/.
+alt-text:
+  greetings.jpg: "Four panels on a sunny morning in a harbour town. On the left, two young women greet each other as friends, one waving and one opening her arms for a hug, and later wave goodbye over their shoulders. On the right, an older teacher with silver hair and a bearded man with a suitcase shake hands with a slight bow at a glass door, and later the teacher waves goodbye from the door as the man leaves. The speech bubbles are empty."
+  daytime.jpg: "Seven panels of one day in a harbour town, each labelled in Tengwar and Latin letters: at sunrise a ferry officer waves to a woman with a cup (amaurë); a young woman with a map in a sunny street (aurë); two men eating sandwiches on a bench at midday (endaurë); two women at a café in the afternoon (apárilë); five friends on the harbour wall at twilight (undómë); a teacher greeting a young woman under coloured lanterns in the evening (sinyë); and at night a man with a suitcase at a guesthouse door while another walks away waving (lómë)."
+  parande_1_essi.jpg: "A teacher with long silver hair and round glasses stands by an empty whiteboard, hand on his chest, introducing himself to four adult students sitting in a curved row; a young woman with golden hair answers him with her hand on her chest. The students wear blank name tags."
+  parande_1_mallo.jpg: "Travellers with suitcases come down a ferry gangway onto a sunny quay with white houses and a small lighthouse; a bearded man is greeted by an older man with silver hair who waves, and a young woman with a yellow backpack reads a paper map. A small boat with a swan-shaped prow is moored nearby."
+  parande_1_noti.jpg: "Ten round paper lanterns in different colours hang in a row across a street at dusk; below them a woman and a man at a café table point up at the lanterns."

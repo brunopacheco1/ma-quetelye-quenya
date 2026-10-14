@@ -1,16 +1,23 @@
-// SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+// SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
 //
 // SPDX-License-Identifier: Apache-2.0
+
+/*-- scss:defaults --*/
+// Keep Bootstrap's monospace stack: inline code must stay Latin and monospaced.
+
+/*-- scss:rules --*/
+// Quarto resolves url() relative to this file and copies the font next to
+// the compiled theme in site_libs/bootstrap/, so no project resource is needed.
 @font-face {
-  font-family: 'Alcarin Tengwar Regular';
+  font-family: 'Alcarin Tengwar';
   src: url('fonts/AlcarinTengwar-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
+  font-display: block; // fallback glyphs for Private Use Area code points are meaningless
 }
 
 .tengwar {
-  font-family: 'Alcarin Tengwar Regular';
+  font-family: 'Alcarin Tengwar', serif;
+  font-size: 1.3em;
+  line-height: 1.6;
 }
-
-/*-- scss:defaults --*/
-$font-family-monospace: 'Alcarin Tengwar Regular', monospace;

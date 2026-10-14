@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)
+# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
 #
 # SPDX-License-Identifier: Apache-2.0
 
@@ -15,18 +15,18 @@ SPDX-License-Identifier = "MIT"
 [[annotations]]
 path = ".specify/memory/constitution.md"
 precedence = "override"
-SPDX-FileCopyrightText = "2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)"
+SPDX-FileCopyrightText = "2026 Bruno Pacheco (https://bruno.pacheco.lu)"
 SPDX-License-Identifier = "CC-BY-4.0"
 
 # Specs written with Spec Kit are project content.
 [[annotations]]
 path = "specs/**"
 precedence = "closest"
-SPDX-FileCopyrightText = "2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)"
+SPDX-FileCopyrightText = "2026 Bruno Pacheco (https://bruno.pacheco.lu)"
 SPDX-License-Identifier = "CC-BY-4.0"
 
 # GitHub Pages custom-domain file; it cannot carry a comment header.
 [[annotations]]
 path = "CNAME"
-SPDX-FileCopyrightText = "2026 Bruno Pacheco (https://bruno.pacheco.lu|brunopacheco1@yahoo.com)"
+SPDX-FileCopyrightText = "2026 Bruno Pacheco (https://bruno.pacheco.lu)"
 SPDX-License-Identifier = "Apache-2.0"
