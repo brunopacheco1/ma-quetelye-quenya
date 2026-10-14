@@ -17,16 +17,18 @@ if a generated picture differs from the prompt, update both.
 | Picture | Section | State |
 |---------|---------|-------|
 | `parande_1_essi.jpeg` | *Mana esselya?* | done |
-| `parande_1_mallo.jpeg` | *Mallo tulilyë?* | to redo with the cast (prompt 2) |
-| `parande_1_noti.jpeg` | *Nóti* | to redo with the cast (prompt 3) |
-| `greetings.jpeg` | *Aiya!... ar Namárië!* | to redo with the cast (prompts 4.1–4.4) |
-| `daytime.jpeg` | *Lúmë* | to redo with the cast (prompts 5.1–5.7) |
+| `parande_1_mallo.jpeg` | *Mallo tulilyë?* | done |
+| `parande_1_noti.jpeg` | *Nóti* | done |
+| `greetings.jpeg` | *Aiya!... ar Namárië!* | done (4.3 mirrored) |
+| `daytime.jpeg` | *Lúmë* | done, except 5.4 (stand-in) |
 | `cover.jpeg` | book cover | done (title set by hand) |
 
-The two older pictures (`greetings`, `daytime`) predate the cast: they show
-strangers in a generic town. `parande_1_mallo` and `parande_1_noti` came before
-the cast sheet and drift from it. All four stay in the book until their new
-versions exist.
+Every picture was checked against the cast sheet before it went in. Stray
+lettering (mostly "CAFÉ" on the café) was painted out, and drawn frames and
+cream margins were cropped. Panel 5.4 is still the first run's version, which
+has a blank cream sky: regenerate it with the prompt below and replace
+`raw_images/unlabelled/daytime_4_aparile.jpeg` and the panel in
+`raw_images/daytime.jpeg`.
 
 ## 1. `parande_1_essi.jpeg` – *Mana esselya?*
 
@@ -142,10 +144,11 @@ by an older man with silver hair who waves, and a young woman with a yellow
 backpack reads a paper map. A small boat with a swan-shaped prow is moored
 nearby.
 
-**Drift from the cast sheet.** In the current picture Elendil wears a laced
-tunic and a sash, and Rúmil has a ponytail and a browner cardigan with a
-waistcoat. The prompt above names each of these, so the next version follows
-the [picture guide](README.md).
+**Drift from the cast sheet.** The first picture gave Elendil a laced tunic
+and a sash, and Rúmil a ponytail and a browner cardigan with a waistcoat. The
+prompt above names each of these. In the second run, one version brought
+Nerdanel and a Voronwë lookalike off the ferry as passengers; the book uses the
+other one.
 
 **Alt text (PT).** Viajantes com malas descem a rampa de uma balsa para um
 cais ensolarado com casas brancas e um pequeno farol; um homem de barba é
@@ -214,12 +217,10 @@ Negative prompt: the one in the [picture guide](README.md), plus `stone
 alley, ochre top, mustard top, long hair on the man, dark trousers, border,
 frame`.
 
-**Drift from the cast sheet.** In the current picture Voronwë's coat has no
-gold trim, his hair reaches the collar and his trousers are dark; Nerdanel
-wears an ochre top; the street is grey stone, not the white town. The prompt
-above names each of these, so the next version follows the
-[picture guide](README.md). Its ten lanterns are right: keep the count when
-choosing the new version.
+**Drift from the cast sheet.** The first picture gave Voronwë a coat with no
+gold trim, hair down to the collar and dark trousers, Nerdanel an ochre top,
+and a grey stone street instead of the white town. The prompt above names each
+of these. Count the lanterns in every version: there must be exactly ten.
 
 **Alt text (EN).** Ten round paper lanterns in different colours hang in a row
 across a street at dusk; below them a woman and a man at a café table point up
@@ -229,7 +230,7 @@ at the lanterns.
 em fileira sobre uma rua ao anoitecer; por baixo, uma mulher e um homem em uma
 mesa de café apontam para as lanternas.
 
-## 4. `greetings.jpeg` – *Aiya!... ar Namárië!* (to redo)
+## 4. `greetings.jpeg` – *Aiya!... ar Namárië!*
 
 **Scene.** Four panels on one sunny morning in Avallónë. The columns carry the
 register and the rows carry the moment, so the picture reads like the table
@@ -245,6 +246,11 @@ together in an image editor: a 2 × 2 grid in the order 4.1, 4.2 (top), 4.3,
 4.4 (bottom), each panel in a thin warm-brown frame on cream, with no labels.
 Save the grid as `raw_images/greetings.jpeg` and the panels in
 `raw_images/unlabelled/`.
+
+Both versions of 4.3 drew the friends walking towards each other, which reads
+as a hello. The book uses the second one mirrored: seen from behind, each
+looking back over her shoulder, they now walk apart, with Nerdanel on the left
+and Elenwë on the right.
 
 ### 4.1 *Alla!*
 
@@ -434,22 +440,23 @@ Negative prompt: the one in the [picture guide](README.md), plus `office,
 business suit, children, round ears on elves, elderly woman, hair fully in a
 bun, missing glasses, sweater, border, frame`.
 
-**Alt text (EN), for the new picture.** Four panels on a sunny morning in a
+**Alt text (EN).** Four panels on a sunny morning in a
 harbour town. On the left, two young women greet each other as friends, one
 waving and one opening her arms for a hug, and later wave goodbye over their
 shoulders. On the right, an older teacher with silver hair and a bearded man
-with a suitcase shake hands with a slight bow at a glass door, and later part
-with a small bow. The speech bubbles are empty.
+with a suitcase shake hands with a slight bow at a glass door, and later the
+teacher waves goodbye from the door as the man leaves. The speech bubbles are
+empty.
 
-**Alt text (PT), for the new picture.** Quatro painéis em uma manhã de sol em
+**Alt text (PT).** Quatro painéis em uma manhã de sol em
 uma cidade portuária. À esquerda, duas jovens se cumprimentam como amigas, uma
 acenando e a outra abrindo os braços para um abraço, e depois se despedem
 acenando por cima do ombro. À direita, um professor idoso de cabelo prateado e
 um homem de barba com uma mala se cumprimentam com um aperto de mão e uma leve
-reverência em uma porta de vidro, e depois se despedem com uma pequena
-reverência. Os balões de fala estão vazios.
+reverência em uma porta de vidro, e depois o professor acena da porta
+enquanto o homem vai embora. Os balões de fala estão vazios.
 
-## 5. `daytime.jpeg` – *Lúmë* (to redo)
+## 5. `daytime.jpeg` – *Lúmë*
 
 **Scene.** One day in Avallónë in seven panels, one for each time of day in
 the chapter's table, in its order. The people in panels 5.1, 5.6 and 5.7 are
@@ -458,16 +465,16 @@ the sun or moon: no clocks. Seven panels with the same cast are too many for
 one generation, so generate each panel on its own, landscape 4:3, and put
 them together in an image editor:
 
-- a portrait page like the current picture, two panels per row in the order
-  5.1 to 5.6, and 5.7 across the full width at the bottom;
+- a portrait page, two panels per row in the order 5.1 to 5.6, and 5.7
+  across the full width at the bottom;
 - above each panel, a plain cream label band in a thin brown frame, with the
-  word in Tengwar and in Latin letters, as in the current picture;
+  word in Tengwar and in Latin letters;
 - save the labelled page as `raw_images/daytime.jpeg` and the unlabelled
   panels in `raw_images/unlabelled/`.
 
-Spell the Tengwar labels the way the book does (`filters/tengwar.lua`). The
-current picture writes *sinyë* with *súlë*; the book writes it with *silmë
-nuquerna* (turned *silmë*), because the *s* carries the *i* mark.
+Spell the Tengwar labels the way the book does (`filters/tengwar.lua`):
+*sinyë* is written with *silmë nuquerna* (turned *silmë*), because the *s*
+carries the *i* mark, not with *súlë* as in the first version of this page.
 
 Only the dialogue panels 5.1, 5.6 and 5.7 have speech bubbles (empty); the
 other panels have none. The first run of 5.6 has no bubbles, so they are drawn
@@ -804,7 +811,7 @@ border, frame or blank margin.
 Negative prompt: the one in the [picture guide](README.md), plus `clock,
 alarm clock, children`.
 
-**Alt text (EN), for the new picture.** Seven panels of one day in a harbour
+**Alt text (EN).** Seven panels of one day in a harbour
 town, each labelled in Tengwar and Latin letters: at sunrise a ferry officer
 waves to a woman with a cup (amaurë); a young woman with a map in a sunny
 street (aurë); two men eating sandwiches on a bench at midday (endaurë); two
@@ -813,7 +820,7 @@ at twilight (undómë); a teacher greeting a young woman under coloured lanterns
 in the evening (sinyë); and at night a man with a suitcase at a guesthouse door
 while another walks away waving (lómë).
 
-**Alt text (PT), for the new picture.** Sete painéis de um dia em uma cidade
+**Alt text (PT).** Sete painéis de um dia em uma cidade
 portuária, cada um com legenda em Tengwar e em letras latinas: ao nascer do sol
 um oficial de balsa acena para uma mulher com um copo (amaurë); uma jovem com
 um mapa em uma rua ensolarada (aurë); dois homens comendo sanduíches em um

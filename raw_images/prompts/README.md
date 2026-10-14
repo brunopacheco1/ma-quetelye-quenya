@@ -23,7 +23,7 @@ blocks below, copied word for word.
    it matches, and remove any generator watermark.
 3. Save it as `raw_images/<name>.jpeg` with a `.license` sidecar (copy an
    existing one). If a file with the same name and another extension is
-   there, such as `greetings.png`, delete it: the script would write both to
+   there, such as an older `.png`, delete it: the script would write both to
    the same JPG.
 4. If the picture needs labels or a title, add them in an image editor. Save
    the labelled version as `raw_images/<name>.jpeg` and keep the unlabelled
