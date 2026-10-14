@@ -20,15 +20,12 @@ if a generated picture differs from the prompt, update both.
 | `parande_1_mallo.jpeg` | *Mallo tulilyë?* | done |
 | `parande_1_noti.jpeg` | *Nóti* | done |
 | `greetings.jpeg` | *Aiya!... ar Namárië!* | done (4.3 mirrored) |
-| `daytime.jpeg` | *Lúmë* | done, except 5.4 (stand-in) |
+| `daytime.jpeg` | *Lúmë* | done |
 | `cover.jpeg` | book cover | done (title set by hand) |
 
 Every picture was checked against the cast sheet before it went in. Stray
 lettering (mostly "CAFÉ" on the café) was painted out, and drawn frames and
-cream margins were cropped. Panel 5.4 is still the first run's version, which
-has a blank cream sky: regenerate it with the prompt below and replace
-`raw_images/unlabelled/daytime_4_aparile.jpeg` and the panel in
-`raw_images/daytime.jpeg`.
+cream margins were cropped.
 
 ## 1. `parande_1_essi.jpeg` – *Mana esselya?*
 
