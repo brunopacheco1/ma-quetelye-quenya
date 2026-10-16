@@ -83,10 +83,11 @@ illustrators, voice recorders and developers.
    the rest of your change. No separate issue is needed.
 3. **Cite your sources** for any other linguistic claim (for example
    *Parma Eldalamberon* or *The History of Middle-earth*).
-4. **Languages stay in parallel.** If you change an introduction, a neologism
-   note or alt text in one language, change it in every other edition too, or
-   say in your pull request which languages still need the change, so that
-   translators can pick it up.
+4. **Languages stay in parallel.** If you change an edition's own text (an
+   introduction, a credits page, a table of contents, a neologism note, alt
+   text or a role name of the credits page) in one language, change it in
+   every other edition too, or say in your pull request which languages still
+   need the change, so that translators can pick it up.
 5. **Pedagogy first.** Lessons follow the structure of *Schwätzt Dir
    Lëtzebuergesch?*: short, practical, communicative steps built around real-life
    situations and pictures, with grammar kept light.
@@ -270,7 +271,8 @@ The pull request template repeats this list as checkboxes.
 - Exercises have answers in the answer key.
 - Each new neologism is justified (Eldamo has nothing usable), built from
   attested roots with Eldamo links, and explained in the neologism notes.
-- Per-language files (introductions, neologism notes, alt text) are updated in
+- Per-language files (introductions, credits pages, tables of contents,
+  neologism notes, alt text, role names of the credits page) are updated in
   every edition, or the missing editions are listed.
 - New files have a REUSE license header, a `.license` sidecar or a `REUSE.toml`
   entry, and the REUSE check passes.

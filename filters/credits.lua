@@ -10,15 +10,18 @@
 -- The people and their roles come from the table in CONTRIBUTORS.md, the one
 -- list of everyone who has helped, so the book never needs a second list.
 -- Each edition names the roles in its own language with `credits-roles` in
--- its _quarto-<lang>.yml. It is a list, so it also sets the order:
+-- its _quarto-<lang>.yml. It is a list, and the page follows its order, which
+-- is the order of the "Roles:" list in CONTRIBUTORS.md (the test checks it):
 --
 --     credits-roles:
 --       - role: coordinator      # as written in CONTRIBUTORS.md
 --         label: Coordination    # as shown in this edition
 --
 -- The output is a definition list: each role that has people, then their
--- names in the order of CONTRIBUTORS.md. A role missing from `credits-roles`
--- is shown under its name as written, with a warning;
+-- names in the order of CONTRIBUTORS.md. It sits in a div with the class
+-- quarto-include-in-search-index, because the website's search otherwise
+-- skips a list placed directly in the page. A role missing from
+-- `credits-roles` is shown under its name as written, with a warning;
 -- tests/credits_test.lua fails on it.
 --
 -- The parsing and grouping are in credits/contributors.lua next to this file.
@@ -59,13 +62,14 @@ end
 
 return {
   ["contributors"] = function(_args, _kwargs, meta)
-    local file = io.open(SOURCE, "r")
-    if not file then error("credits: cannot read " .. SOURCE) end
+    -- assert, not error: inside a shortcode Quarto's error() only logs, and
+    -- the render would go on to fail on a nil value instead.
+    local file = assert(io.open(SOURCE, "r"))
     local text = file:read("a")
     file:close()
 
     local people, err = contributors.people(contributors.read(text))
-    if not people then error("credits: CONTRIBUTORS.md: " .. err) end
+    assert(people, "credits: CONTRIBUTORS.md: " .. tostring(err))
 
     local order = read_order(meta)
     local groups, unknown = contributors.group(people, order)
@@ -78,6 +82,9 @@ return {
           .. "this edition's credits-roles")
       end
     end
-    return pandoc.Blocks({contributors.definition_list(groups)})
+    return pandoc.Blocks({
+      pandoc.Div({contributors.definition_list(groups)},
+        pandoc.Attr("", {"quarto-include-in-search-index"})),
+    })
   end,
 }

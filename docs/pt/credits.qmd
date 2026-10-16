@@ -13,4 +13,4 @@ A lista vem do arquivo [CONTRIBUTORS.md](https://github.com/brunopacheco1/ma-que
 
 ## Ferramentas generativas
 
-O texto do capítulo 1 e os prompts das imagens foram rascunhados com um assistente de IA (Claude) e revisados pela coordenação do projeto. As imagens do capítulo 1 foram geradas com o Gemini a partir desses prompts e retocadas à mão. Os dois estão passando pela revisão da comunidade, e as imagens são provisórias até serem aprovadas nessa revisão.
+O texto do capítulo 1, as partes de cada edição escritas junto com ele (o guia de leitura da introdução, o sumário e as descrições das imagens) e os prompts das imagens foram rascunhados com um assistente de IA (Claude) e revisados pela coordenação do projeto. A capa e as imagens do capítulo 1 foram geradas com o Gemini a partir desses prompts e retocadas à mão. Nada disso passou ainda por uma revisão independente: tudo está aberto à revisão da comunidade, e a capa e as imagens são provisórias até serem aprovadas nessa revisão.

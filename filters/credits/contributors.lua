@@ -10,7 +10,8 @@
 --   * a paragraph "Roles: a, b, c." that lists every role, in the order the
 --     credits page shows them;
 --   * a table whose first two columns are "Name" and "Roles", one person per
---     row, roles written as in that list and separated by commas.
+--     row, roles written as in that list and separated by commas. If there
+--     are several such tables, their rows are read in order, as one list.
 
 local M = {}
 
@@ -71,12 +72,13 @@ local function is_people_table(tbl)
      and M.key(stringify(head.cells[2].contents)) == "roles"
 end
 
--- The people of the first "Name | Roles | ..." table, in table order:
+-- The people of every "Name | Roles | ..." table, in order:
 -- { {name = Inlines, roles = {"coordinator", ...}}, ... }
 function M.people(doc)
+  local people, found = {}, false
   for _, block in ipairs(doc.blocks) do
     if block.t == "Table" and is_people_table(block) then
-      local people = {}
+      found = true
       for _, body in ipairs(block.bodies) do
         for _, row in ipairs(body.body) do
           local name = cell_inlines(row.cells[1])
@@ -88,10 +90,10 @@ function M.people(doc)
           end
         end
       end
-      return people
     end
   end
-  return nil, 'no table with the columns "Name" and "Roles"'
+  if not found then return nil, 'no table with the columns "Name" and "Roles"' end
+  return people
 end
 
 -- Groups the people by role. `order` is a list of {role = ..., label = ...}:

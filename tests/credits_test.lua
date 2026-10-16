@@ -82,6 +82,10 @@ voice.
 ## Tools
 
 Roles: this paragraph comes after the first one and is ignored.
+
+| Name | Roles |
+|---|---|
+| Di | voice |
 ]]
 
 local doc = contributors.read(FIXTURE)
@@ -90,7 +94,7 @@ check("role list", roles ~= nil and table.concat(roles, "|") == "coordinator|aut
   "got " .. (roles and table.concat(roles, "|") or "nil"))
 
 local people = contributors.people(doc)
-check("people: rows with a name", people ~= nil and #people == 3,
+check("people: rows with a name, from every table", people ~= nil and #people == 4,
   "got " .. (people and #people or "nil"))
 check("people: name keeps its link", people ~= nil and stringify(people[1].name) == "Ana Lima (@ana)"
   and #people[1].name:filter(function (el) return el.t == "Link" end) == 1,
@@ -118,6 +122,8 @@ check("groups: case and spaces ignored", names_of(groups[2]) == "Ana Lima (@ana)
   "got " .. names_of(groups[2]))
 check("groups: a role repeated on one row counts once", names_of(groups[3]) == "Bo",
   "got " .. names_of(groups[3]))
+check("groups: rows of a later table follow", names_of(groups[4]) == "Cy, Di",
+  "got " .. names_of(groups[4]))
 check("groups: unknown roles reported", #unknown == 1 and unknown[1] == "dance",
   "got " .. table.concat(unknown, "|"))
 
@@ -207,11 +213,12 @@ for _, lang in ipairs(editions) do
   check(profile .. ": credits-roles", type(order) == "table" and #order > 0)
   order = type(order) == "table" and order or {}
 
-  local keys, labels, seen = {}, {}, {}
+  local keys, labels, seen, edition_order = {}, {}, {}, {}
   for _, entry in ipairs(order) do
     local role = entry.role and stringify(entry.role) or ""
     local label = entry.label and stringify(entry.label) or ""
     keys[#keys + 1] = contributors.key(role)
+    edition_order[#edition_order + 1] = {role = role, label = label}
     check(profile .. ': label for "' .. role .. '"', label ~= "" and not seen[label],
       "every role needs its own label in the edition's language")
     seen[label] = true
@@ -234,6 +241,19 @@ for _, lang in ipairs(editions) do
   check(profile .. ": shortcode runs", ok, tostring(blocks))
   check(profile .. ": shortcode gives no warning", #warnings == 0, table.concat(warnings, " | "))
   if ok then
+    local div = blocks[1]
+    check(profile .. ": shortcode output is in the search index", div ~= nil and div.t == "Div"
+      and div.classes:includes("quarto-include-in-search-index"))
+    local terms = {}
+    pandoc.Pandoc(blocks):walk({
+      DefinitionList = function (dl)
+        for _, item in ipairs(dl.content) do terms[#terms + 1] = stringify(item[1]) end
+      end,
+    })
+    local expected_groups = contributors.group(repo_people, edition_order)
+    check(profile .. ": shortcode shows the edition's labels in its order",
+      table.concat(terms, " | ") == labels_of(expected_groups),
+      "expected " .. labels_of(expected_groups) .. "\n      got      " .. table.concat(terms, " | "))
     local out = pandoc.write(pandoc.Pandoc(blocks), "plain", {wrap_text = "wrap-none"})
     local first = repo_people[1]
     check(profile .. ": shortcode names the first person",
