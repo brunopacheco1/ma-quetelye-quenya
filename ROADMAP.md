@@ -16,14 +16,14 @@ what comes next.
 
 ## Where things stand (October 2026)
 
-- **Chapter 1 is published** (release v0.2.0, 14 October 2026): five dialogues
+- **Chapter 1 is published** (release v0.2.0, 14 October 2026): four dialogues
   and three short exchanges, grammar tables, a pronunciation table, a Tengwar
-  section, ten exercises with an answer key, twelve pictures drawn to the cast
-  sheet, an Eldamo word list and a recording script for ten tracks. It was
-  drafted with an AI assistant and reviewed by the coordinator only, so it has
-  had **no independent Quenya review yet**. Its pictures were generated with
-  Gemini as a demonstration and still have mismatches; they are placeholders
-  until an illustrator fixes or replaces them. Open on [#23][i23]: the Quenya
+  section, ten exercises with an answer key, five pictures and a cover, an
+  Eldamo word list and a recording script for ten tracks. It was drafted with
+  an AI assistant and reviewed by the coordinator only, so it has had **no
+  independent Quenya review yet**. Its pictures were generated with Gemini as
+  a demonstration and still have mismatches; they are placeholders until an
+  illustrator fixes or replaces them. Open on [#23][i23]: the Quenya
   review, the pedagogy comparison with chapter 1 of *Schwätzt Dir
   Lëtzebuergesch?* A1, the pictures, the ten recordings (waiting on voices
   from [#38][i38]).
@@ -31,8 +31,8 @@ what comes next.
   syllabus decision below.
 - **Contributor files**: CONTRIBUTING.md, this roadmap, the style guide, the
   pull request template, the issue forms and CONTRIBUTORS.md are in the
-  repository. Labels, milestones and the project board are set up by the
-  coordinator.
+  repository. The labels come from the "Sync labels" workflow; the milestones
+  and the project board are set up by the coordinator.
 - **Audio**: issue [#38][i38] (volunteer voices) is open. The pronunciation
   standard is settled (style guide); the sister project
   [Quenya-TTS](https://github.com/brunopacheco1/Quenya-TTS) has the
@@ -54,7 +54,7 @@ says where each role starts today.
 | Translator | Check that the editions still say the same after the chapter 1 merge; later, bring neologism notes and alt text into every edition |
 | Illustrator | Fix or replace the chapter 1 pictures so they match the cast sheet; hand-drawn pictures in the book's style are welcome (see the style guide, "Pictures") |
 | Voice | Issue #38: sign the consent and licence form, trial-record a few script lines, then the chapter 1 tracks 1.1 to 1.10 |
-| Tech maintainer | Label sync, the credits page in the rendered book, the tooling items under "Contributor-facing files" |
+| Tech maintainer | Keep the build and the website working for every edition; the credits page in the rendered book once it is decided |
 
 Required reviews follow CONTRIBUTING.md, "Who reviews what". Authors never
 review their own pull request; the coordinator does the final read and merges.
@@ -73,9 +73,9 @@ sized for one person and one pull request.
 4. **Grammar and pronunciation boxes**: the pronunciation box follows the
    pronunciation standard in the style guide.
 5. **Exercises and answer key**: the reference book's exercise types.
-6. **Tengwar section**: only the letters the chapter needs, one reading and one
-   writing exercise, Namárië mode through the `tengwar` filter (chapter 1 shows
-   the pattern).
+6. **Tengwar section**: only the letters the chapter needs, Namárië mode
+   through the `tengwar` filter, plus one reading and one writing exercise in
+   *Carië* (chapter 1 shows the pattern).
 7. **Pictures**: a separate sub-issue per chapter. Prompts in
    `raw_images/prompts/parande_N.md` built from the picture guide's blocks,
    generation or drawing, check against the cast sheet, alt text in every
@@ -109,8 +109,9 @@ reopened without a new decision. The open ones, in the order they block work:
 2. **Story arc**: the five questions at the end of the
    [picture guide](raw_images/prompts/README.md) must be answered before the
    chapter 2 pictures.
-3. **Era policy**: whether words Eldamo marks Early or Middle Qenya may appear
-   at all, and how they are marked if they do.
+3. **Era policy**: chapter 1 already uses seven words Eldamo marks MQ.
+   (Middle Quenya). Keep them, replace them where Tolkien's later Quenya has a
+   word, and how to treat new MQ. and EQ. words.
 4. **Tengwar details** not confirmed by Tolkien: *rd* and *ld* as *arda* and
    *alda*, the *s*-hook. Chapter 1 avoids both.
 5. **Credits in the rendered book**: a shared credits page in the front matter
@@ -123,8 +124,8 @@ Process: CONTRIBUTING.md, "Making decisions".
 
 - **Labels**: one per task type (`review`, `vocabulary`, `dialogue`, `grammar`,
   `exercises`, `tengwar`, `images`, `audio`, `translation`, `tech`), one per
-  chapter (`chapter-1` to `chapter-6`), plus `decision`, `blocked`,
-  `help wanted` and `good first issue`. They are defined in
+  chapter (`chapter-1` to `chapter-6`), plus `error` for reported mistakes,
+  `decision`, `blocked`, `help wanted` and `good first issue`. They are defined in
   [`.github/labels.yml`](.github/labels.yml); the "Sync labels" workflow
   creates them whenever that file changes on `main`.
 - **Milestones**: one per chapter, for the progress bars.

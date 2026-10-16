@@ -50,27 +50,32 @@ illustrators, voice recorders and developers.
   [decision](#making-decisions).
 - **Many languages, one book:** the book is published in several language
   editions. The editions share the same Quenya chapters; only the introduction,
-  the table of contents and the neologism notes are written in each edition's
-  language. The current editions are English and Portuguese, and new languages
+  the table of contents, the neologism notes and the alt text of the pictures
+  are written in each edition's language. The current editions are English and Portuguese, and new languages
   are welcome (see [Adding a new language](#adding-a-new-language)).
-- **Everything happens on GitHub:** issues for tasks, pull requests for changes,
-  and discussions for questions and decisions.
+- **Everything happens on GitHub:** issues for tasks, questions and decisions,
+  pull requests for changes, and the pinned **Project status** issue for news
+  and meeting dates.
 
 ## Ground rules for all content
 
 1. **Chapters are written only in Quenya.** The languages of the editions
-   appear only in the introductions (`docs/<lang>/intro.qmd`) and in the
-   neologism notes (`docs/<lang>/neologisms.qmd`). Image alt text is the one
-   exception, because it must be readable with a screen reader.
+   appear only in the introductions (`docs/<lang>/intro.qmd`), the tables of
+   contents (`docs/<lang>/toc.qmd`) and the neologism notes
+   (`docs/<lang>/neologisms.qmd`). Image alt text is the one exception, because
+   it must be readable with a screen reader; it lives in each edition's
+   `_quarto-<lang>.yml`.
 2. **[Eldamo](https://eldamo.org/) is the source of truth for every Quenya word.**
-   For every word you add, link its Eldamo entry and mark it as one of these:
-   - **attested:** Tolkien wrote this form.
-   - **reconstructed:** built from attested material, as Eldamo records it.
-   - **neologism:** a modern coinage, explained in the neologism notes.
+   For every word you add, link its Eldamo entry and give it Eldamo's mark,
+   which says whether the word is:
+   - **attested:** Tolkien wrote this form (Q., MQ. or EQ., by period).
+   - **reconstructed:** built from attested material, as Eldamo records it
+     (marked `*`).
+   - **a neologism:** a modern coinage (NQ.), explained in the neologism notes.
 
-   The word lists use Eldamo's own marks (Q., MQ., EQ., NQ., `*`, `#`); the
-   [style guide](STYLE_GUIDE.md#words-and-forms) explains them and shows how
-   to look a word up. Never invent a word silently. If Eldamo has nothing
+   The [style guide](STYLE_GUIDE.md#words-and-forms) explains every mark,
+   including `#`, and shows how to look a word up. Never invent a word
+   silently. If Eldamo has nothing
    usable, propose a neologism directly in your pull request: mark it as a
    neologism, explain how it is formed (roots and Eldamo links) in the neologism
    notes, and say why it is needed. It is reviewed in that pull request like
@@ -96,8 +101,8 @@ kind of work you like.
 ### Quenya review (`review`)
 
 Check a chapter or a pull request word by word against Eldamo. Confirm each
-word's status (attested, reconstructed or neologism), its grammar and its
-meaning. Suggest corrections as review comments on the pull request.
+word's mark (attested, reconstructed or neologism, in Eldamo's notation), its
+grammar and its meaning. Suggest corrections as review comments on the pull request.
 *You need:* a good working knowledge of Quenya and Eldamo.
 
 ### Pedagogy review (`review`)
@@ -117,8 +122,8 @@ Write one part of a chapter:
 - **Grammar and pronunciation boxes:** short tables and examples. Pronunciation
   follows the standard in the style guide.
 - **Exercises and answer key:** practice for each part of the lesson.
-- **Tengwar section:** the letters the chapter needs, with a reading and a
-  writing exercise, in the mode the style guide describes.
+- **Tengwar section:** the letters the chapter needs, in the mode the style
+  guide describes, with a reading and a writing exercise in *Carië*.
 
 Start from the chapter's spec issue, which lists the topics, grammar points and
 words for that chapter, and from chapter 1, which shows each of these parts.
@@ -271,8 +276,8 @@ can't agree, the question goes to a [decision](#making-decisions).
   month. The date and the link are announced on the pinned **Project status**
   issue at least a week before, with a poll if the time needs to change.
 - **Agenda:** what was done since the last call, open decisions, tasks that
-  need people, and questions from newcomers. Anyone can add an item to the
-  agenda thread before the call.
+  need people, and questions from newcomers. Anyone can add an item by
+  commenting on the **Project status** issue before the call.
 - **Notes:** the coordinator posts short notes and decisions on the same
   issue after the call, so anyone who couldn't join can catch up.
 - **Async status:** between calls, a short status update is posted every two
@@ -342,8 +347,10 @@ contents and neologism notes:
    reviewers who speak the language.
 2. Create `docs/<lang>/` with `intro.qmd`, `toc.qmd` and `neologisms.qmd`,
    translated from an existing edition (for example `docs/en/`).
-3. Create the profile file `_quarto-<lang>.yml` (copy `_quarto-pt.yml`, and
-   keep `output-dir: _book/<lang>`), include the new introduction in
+3. Create the profile file `_quarto-<lang>.yml`: copy `_quarto-pt.yml` and
+   replace `pt` with the new language code everywhere in it (`output-dir`,
+   `language`, `url` and the `docs/<lang>/` chapter paths). Include the new
+   introduction in
    `index.qmd` with `::: {.content-visible when-profile="<lang>"}`, and add the
    new edition to the language switcher (`sidebar: tools`) of the other
    profiles.

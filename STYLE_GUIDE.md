@@ -33,13 +33,15 @@ coordinator records the outcome here, with the date.
   plural *quetir* PE17 p. 167). The older form *Quetelyë* is not used.
 - **Chapters are *parandë*** "lesson", a Neo-Quenya word recorded in
   [Eldamo](https://eldamo.org/content/words/word-1387298955.html?neo) (from
-  *par-* "to learn"). Files are `docs/parande_N.qmd`; pictures, prompts and
-  audio folders use the same stem.
+  *par-* "to learn"). Chapter files are `docs/parande_N.qmd`, the prompt
+  files `raw_images/prompts/parande_N.md` and the audio folders
+  `audio/parande_N/`; most pictures start with `parande_N_`.
 - **Chapter shape** (chapter 1 is the model): a few topic sections, each built
   around a picture, a dialogue with an **Á lasta!** recording reference and a
   pattern table; then *Lammar* (the sounds introduced, with example words),
-  *Tengwar* (the letters introduced, with a reading and a writing exercise),
-  *Carië* (exercises) with the answers under *Hanquentar*, and the word lists
+  *Tengwar* (the letters introduced), *Carië* (exercises, ending with a
+  Tengwar reading and a Tengwar writing exercise) with the answers under
+  *Hanquentar*, and the word lists
   *Quettar* (words) and *Essi* (names), each entry linked to Eldamo.
 - **Section titles are in Quenya**, like everything else in a chapter. Grammar
   is shown in pattern tables (stem, then the ending in bold), not explained in
@@ -107,8 +109,10 @@ them to readers:
 
 - A Neo-Quenya word recorded by Eldamo may be used and is marked **NQ.**;
   Eldamo names its author and explains how it was formed.
-- The book coins no words of its own so far (*parandë* replaced our earlier
-  coinage *carincë*). If a chapter needs a word that neither Tolkien nor Eldamo
+- The neologism notes say the book coins no words of its own (*parandë*
+  replaced our earlier coinage *carincë*). One title still needs checking:
+  *Cariquettar*, the heading of an empty page at the end of the book. If a
+  chapter needs a word that neither Tolkien nor Eldamo
   provides, propose it in the pull request that introduces it: mark it as a
   neologism, explain its formation with Eldamo links in the neologism notes of
   your edition (`docs/<lang>/neologisms.qmd`), list the other editions as
@@ -159,21 +163,21 @@ syllables (*ëa, ëo, oa, ië, ua*).
 
 | Spelling | Sound | Notes |
 |---|---|---|
-| c, k | [k] | always, as in *cat*: *Celebrimbor*, *Tulkas* |
-| qu | [kʷ] | one sound, as in *queen* |
+| c, k | [k] | always, as in *cat*: *canta*, *cenda*, *Tulkas* |
+| qu | [kw] | as in *queen*; one letter in Tengwar, but two sounds, so it counts as two consonants for stress |
 | x | [ks] | |
-| y | [j] | always a consonant, as in *yes*: *Vanya*, *aiya* |
+| y | [j] | always a consonant, as in *yes*: *yávië*, *aiya*. After *t*, *n* or *l* it is part of the palatals below |
 | v | [v] | |
 | w | [w] | inside a word (*Elenwë*). A word-initial *w* in older spellings is read [v], as *vilya*, "older *wilya*" |
 | s | [s] | always voiceless |
-| th, þ | [s] | the Noldor's sound: *Isil*, *súlë*; the spelling is kept only in names where Tolkien kept it |
+| th, þ | [s] | the Noldor's sound: *Isil*, *súlë*. Words that Eldamo lists with [þ], such as *sinyë*, are read with s |
 | z | [r] | *áze* = *áre*; the Third Age had no z |
-| h | [h] | breath h in every position, as in *house*: *aha*, *Mahalma* |
+| h | [h] | *h* standing alone (not in *ht, hy, hw, hl, hr*) is breath h in every position, as in *house*: *aha*, *Mahalma* |
 | ht | [xt], after e or i [çt] | *ohtar* as in Scots *loch*; *ehtelë* as in German *echt* |
 | hy | [ç] | as in English *huge*: *hyarmen* |
 | hw | [ʍ] | voiceless w, as in *white* for speakers who distinguish it |
 | hl, hr | [l], [r] | the Third Age pronunciation of *hlócë*, *hrívë* |
-| ty, ny, ly | [c], [ɲ], [ʎ] | single palatal sounds, as in Hungarian *ty*, Spanish *ñ*, Portuguese *lh*: *tyelpë*, *Quenya*, *quetilyë* |
+| ty, ny, ly | [c], [ɲ], [ʎ] | single palatal sounds, as in Hungarian *ty*, Spanish *ñ*, Portuguese *lh*: *tyelpë*, *Quenya*, *quetilyë*. Between vowels they still make the syllable before them heavy (see Stress) |
 | ñ, ng at the start of a word | [n] | *Ñoldo* is read *Noldo* |
 | n before c, k, qu, g | [ŋ] | as in *finger*: *ancalima* |
 | ng inside a word | [ŋg] | as in *finger*, never as in *singer* |
@@ -194,8 +198,8 @@ The stressed syllable is in capitals below.
 - For this count, *qu*, *x*, *ng* and a consonant followed by *y* or *w* count
   as two consonants (*a-ta-RIN-ya*, *hi-ru-VAL-yë*); *hl*, *hr* and *th* count
   as one. This is Eldamo's weighting. Tolkien's own stress marks on *Namárië*
-  (*híruválye*, *ṑmáryo*, RGEO p. 58) confirm it, and the coordinator kept it
-  on 16 October 2026.
+  in *The Road Goes Ever On* put the stress on *hi-ru-VAL-yë* and *ó-MAR-yo*,
+  which confirms it, and the coordinator kept it on 16 October 2026.
 - An apostrophe marks an elided vowel (*lúmenn' omentielvo*); the two words
   are run together.
 
@@ -217,9 +221,9 @@ pronunciation. This guide is where contributors and voices read the rules.
 ## Tengwar
 
 - Every chapter has a short *Tengwar* section that introduces only the letters
-  that chapter needs, with one reading and one writing exercise. Chapter 1
-  introduces the vowel marks (*tehtar*) on the short and long stems and
-  *númen, malta, lambë, rómen, órë*.
+  that chapter needs; *Carië* then has one reading and one writing exercise
+  for them. Chapter 1 introduces the vowel marks (*tehtar*) on the short and
+  long stems and *númen, malta, lambë, rómen, órë* (exercises 9 and 10).
 - The spelling mode is the **Quenya mode of Appendix E**, as in the *Namárië*
   calligraphy: vowels as *tehtar* above the consonant they follow, a short stem
   for a vowel with no consonant before it, a long stem for a long vowel. The
@@ -254,7 +258,8 @@ pronunciation. This guide is where contributors and voices read the rules.
   kept in `raw_images/unlabelled/`. Speech bubbles appear only on dialogue
   panels and are empty.
 - **Alt text in every edition**, in the edition's language, in each
-  `_quarto-<lang>.yml` and in the chapter's prompt file. It describes what is
+  `_quarto-<lang>.yml` and in the chapter's prompt file; editions still
+  missing are listed in the pull request for translators. It describes what is
   seen; it is the one place in a chapter that is not Quenya.
 - **Files:** `raw_images/<name>.jpeg` with a `.license` sidecar (CC-BY-4.0, the
   artist's name), compressed to `images/` with `compress_images.py`. Scenes are
@@ -304,8 +309,10 @@ In the order they block work. Process: CONTRIBUTING.md,
 2. **Story arc**: the five questions at the end of the picture guide
    (Elendil's job, the seasons, kinship words or new names, the look of
    Elendil's partner, the length of the week).
-3. **Era policy**: may words Eldamo marks MQ. or EQ. appear, and how are they
-   marked if they do?
+3. **Era policy**: chapter 1 already uses seven words Eldamo marks MQ.
+   (*istyar, lamma, mallo, minë, nótë, sinyë, tec-*). Keep them, replace them
+   where Tolkien's later Quenya has a word, and how to treat new MQ. and EQ.
+   words?
 4. **Tengwar details**: *rd*, *ld*, the *s*-hook.
 5. **Credits in the rendered book**: a shared credits page in the front matter
    (recommended) or a section in each edition's introduction.
@@ -316,6 +323,6 @@ In the order they block work. Process: CONTRIBUTING.md,
 |---|---|
 | 2026-10-05 | Chapters Quenya-only; Eldamo the source of truth; CC-BY-4.0 content and Apache-2.0 code; the structure of *Schwätzt Dir Lëtzebuergesch?* (constitution 1.0.0) |
 | 2026-10-09 | The book has any number of language editions; neologisms are proposed and reviewed in the pull request that introduces them; Spec Kit is for maintainers |
-| 2026-10-10 | Pronunciation: archaic spellings read with Third Age sounds (*th* [s], initial *ñ* [n], initial *w* [v], *z* [r]); plain *h* [h] everywhere; *ty, ny, ly* single palatals; Eldamo's weighting of digraphs for stress |
+| 2026-10-10 | Pronunciation: archaic spellings read with Third Age sounds (*th* [s], initial *ñ* [n], initial *w* [v], *z* [r]); *h* standing alone is [h] everywhere; *ty, ny, ly* single palatals; Eldamo's weighting of digraphs for stress |
 | 2026-10-13 | Title *Ma Quetilyë Quenya?* with the regular aorist; chapters are *parandë*; present-day Avallónë with the five-character cast; *Á na márië!* as the informal farewell; the aorist for habitual statements; a Tengwar section per chapter in the Appendix E Quenya mode, Latin shown beside every Tengwar word |
 | 2026-10-16 | Digraphs keep counting as two consonants for stress (RGEO marks); status posts on a pinned issue; pictures as a separate sub-issue per chapter, generated pictures are placeholders; Code of Conduct reports through GitHub issues; WAV 48 kHz masters, MP3 published; CI builds every language profile |

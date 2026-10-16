@@ -14,6 +14,8 @@ calm), **Voronwë** (man, friendly), **Elendil** (man, polite, a visitor).
 Stress falls on the second-to-last syllable in words of two syllables and on
 the third-to-last in longer words unless the second-to-last is long (*Namárië*
 → na-MÁ-ri-ë, *márië* → MÁ-ri-ë, *Alqualondë* → al-qua-LON-dë, *Avallónë* → a-val-LÓ-në).
+The full rules are the [pronunciation standard](../../STYLE_GUIDE.md#pronunciation-standard)
+of the style guide.
 
 ## 1.1 – `1-1.mp3` – greetings (word list)
 

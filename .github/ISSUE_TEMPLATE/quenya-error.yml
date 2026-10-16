@@ -5,7 +5,7 @@
 name: Quenya error or typo
 description: A wrong word, form, gloss or spelling in the book. One of the most useful contributions.
 title: "Error in chapter N: "
-labels: ["review"]
+labels: ["error"]
 body:
   - type: input
     id: where

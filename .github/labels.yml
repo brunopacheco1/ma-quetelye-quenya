@@ -60,6 +60,9 @@
   description: Chapter 6
 
 # Process
+- name: error
+  color: "d73a4a"
+  description: A wrong word, form or typo reported in the book
 - name: decision
   color: "b60205"
   description: A choice for the whole book, open for comments for a week

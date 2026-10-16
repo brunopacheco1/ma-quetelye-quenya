@@ -25,7 +25,7 @@ Closes #
 
 - [ ] Each picture matches its prompt and the cast sheet in `raw_images/prompts/README.md`.
 - [ ] Nothing is written inside the picture; labels were added in an editor and the unlabelled original is in `raw_images/unlabelled/`.
-- [ ] Alt text in every edition's `_quarto-<lang>.yml` and in the chapter's prompt file.
+- [ ] Alt text in the chapter's prompt file and in at least one edition's `_quarto-<lang>.yml`; editions still missing are listed below.
 - [ ] `.license` sidecar in `raw_images/`, compressed copy in `images/`.
 
 ## Audio
