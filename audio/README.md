@@ -46,7 +46,8 @@ audio/
 - Pronunciation follows the
   [pronunciation standard](../STYLE_GUIDE.md#pronunciation-standard) of the
   style guide (Third Age Quenya, as in Appendix E of *The Lord of the Rings*):
-  *c* is always /k/, *qu* is /kw/, *y* is /j/, long vowels (with an acute) are
-  held about twice as long, and every *ë* is pronounced.
+  *c* is always /k/, *qu* is /kw/, *y* is /j/ except in *ty, ny, ly*, which
+  are single sounds, long vowels (with an acute) are held about twice as long,
+  and every *ë* is pronounced.
 - A single speaker may voice several characters; keep the same voice for a
   character across the whole book.

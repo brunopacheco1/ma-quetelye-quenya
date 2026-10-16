@@ -14,8 +14,8 @@ Closes #
 - [ ] Exercises have answers in the answer key.
 - [ ] Each new neologism is justified (Eldamo has nothing usable), built from attested roots with Eldamo links, and explained in the neologism notes.
 - [ ] Per-language files (introductions, neologism notes, alt text) are updated in every edition, or the editions still missing are listed below.
-- [ ] New files have a REUSE licence header, a `.license` sidecar or a `REUSE.toml` entry, and `reuse lint` passes.
-- [ ] `quarto render --profile <lang>` passes for every edition; the preview looks right, including at 200% zoom.
+- [ ] New files have a REUSE licence header, a `.license` sidecar or a `REUSE.toml` entry, and the REUSE check passes (locally with `reuse lint`, or in the Test check).
+- [ ] The book renders for every edition, and the rendered book (preview link, the Test run's `book` artifact, or a local `quarto preview`) looks right, including at 200% zoom.
 - [ ] My line is in `CONTRIBUTORS.md` (add it in this pull request if it is your first).
 - [ ] Any generative tool used (text, pictures or audio) is named below.
 
@@ -34,7 +34,7 @@ Closes #
 
 - [ ] Files are named as in the chapter's `SCRIPT.md`, in the format `audio/README.md` gives, each with a `.license` sidecar naming the speaker.
 - [ ] Recorded to the pronunciation standard in the style guide.
-- [ ] The speaker has signed the consent and licence form of #38, and the WAV masters were handed in as #38 says.
+- [ ] The speaker has signed the consent and licence form of #38, and the WAV masters were handed in as the recording instructions say.
 
 ## Editions still missing
 

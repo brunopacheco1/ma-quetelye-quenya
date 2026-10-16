@@ -6,16 +6,19 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Picture guide
 
-The pictures in this book come from an image generator, one prompt per
-picture, in one file per chapter (such as [parande_1.md](parande_1.md)). This
-guide keeps them consistent: one style, one town, and the same five people,
+Every picture in this book has a prompt that says what it must show, in one
+file per chapter (such as [parande_1.md](parande_1.md)). The chapter 1
+pictures were generated from these prompts with an image generator, as
+placeholders to show what the book should look like; hand-drawn pictures in
+the same style are welcome too. This guide keeps them consistent: one style, one town, and the same five people,
 who change only as their story moves on. Every prompt is built from the
 blocks below, copied word for word.
 
 ## Adding a picture
 
-1. Paste the prompt from the chapter's prompt file into the generator, with
-   the negative prompt below. If the generator accepts reference images, also
+1. Draw the picture from the prompt and the cast below, or paste the prompt
+   from the chapter's prompt file into an image generator, with the negative
+   prompt below. If the generator accepts reference images, also
    give it `raw_images/parande_1_essi.jpeg`, which shows the style and all five
    characters. Or let `generate_images.py` do it (see below).
 2. Check the result against the prompt and the cast below: the right people,

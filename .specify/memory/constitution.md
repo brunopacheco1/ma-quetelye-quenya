@@ -1,7 +1,7 @@
 <!--
 Sync Impact Report
-Version change: 1.0.0 → 1.0.1 (PATCH: book title corrected to the regular aorist, Ma Quetilyë Quenya?; chapter files renamed docs/parande_*.qmd after the chapter word parandë)
-Previous: template → 1.0.0, principles I–VII (initial ratification)
+Version change: 1.0.1 → 1.0.2 (PATCH: reference book title spelled Schwätzt Dir Lëtzebuergesch?; Workflow wording: maintainers run Spec Kit, contributors work from sub-issues; forks get a downloadable render instead of a preview link)
+Previous: 1.0.0 → 1.0.1 (PATCH: book title corrected to the regular aorist, Ma Quetilyë Quenya?; chapter files renamed docs/parande_*.qmd after the chapter word parandë); template → 1.0.0, principles I–VII (initial ratification)
 Templates requiring updates: none (plan/spec/tasks templates reference the constitution generically)
 Follow-up TODOs: none
 -->
@@ -34,7 +34,7 @@ pending, in every other language in the same change.
 
 ### IV. Pedagogy First
 
-The book follows the structure of *Schwatzt Dir Letzebuerg?*: short, practical,
+The book follows the structure of *Schwätzt Dir Lëtzebuergesch?*: short, practical,
 communicative lessons that build step by step, favouring real-life scenarios and
 pictures over grammar tables.
 
@@ -59,12 +59,15 @@ Generated and cache folders (`_book/`, `_site/`, `.quarto/`,
 
 ## Workflow
 
-- Features follow the Spec Kit flow: `/speckit-specify`, `/speckit-plan`,
-  `/speckit-tasks`, `/speckit-implement`, then `/speckit-converge`. Specs live
-  under `specs/`.
+- Maintainers plan features, such as a chapter's spec, with the Spec Kit
+  flow: `/speckit-specify`, `/speckit-plan`, `/speckit-tasks`,
+  `/speckit-implement`, then `/speckit-converge`. Specs live under `specs/`.
+  Contributors work from the GitHub sub-issues and need no Spec Kit.
 - Commits use semantic prefixes (`feat:`, `fix:`, `chore:`, …) because the
   changelog is generated from them.
-- Every PR gets a rendered preview; reviewers check it before merging.
+- Every PR is rendered in CI; reviewers check the rendered book (a preview
+  link for branches of this repository, a downloadable build for forks) before
+  merging.
 
 ## Governance
 
@@ -73,4 +76,4 @@ made by PR, bump the version (MAJOR for removed or redefined principles, MINOR
 for new principles or sections, PATCH for wording) and update the Sync Impact
 Report. The maintainer (Bruno Pacheco) approves every PR approval and merge.
 
-**Version**: 1.0.1 | **Ratified**: 2026-10-05 | **Last Amended**: 2026-10-13
+**Version**: 1.0.2 | **Ratified**: 2026-10-05 | **Last Amended**: 2026-10-16

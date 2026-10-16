@@ -172,7 +172,7 @@ syllables (*ëa, ëo, oa, ië, ua*).
 | s | [s] | always voiceless |
 | th, þ | [s] | the Noldor's sound: *Isil*, *súlë*. Words that Eldamo lists with [þ], such as *sinyë*, are read with s |
 | z | [r] | *áze* = *áre*; the Third Age had no z |
-| h | [h] | *h* standing alone (not in *ht, hy, hw, hl, hr*) is breath h in every position, as in *house*: *aha*, *Mahalma* |
+| h | [h] | *h* standing alone (not in *ht, hy, hw, hl, hr*) is breath h in every position, as in *house*: *aha*, *mahalma* |
 | ht | [xt], after e or i [çt] | *ohtar* as in Scots *loch*; *ehtelë* as in German *echt* |
 | hy | [ç] | as in English *huge*: *hyarmen* |
 | hw | [ʍ] | voiceless w, as in *white* for speakers who distinguish it |
@@ -194,7 +194,7 @@ The stressed syllable is in capitals below.
   heavy: it has a long vowel (*e-len-TÁ-ri*, *un-DÓ-më*), a diphthong
   (*a-MAU-rë*), or a vowel followed by two or more consonants (*i-SIL-dur*).
 - Otherwise the stress goes one syllable further back: *an-CA-li-ma*,
-  *FË-a-nor*, *a-PÁ-ri-lë*.
+  *VA-li-mar*, *a-PÁ-ri-lë*.
 - For this count, *qu*, *x*, *ng* and a consonant followed by *y* or *w* count
   as two consonants (*a-ta-RIN-ya*, *hi-ru-VAL-yë*); *hl*, *hr* and *th* count
   as one. This is Eldamo's weighting. Tolkien's own stress marks on *Namárië*
@@ -207,14 +207,14 @@ The stressed syllable is in capitals below.
 
 Appendix E lists the mistakes Men made (*ty* as English *ch*, *hy* as *sh*,
 long *é* and *ó* as the diphthongs of *day* and *go*). They are not used.
-Archaic or Vanyarin pronunciations (*th* as [θ], initial *ñ* as [ŋ], *w* and
-*z* as written) are not used either; the spellings are read with their Third
+Archaic or Vanyarin pronunciations (*th* as [θ], initial *ñ* as [ŋ], initial
+*w* as [w], *z* as [z]) are not used either; the spellings are read with their Third
 Age sounds, as above.
 
 ### In a chapter
 
-A chapter's *Lammar* table lists the sounds it introduces with two or three
-example words, as chapter 1 does (`| **ai** | aiya |`); it gives no English or
+A chapter's *Lammar* table lists the sounds it introduces with one or two
+example words each, as chapter 1 does (`| **au** | aurë, amaurë |`); it gives no English or
 IPA, because chapters are Quenya-only. The recording of the table carries the
 pronunciation. This guide is where contributors and voices read the rules.
 
@@ -278,7 +278,7 @@ pronunciation. This guide is where contributors and voices read the rules.
   chapter's `SCRIPT.md`, with a `.license` sidecar naming the speaker, in the
   format [`audio/README.md`](audio/README.md) gives.
 - **Consent first:** before a voice's first recording is merged, the voice has
-  signed the consent and licence form of #38 (CC-BY-4.0, and permission to use
+  signed the consent and licence form of #38 (being written in #46) (CC-BY-4.0, and permission to use
   the recordings to train a public synthetic voice). Recordings are credited
   with the name the speaker chooses.
 - **One voice per character** across the whole book where possible; a speaker

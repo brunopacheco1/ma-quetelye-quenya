@@ -38,6 +38,8 @@ The book is written by a community of Quenya learners, Tolkien linguists, teache
 ### Prerequisites
 To build this book locally, you will need:
 1. [Quarto](https://quarto.org/docs/get-started/) installed on your machine.
+2. A TeX distribution for the PDF output (`quarto install tinytex` is the easiest).
+3. Optionally, [`reuse`](https://reuse.software/) to check licence headers before you push (the Test check runs it too).
 
 ### Building the Book
 1. Clone the repository:

@@ -171,11 +171,16 @@ text and its file name. Volunteer voices are coordinated in issue
   recordings are published under CC-BY-4.0, credited with the name you choose,
   and they also train the open Quenya voice of
   [Quenya-TTS](https://github.com/brunopacheco1/Quenya-TTS), so you agree in
-  writing to that use.
+  writing to that use. The form ([#46](https://github.com/brunopacheco1/ma-quetilye-quenya/issues/46))
+  and the recording instructions ([#47](https://github.com/brunopacheco1/ma-quetilye-quenya/issues/47))
+  are still being written: until they exist, sign up on #38, and no recording
+  can be accepted yet.
 - Record in a quiet room with the same setup every time, one file per
   recording, named as in the script. Masters are WAV at 48 kHz, with no noise
-  removal, music or effects; #38 says where to send them. The book
-  publishes an MP3 per track, as [`audio/README.md`](audio/README.md) describes.
+  removal, music or effects; the recording instructions say where to send
+  them. You hand in the WAV masters only: a maintainer makes the MP3 files and
+  their `.license` sidecars, as [`audio/README.md`](audio/README.md) describes,
+  and opens the pull request that credits you.
 - Follow the [pronunciation standard](STYLE_GUIDE.md#pronunciation-standard)
   in the style guide. A Quenya reviewer listens to every recording before it
   is merged.
@@ -207,9 +212,9 @@ contributions, and a good first step.
    task has no activity for three weeks, the coordinator asks how it's going,
    and after another week may unassign it so someone else can pick it up.
 
-**Not comfortable with Git?** You can still help. Attach your text, images or
-recordings to the issue, and a maintainer will add them in a pull request that
-credits you.
+**Not comfortable with Git?** You can still help. Attach your text or images
+to the issue (recordings go through #38), and a maintainer will add them in a
+pull request that credits you.
 
 ## Review process
 
@@ -220,19 +225,27 @@ project, because they keep the Quenya accurate.
 
 | Change | Required reviews (besides the coordinator) |
 |---|---|
-| Lesson text (dialogues, grammar, exercises, vocabulary) | 1 Quenya review + 1 pedagogy review |
+| Lesson text (dialogues, grammar, exercises, vocabulary, Tengwar section) | 1 Quenya review + 1 pedagogy review |
 | New neologisms and neologism notes | 1 Quenya review of the coinage + 1 review per language changed, in the same pull request |
 | Introductions and other translations | 1 review by a fluent speaker of that language |
 | Audio | 1 Quenya review (pronunciation) |
 | Images | 1 review that the picture matches its prompt, the cast sheet and its alt text |
 | Technical changes | 1 technical review |
 
-The author of a pull request can't review it themselves.
+The author of a pull request can't review it themselves. While a kind of
+reviewer has only one volunteer, that person's own pull requests cannot get the
+review they need: the pull request says so, the coordinator's review counts in
+its place, and the chapter's parent issue notes that the change still needs an
+independent review.
 
 ### Steps
 
-1. **Author:** open the pull request and fill in its checklist. Check the
-   preview of the rendered book linked on the pull request.
+1. **Author:** open the pull request and fill in its checklist, then check
+   the rendered book. A pull request from a branch of this repository gets a
+   preview link. One from a fork does not, because GitHub gives forks a
+   read-only token: download the `book` artifact of the pull request's
+   **Test** run (on its Checks tab), or run `quarto preview --profile <lang>`
+   locally.
 2. **Automatic checks:** every pull request is built with Quarto and checked for
    license headers (REUSE). Fix any failing check, and ask for help if you're
    stuck.
@@ -256,11 +269,12 @@ The pull request template repeats this list as checkboxes.
 - Exercises have answers in the answer key.
 - Each new neologism is justified (Eldamo has nothing usable), built from
   attested roots with Eldamo links, and explained in the neologism notes.
-- Neologisms and introductions are updated in every language, or the missing
-  languages are listed.
-- New files have a REUSE license header or annotation.
-- The rendered preview looks right, including at 200% zoom, and images have alt
-  text.
+- Per-language files (introductions, neologism notes, alt text) are updated in
+  every edition, or the missing editions are listed.
+- New files have a REUSE license header, a `.license` sidecar or a `REUSE.toml`
+  entry, and the REUSE check passes.
+- The rendered book (preview link, the Test run's `book` artifact or a local
+  render) looks right, including at 200% zoom, and images have alt text.
 - The author's line is in `CONTRIBUTORS.md`, and any generative tool used is
   named in the pull request.
 
@@ -290,10 +304,11 @@ GitHub and stays open for comments for a week.
 ## Making decisions
 
 Some choices affect the whole book, such as the setting and characters, a
-spelling convention, or how to handle a word Eldamo lacks.
+spelling convention, or whether older (MQ. and EQ.) words may be used.
 
-1. Anyone can propose one in an issue labelled `decision` (or in GitHub
-   Discussions, category **Decisions**, once Discussions is enabled).
+1. Anyone can propose one by opening an issue whose title starts with
+   "Decision:"; the coordinator labels it `decision`. (GitHub Discussions,
+   category **Decisions**, can be used too once it is enabled.)
 2. Everyone has at least a week to comment.
 3. The coordinator decides, explains why, and records the decision in the
    [style guide](STYLE_GUIDE.md) or the constitution. The open decisions are
@@ -305,7 +320,8 @@ spelling convention, or how to handle a word Eldamo lacks.
 
 - [Quarto](https://quarto.org/docs/get-started/)
 - A TeX distribution for the PDF output (`quarto install tinytex` is the easiest)
-- Optionally, [`reuse`](https://reuse.software/) to check license headers locally
+- [`reuse`](https://reuse.software/), to run `reuse lint` locally (the Test
+  check runs it on every pull request too)
 
 ### Workflow
 
@@ -341,7 +357,7 @@ spec issue gives you everything you need.
 
 The book uses **Quarto profiles** for each language. Chapters are shared by
 every language, so a new language only needs its own introduction, table of
-contents and neologism notes:
+contents, neologism notes and the alt text of the pictures:
 
 1. Open an issue first, so the coordinator can plan the new edition and find
    reviewers who speak the language.
@@ -349,11 +365,12 @@ contents and neologism notes:
    translated from an existing edition (for example `docs/en/`).
 3. Create the profile file `_quarto-<lang>.yml`: copy `_quarto-pt.yml` and
    replace `pt` with the new language code everywhere in it (`output-dir`,
-   `language`, `url` and the `docs/<lang>/` chapter paths). Include the new
-   introduction in
-   `index.qmd` with `::: {.content-visible when-profile="<lang>"}`, and add the
-   new edition to the language switcher (`sidebar: tools`) of the other
-   profiles.
+   `lang`, `url` and the `docs/<lang>/` chapter paths). Include the new
+   introduction in `index.qmd` with
+   `::: {.content-visible when-profile="<lang>"}`. In the new profile's
+   language switcher (`sidebar: tools`), list every other edition (the default
+   one at the root, the others at `/<lang>/`), and add the new edition to the
+   switcher of every other profile.
 4. Translate the alt text of every picture in the new profile file.
 
 Nothing needs to change in `.github/workflows/`: the workflows build every

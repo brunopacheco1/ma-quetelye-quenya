@@ -37,7 +37,9 @@ what comes next.
   standard is settled (style guide); the sister project
   [Quenya-TTS](https://github.com/brunopacheco1/Quenya-TTS) has the
   pronunciation rules in code, a 2,500-line recording script and a recorder.
-  The limit is recorded audio, so human voices come first.
+  The limit is recorded audio, so human voices come first. The consent form
+  ([#46][i46]) and the recording instructions ([#47][i47]) are still being
+  written, so no recording can be accepted yet.
 
 ## Roles
 
@@ -53,7 +55,7 @@ says where each role starts today.
 | Author | A chapter 2 to 6 sub-issue, once the syllabus is agreed |
 | Translator | Check that the editions still say the same after the chapter 1 merge; later, bring neologism notes and alt text into every edition |
 | Illustrator | Fix or replace the chapter 1 pictures so they match the cast sheet; hand-drawn pictures in the book's style are welcome (see the style guide, "Pictures") |
-| Voice | Issue #38: sign the consent and licence form, trial-record a few script lines, then the chapter 1 tracks 1.1 to 1.10 |
+| Voice | Sign up on issue #38; once the consent and licence form (#46) exists, sign it, trial-record a few script lines, then the chapter 1 tracks 1.1 to 1.10 |
 | Tech maintainer | Keep the build and the website working for every edition; the credits page in the rendered book once it is decided |
 
 Required reviews follow CONTRIBUTING.md, "Who reviews what". Authors never
@@ -112,8 +114,9 @@ reopened without a new decision. The open ones, in the order they block work:
 3. **Era policy**: chapter 1 already uses seven words Eldamo marks MQ.
    (Middle Quenya). Keep them, replace them where Tolkien's later Quenya has a
    word, and how to treat new MQ. and EQ. words.
-4. **Tengwar details** not confirmed by Tolkien: *rd* and *ld* as *arda* and
-   *alda*, the *s*-hook. Chapter 1 avoids both.
+4. **Tengwar details** that Appendix E describes but Tolkien's own Quenya
+   Tengwar samples do not confirm: *rd* and *ld* as *arda* and *alda*, the
+   *s*-hook. Chapter 1 avoids both.
 5. **Credits in the rendered book**: a shared credits page in the front matter
    (recommended), or a section in each edition's introduction. The repository
    list is [CONTRIBUTORS.md](CONTRIBUTORS.md) either way.
@@ -171,7 +174,8 @@ introductions and meeting notes.
    every language profile, the chapter 1 sub-issues, the first status post).
 3. **Pilot: chapter 1 reviewed by the community.** The first Quenya reviewer
    and the first pedagogy reviewer work on chapter 1 and open pull requests
-   with their fixes; the first illustrator fixes the pictures; the first voices
+   with their fixes (CONTRIBUTING.md says what happens while there is only one
+   reviewer of a kind); the first illustrator fixes the pictures; the first voices
    record tracks 1.1 to 1.10 under #38.
 4. **Syllabus decision**, then the chapter 2 spec by a maintainer, then the
    chapter 2 to 6 sub-issues open; chapters run in parallel as people allow.
@@ -215,3 +219,5 @@ introductions and meeting notes.
 [i31]: https://github.com/brunopacheco1/ma-quetilye-quenya/issues/31
 [i35]: https://github.com/brunopacheco1/ma-quetilye-quenya/issues/35
 [i38]: https://github.com/brunopacheco1/ma-quetilye-quenya/issues/38
+[i46]: https://github.com/brunopacheco1/ma-quetilye-quenya/issues/46
+[i47]: https://github.com/brunopacheco1/ma-quetilye-quenya/issues/47
