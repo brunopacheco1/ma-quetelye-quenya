@@ -16,7 +16,7 @@ Closes #
 - [ ] Per-language files (introductions, neologism notes, alt text) are updated in every edition, or the editions still missing are listed below.
 - [ ] New files have a REUSE licence header, a `.license` sidecar or a `REUSE.toml` entry, and the REUSE check passes (locally with `reuse lint`, or in the Test check).
 - [ ] The book renders for every edition, and the rendered book (preview link, the Test run's `book` artifact, or a local `quarto preview`) looks right, including at 200% zoom.
-- [ ] My line is in `CONTRIBUTORS.md` (add it in this pull request if it is your first).
+- [ ] My line is in `CONTRIBUTORS.md`, with roles from the list at the top of that file (add it in this pull request if it is your first).
 - [ ] Any generative tool used (text, pictures or audio) is named below.
 
 ## Pictures

@@ -1,7 +1,7 @@
 <!--
 Sync Impact Report
-Version change: 1.0.1 → 1.0.2 (PATCH: reference book title spelled Schwätzt Dir Lëtzebuergesch?; Workflow wording: maintainers run Spec Kit, contributors work from sub-issues; forks get a downloadable render instead of a preview link)
-Previous: 1.0.0 → 1.0.1 (PATCH: book title corrected to the regular aorist, Ma Quetilyë Quenya?; chapter files renamed docs/parande_*.qmd after the chapter word parandë); template → 1.0.0, principles I–VII (initial ratification)
+Version change: 1.0.2 → 1.0.3 (PATCH: Principle I lists the per-language credits pages, docs/<lang>/credits.qmd, among the files written in an edition's language, after the coordinator chose a shared credits page on 2026-10-16)
+Previous: 1.0.1 → 1.0.2 (PATCH: reference book title spelled Schwätzt Dir Lëtzebuergesch?; Workflow wording: maintainers run Spec Kit, contributors work from sub-issues; forks get a downloadable render instead of a preview link); 1.0.0 → 1.0.1 (PATCH: book title corrected to the regular aorist, Ma Quetilyë Quenya?; chapter files renamed docs/parande_*.qmd after the chapter word parandë); template → 1.0.0, principles I–VII (initial ratification)
 Templates requiring updates: none (plan/spec/tasks templates reference the constitution generically)
 Follow-up TODOs: none
 -->
@@ -14,8 +14,9 @@ Follow-up TODOs: none
 
 Chapters (`docs/parande_*.qmd`) contain no language besides Quenya and are shared
 by every language profile. Other languages appear only in the per-language
-introductions (`docs/<lang>/intro.qmd`), tables of contents (`docs/<lang>/toc.qmd`)
-and neologism notes (`docs/<lang>/neologisms.qmd`). Image alt text is the one
+introductions (`docs/<lang>/intro.qmd`), credits pages (`docs/<lang>/credits.qmd`),
+tables of contents (`docs/<lang>/toc.qmd`) and neologism notes
+(`docs/<lang>/neologisms.qmd`). Image alt text is the one
 exception: it MUST be readable by a screen-reader user, so it is not Quenya-only.
 
 ### II. Eldamo Is the Source of Truth
@@ -76,4 +77,4 @@ made by PR, bump the version (MAJOR for removed or redefined principles, MINOR
 for new principles or sections, PATCH for wording) and update the Sync Impact
 Report. The maintainer (Bruno Pacheco) approves every PR approval and merge.
 
-**Version**: 1.0.2 | **Ratified**: 2026-10-05 | **Last Amended**: 2026-10-16
+**Version**: 1.0.3 | **Ratified**: 2026-10-05 | **Last Amended**: 2026-10-16

@@ -18,6 +18,12 @@ submitted for them. Your name also goes in the `SPDX-FileCopyrightText` line or
 Roles: coordinator, author, Quenya review, pedagogy review, translation,
 illustration, voice, tech.
 
+This table is also the credits page of every edition of the book, which
+groups the people by role (`filters/credits.lua` builds it). Keep one person
+per row and write the roles exactly as in the list above, separated by commas;
+the Test check fails on any other role. A new role goes in the list above and
+in `credits-roles` in every `_quarto-<lang>.yml`, translated.
+
 | Name | Roles | Chapters or editions |
 |---|---|---|
 | Bruno Pacheco ([@brunopacheco1](https://github.com/brunopacheco1)) | coordinator, author, illustration, tech | chapter 1; en, pt |
@@ -30,4 +36,6 @@ text, the first drafts of the contributor documents and the picture prompts
 were drafted with an AI assistant (Claude) and reviewed by the coordinator; the
 chapter 1 pictures were generated with Gemini from those prompts and retouched
 by hand. They are placeholders until they pass the reviews described in
-[CONTRIBUTING.md](CONTRIBUTING.md).
+[CONTRIBUTING.md](CONTRIBUTING.md). The credits page of each edition
+(`docs/<lang>/credits.qmd`) says the same for the book's readers; change it
+there too.

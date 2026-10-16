@@ -44,6 +44,9 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
       - name: Test the Tengwar converter
         run: quarto pandoc lua tests/tengwar_test.lua
+      # Also checks that CONTRIBUTORS.md and every edition's credits-roles agree.
+      - name: Test the credits page
+        run: quarto pandoc lua tests/credits_test.lua
       - name: Install TinyTeX
         run: quarto install tinytex
       # One _quarto-<lang>.yml per language edition; every edition is rendered

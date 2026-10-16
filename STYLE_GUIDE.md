@@ -290,10 +290,14 @@ pronunciation. This guide is where contributors and voices read the rules.
 ## Editions
 
 - The book is published in several language editions that share the Quenya
-  chapters. Only `docs/<lang>/intro.qmd`, `docs/<lang>/toc.qmd`,
-  `docs/<lang>/neologisms.qmd` and the alt text in `_quarto-<lang>.yml` are
-  written in an edition's language. English and Portuguese are the current
-  editions, not the only possible ones.
+  chapters. Only `docs/<lang>/intro.qmd`, `docs/<lang>/credits.qmd`,
+  `docs/<lang>/toc.qmd`, `docs/<lang>/neologisms.qmd`, and the alt text and
+  role names in `_quarto-<lang>.yml` are written in an edition's language.
+  English and Portuguese are the current editions, not the only possible ones.
+- Every edition has a **credits page** after the introduction. Its list of
+  people is built from [CONTRIBUTORS.md](CONTRIBUTORS.md), grouped by role, so
+  CONTRIBUTORS.md stays the one list; the edition only translates the page's
+  text and the role names (`credits-roles` in `_quarto-<lang>.yml`).
 - A change to a per-language file is made in every edition, or the editions
   still missing are listed in the pull request so that translators can pick
   them up.
@@ -314,8 +318,6 @@ In the order they block work. Process: CONTRIBUTING.md,
    where Tolkien's later Quenya has a word, and how to treat new MQ. and EQ.
    words?
 4. **Tengwar details**: *rd*, *ld*, the *s*-hook.
-5. **Credits in the rendered book**: a shared credits page in the front matter
-   (recommended) or a section in each edition's introduction.
 
 ## Decisions log
 
@@ -325,4 +327,4 @@ In the order they block work. Process: CONTRIBUTING.md,
 | 2026-10-09 | The book has any number of language editions; neologisms are proposed and reviewed in the pull request that introduces them; Spec Kit is for maintainers |
 | 2026-10-10 | Pronunciation: archaic spellings read with Third Age sounds (*th* [s], initial *ñ* [n], initial *w* [v], *z* [r]); *h* standing alone is [h] everywhere; *ty, ny, ly* single palatals; Eldamo's weighting of digraphs for stress |
 | 2026-10-13 | Title *Ma Quetilyë Quenya?* with the regular aorist; chapters are *parandë*; present-day Avallónë with the five-character cast; *Á na márië!* as the informal farewell; the aorist for habitual statements; a Tengwar section per chapter in the Appendix E Quenya mode, Latin shown beside every Tengwar word |
-| 2026-10-16 | Digraphs keep counting as two consonants for stress (RGEO marks); status posts on a pinned issue; pictures as a separate sub-issue per chapter, generated pictures are placeholders; Code of Conduct reports through GitHub issues; WAV 48 kHz masters, MP3 published; CI builds every language profile |
+| 2026-10-16 | Digraphs keep counting as two consonants for stress (RGEO marks); status posts on a pinned issue; pictures as a separate sub-issue per chapter, generated pictures are placeholders; Code of Conduct reports through GitHub issues; WAV 48 kHz masters, MP3 published; CI builds every language profile; a shared credits page in every edition, built from CONTRIBUTORS.md |
