@@ -1,0 +1,80 @@
+# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
+#
+# SPDX-License-Identifier: Apache-2.0
+
+# The labels of this repository. The "Sync labels" workflow creates or updates
+# them (it never deletes a label). CONTRIBUTING.md and ROADMAP.md explain how
+# they are used: one label per kind of task, one per chapter, and a few for
+# process.
+
+# Kinds of task
+- name: review
+  color: "0e8a16"
+  description: Quenya or pedagogy review of a chapter or pull request
+- name: vocabulary
+  color: "1d76db"
+  description: Word list with Eldamo links and marks
+- name: dialogue
+  color: "1d76db"
+  description: Dialogues and texts
+- name: grammar
+  color: "1d76db"
+  description: Grammar and pronunciation boxes
+- name: exercises
+  color: "1d76db"
+  description: Exercises and answer key
+- name: tengwar
+  color: "1d76db"
+  description: Tengwar section, filter or font
+- name: images
+  color: "d93f0b"
+  description: Pictures, prompts and alt text
+- name: audio
+  color: "fbca04"
+  description: Recordings, scripts and the Quenya-TTS voice
+- name: translation
+  color: "5319e7"
+  description: Introductions, neologism notes and alt text of an edition
+- name: tech
+  color: "006b75"
+  description: Quarto, website, CI, PDF, EPUB and scripts
+
+# Chapters
+- name: chapter-1
+  color: "c5def5"
+  description: Chapter 1
+- name: chapter-2
+  color: "c5def5"
+  description: Chapter 2
+- name: chapter-3
+  color: "c5def5"
+  description: Chapter 3
+- name: chapter-4
+  color: "c5def5"
+  description: Chapter 4
+- name: chapter-5
+  color: "c5def5"
+  description: Chapter 5
+- name: chapter-6
+  color: "c5def5"
+  description: Chapter 6
+
+# Process
+- name: decision
+  color: "b60205"
+  description: A choice for the whole book, open for comments for a week
+- name: blocked
+  color: "e4e669"
+  description: Waits on another issue or decision
+- name: help wanted
+  color: "008672"
+  description: Ready to take; comment to claim it
+- name: good first issue
+  color: "7057ff"
+  description: Small and self-contained, good for newcomers
+- name: documentation
+  color: "0075ca"
+  description: Improvements or additions to documentation
+- name: release
+  color: "ededed"
+  description: Release pull request, created by the Prepare Release workflow
