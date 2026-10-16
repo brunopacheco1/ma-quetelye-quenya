@@ -55,3 +55,11 @@ jobs:
             lang="${lang%.yml}"
             quarto render --profile "$lang"
           done
+      # Pull requests from forks get no preview link (preview.yml), so the
+      # rendered book is attached to the run for reviewers to download.
+      - name: Upload the rendered book
+        uses: actions/upload-artifact@v4
+        with:
+          name: book
+          path: _book/
+          retention-days: 14
