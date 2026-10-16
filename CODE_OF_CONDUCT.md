@@ -66,8 +66,11 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at
-[INSERT CONTACT METHOD].
+reported to the community leader responsible for enforcement, the project
+coordinator [@brunopacheco1](https://github.com/brunopacheco1), by opening an
+issue in this repository. If the matter is private, open an issue that says
+only that you need to be contacted privately, and the coordinator will reach
+out to you through your GitHub profile.
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
