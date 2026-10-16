@@ -1,0 +1,38 @@
+# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
+#
+# SPDX-License-Identifier: Apache-2.0
+
+name: Quenya error or typo
+description: A wrong word, form, gloss or spelling in the book. One of the most useful contributions.
+title: "Error in chapter N: "
+labels: ["review"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: Chapter and section, or the address of the page on the website.
+      placeholder: "Chapter 1, Mallo tulilyë?, second line of the dialogue"
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+      description: Quote the text as it stands.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: What it should be, and why
+      description: The correction, with the Eldamo entry or another source that supports it.
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Where you saw it
+      options:
+        - Website
+        - PDF
+        - EPUB
+        - Several
