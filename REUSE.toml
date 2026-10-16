@@ -30,3 +30,11 @@ SPDX-License-Identifier = "CC-BY-4.0"
 path = "CNAME"
 SPDX-FileCopyrightText = "2026 Bruno Pacheco (https://bruno.pacheco.lu)"
 SPDX-License-Identifier = "Apache-2.0"
+
+# GitHub templates: a pull request template carries no comment header, because
+# GitHub copies the whole file into every new pull request.
+[[annotations]]
+path = [".github/pull_request_template.md", ".github/ISSUE_TEMPLATE/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Bruno Pacheco (https://bruno.pacheco.lu)"
+SPDX-License-Identifier = "Apache-2.0"

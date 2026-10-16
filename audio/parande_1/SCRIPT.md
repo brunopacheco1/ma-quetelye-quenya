@@ -11,9 +11,15 @@ where Quenya is the everyday language. Voices: **Rúmil** (older man, warm,
 unhurried: the teacher), **Elenwë** (woman, bright), **Nerdanel** (woman,
 calm), **Voronwë** (man, friendly), **Elendil** (man, polite, a visitor).
 
-Stress falls on the second-to-last syllable in words of two syllables and on
-the third-to-last in longer words unless the second-to-last is long (*Namárië*
-→ na-MÁ-ri-ë, *márië* → MÁ-ri-ë, *Alqualondë* → al-qua-LON-dë, *Avallónë* → a-val-LÓ-në).
+Words of two syllables stress the first. Longer words stress the
+second-to-last syllable when it is heavy (a long vowel, a diphthong, or a vowel
+followed by two consonants, where *qu*, *x*, *ng* and *ty, ny, ly* or any
+consonant + *y* or *w* count as two), otherwise the third-to-last: *Namárië* →
+na-MÁ-ri-ë, *márië* → MÁ-ri-ë, *Alqualondë* → al-qua-LON-dë, *Avallónë* →
+a-val-LÓ-në, *hantanyel* → han-TAN-yel, *esselya* → es-SEL-ya, *quetilyë* →
+que-TIL-yë.
+The full rules are the [pronunciation standard](../../STYLE_GUIDE.md#pronunciation-standard)
+of the style guide.
 
 ## 1.1 – `1-1.mp3` – greetings (word list)
 

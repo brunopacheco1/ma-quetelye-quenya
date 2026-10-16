@@ -1,0 +1,77 @@
+# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
+#
+# SPDX-License-Identifier: Apache-2.0
+
+name: Content task
+description: One piece of a chapter, sized for one person and one pull request.
+title: "[Chapter N] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Maintainers use this form to split a chapter into tasks; anyone may propose one.
+        The roadmap (`ROADMAP.md`) lists the pieces a chapter is split into, and chapter 1 shows each of them.
+  - type: dropdown
+    id: chapter
+    attributes:
+      label: Chapter
+      options:
+        - Chapter 1
+        - Chapter 2
+        - Chapter 3
+        - Chapter 4
+        - Chapter 5
+        - Chapter 6
+        - Whole book
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of task
+      options:
+        - Vocabulary list
+        - Dialogues and texts
+        - Grammar and pronunciation boxes
+        - Exercises and answer key
+        - Tengwar section
+        - Pictures
+        - Recording script and recordings
+        - Translation
+        - Quenya review
+        - Pedagogy review
+        - Technical
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: What to produce
+      description: What the pull request must contain. Name the files, sections, words or pictures.
+    validations:
+      required: true
+  - type: textarea
+    id: start
+    attributes:
+      label: Where to start
+      description: The spec, the chapter 1 section that shows the pattern, the picture guide, the recording script.
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: How the reviewers know the task is complete.
+  - type: checkboxes
+    id: reviews
+    attributes:
+      label: Reviews this needs (besides the coordinator)
+      options:
+        - label: Quenya review
+        - label: Pedagogy review
+        - label: One review per edition changed
+        - label: Picture matches its prompt, the cast sheet and its alt text
+        - label: Technical review
+  - type: input
+    id: blocked
+    attributes:
+      label: Blocked by
+      description: Issues or decisions that must land first, if any.

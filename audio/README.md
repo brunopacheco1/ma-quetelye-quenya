@@ -32,12 +32,22 @@ audio/
 
 ## Recording guidelines
 
-- MP3, mono, 44.1 kHz, 128 kbps; normalise to about −16 LUFS; trim silence to
-  half a second at each end.
+- Masters: WAV at 48 kHz, as the Quenya-TTS recorder writes them, with no
+  noise removal, music or effects. They are kept with
+  [Quenya-TTS](https://github.com/brunopacheco1/Quenya-TTS) as training data
+  (issue [#38](https://github.com/brunopacheco1/ma-quetilye-quenya/issues/38)
+  says where to send them) and are not committed here.
+- Published files, made from the masters: MP3, mono, 44.1 kHz, 128 kbps;
+  normalise to about −16 LUFS; trim silence to half a second at each end.
+- Before a speaker's first recording is merged, they have signed the consent
+  and licence form of #38.
 - Natural conversational pace, a short pause between lines. Word lists are
   read once at normal speed, then once slowly.
-- Pronunciation follows the *Lammar* table of chapter 1: *c* is always /k/,
-  *qu* is /kʷ/, *y* is /j/, long vowels (with an acute) are held about twice
-  as long, and every vowel of *ë* is pronounced.
+- Pronunciation follows the
+  [pronunciation standard](../STYLE_GUIDE.md#pronunciation-standard) of the
+  style guide (Third Age Quenya, as in Appendix E of *The Lord of the Rings*):
+  *c* is always /k/, *qu* is /kw/, *y* is /j/ except in *ty, ny, ly*, which
+  are single sounds, long vowels (with an acute) are held about twice as long,
+  and every *ë* is pronounced.
 - A single speaker may voice several characters; keep the same voice for a
   character across the whole book.

@@ -1,0 +1,15 @@
+# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
+#
+# SPDX-License-Identifier: Apache-2.0
+
+blank_issues_enabled: true
+contact_links:
+  - name: How to contribute
+    url: https://github.com/brunopacheco1/ma-quetilye-quenya/blob/main/CONTRIBUTING.md
+    about: Roles, ground rules, how to pick up a task, reviews and meetings.
+  - name: Style guide
+    url: https://github.com/brunopacheco1/ma-quetilye-quenya/blob/main/STYLE_GUIDE.md
+    about: The choices the book has made, from the setting to the pronunciation standard.
+  - name: Eldamo
+    url: https://eldamo.org/
+    about: The lexicon every Quenya word in the book is checked against.

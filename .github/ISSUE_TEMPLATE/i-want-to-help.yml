@@ -1,0 +1,53 @@
+# SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
+#
+# SPDX-License-Identifier: Apache-2.0
+
+name: I want to help
+description: Tell us what you would like to do and the coordinator will find you a task.
+title: "New contributor: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome! Nothing here is binding. Everything you need to know is in `CONTRIBUTING.md`; the `help wanted` issues are ready to take.
+  - type: checkboxes
+    id: roles
+    attributes:
+      label: What would you like to do?
+      options:
+        - label: Review Quenya (words and grammar against Eldamo)
+        - label: Review lessons as a teacher or learner (pedagogy)
+        - label: Write lesson content (vocabulary, dialogues, grammar, exercises, Tengwar)
+        - label: Translate an edition, or start a new language
+        - label: Draw or fix pictures
+        - label: Record audio
+        - label: Technical work (Quarto, website, CI, scripts)
+  - type: dropdown
+    id: quenya
+    attributes:
+      label: Your Quenya
+      options:
+        - Beginner
+        - I can read with a dictionary
+        - Solid
+        - Expert
+    validations:
+      required: true
+  - type: input
+    id: languages
+    attributes:
+      label: Languages you speak fluently
+      description: For translations and reviews of the editions.
+  - type: dropdown
+    id: git
+    attributes:
+      label: Git and GitHub
+      options:
+        - I use them already
+        - I can learn with some help
+        - I would rather attach my work to an issue
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: How much time you have, a chapter or task that interests you, questions.

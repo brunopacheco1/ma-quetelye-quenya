@@ -46,7 +46,20 @@ jobs:
         run: quarto pandoc lua tests/tengwar_test.lua
       - name: Install TinyTeX
         run: quarto install tinytex
-      - name: Render all languages and formats
+      # One _quarto-<lang>.yml per language edition; every edition is rendered
+      # in every format, so a new edition needs no change here.
+      - name: Render every language edition in every format
         run: |
-          quarto render --profile en
-          quarto render --profile pt
+          for profile in _quarto-*.yml; do
+            lang="${profile#_quarto-}"
+            lang="${lang%.yml}"
+            quarto render --profile "$lang"
+          done
+      # Pull requests from forks get no preview link (preview.yml), so the
+      # rendered book is attached to the run for reviewers to download.
+      - name: Upload the rendered book
+        uses: actions/upload-artifact@v4
+        with:
+          name: book
+          path: _book/
+          retention-days: 14
