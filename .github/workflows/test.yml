@@ -46,7 +46,12 @@ jobs:
         run: quarto pandoc lua tests/tengwar_test.lua
       - name: Install TinyTeX
         run: quarto install tinytex
-      - name: Render all languages and formats
+      # One _quarto-<lang>.yml per language edition; every edition is rendered
+      # in every format, so a new edition needs no change here.
+      - name: Render every language edition in every format
         run: |
-          quarto render --profile en
-          quarto render --profile pt
+          for profile in _quarto-*.yml; do
+            lang="${profile#_quarto-}"
+            lang="${lang%.yml}"
+            quarto render --profile "$lang"
+          done

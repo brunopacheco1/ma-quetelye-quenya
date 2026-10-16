@@ -71,32 +71,51 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
       - name: Install TinyTeX
         run: quarto install tinytex
-      - name: Build documentation
+      # One _quarto-<lang>.yml per language edition, each rendered to
+      # _book/<lang>; a new edition needs no change here.
+      - name: Build every language edition in every format
         run: |
-          quarto render --profile en
-          quarto render --profile pt
+          for profile in _quarto-*.yml; do
+            lang="${profile#_quarto-}"
+            lang="${lang%.yml}"
+            quarto render --profile "$lang"
+          done
       - name: Prepare Release Artifacts
         if: steps.version.outputs.is_release == 'true'
         run: |
           mkdir -p release_artifacts
           VERSION="${{ steps.version.outputs.version }}"
+          name="$(yq -r '.book["output-file"]' _quarto.yml)"
           ls -R _book
-          cp _book/en/ma-quetilye-quenya.pdf release_artifacts/ma-quetilye-quenya-en-${VERSION}.pdf
-          cp _book/en/ma-quetilye-quenya.epub release_artifacts/ma-quetilye-quenya-en-${VERSION}.epub
-          cp _book/pt/ma-quetilye-quenya.pdf release_artifacts/ma-quetilye-quenya-pt-${VERSION}.pdf
-          cp _book/pt/ma-quetilye-quenya.epub release_artifacts/ma-quetilye-quenya-pt-${VERSION}.epub
+          for profile in _quarto-*.yml; do
+            lang="${profile#_quarto-}"
+            lang="${lang%.yml}"
+            cp "_book/$lang/$name.pdf" "release_artifacts/$name-$lang-$VERSION.pdf"
+            cp "_book/$lang/$name.epub" "release_artifacts/$name-$lang-$VERSION.epub"
+          done
       - name: Upload release artifacts
         if: steps.version.outputs.is_release == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: book-artifacts
           path: release_artifacts/
+      # The default edition (profile.default in _quarto.yml) is served at the
+      # root of the site, every other edition at /<lang>/.
       - name: Assemble site
         if: steps.version.outputs.is_release == 'true' || steps.version.outputs.redeploy_tag != ''
         run: |
-          mkdir -p site/pt
-          cp -r _book/en/. site/
-          cp -r _book/pt/. site/pt/
+          default="$(yq -r '.profile.default' _quarto.yml)"
+          mkdir -p site
+          for profile in _quarto-*.yml; do
+            lang="${profile#_quarto-}"
+            lang="${lang%.yml}"
+            if [ "$lang" = "$default" ]; then
+              cp -r "_book/$lang/." site/
+            else
+              mkdir -p "site/$lang"
+              cp -r "_book/$lang/." "site/$lang/"
+            fi
+          done
           echo "ma-quetilye-quenya.tolkien.lu" > site/CNAME
           touch site/.nojekyll
       - name: Deploy to GitHub Pages
