@@ -3,8 +3,9 @@
 # SPDX-License-Identifier: Apache-2.0
 project:
   output-dir: _book/pt
+# Language of the edition: the HTML lang attribute and Quarto's own labels.
+lang: pt
 book:
-  language: pt
   url: "https://ma-quetilye-quenya.tolkien.lu/pt"
   chapters:
     - index.qmd
