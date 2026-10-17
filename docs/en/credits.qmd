@@ -1,0 +1,16 @@
+<!--
+SPDX-FileCopyrightText: 2026 Bruno Pacheco (https://bruno.pacheco.lu)
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+# Credits {.unnumbered}
+
+This book is written by a community. Everyone who has helped is listed here by role, under the name they chose.
+
+{{< contributors >}}
+
+The list comes from [CONTRIBUTORS.md](https://github.com/brunopacheco1/ma-quetilye-quenya/blob/main/CONTRIBUTORS.md), which also says which chapters and editions each person worked on. To join them, read [CONTRIBUTING.md](https://github.com/brunopacheco1/ma-quetilye-quenya/blob/main/CONTRIBUTING.md).
+
+## Generative tools
+
+The text of chapter 1, the parts of each edition written with it (the reading guide in the introduction, the table of contents and the picture descriptions) and the picture prompts were drafted with an AI assistant (Claude) and reviewed by the coordinator. The cover and the chapter 1 pictures were generated with Gemini from those prompts and retouched by hand. None of this has had an independent review yet: it is open for review by the community, and the cover and the pictures are placeholders until they pass that review.

@@ -50,8 +50,8 @@ illustrators, voice recorders and developers.
   [decision](#making-decisions).
 - **Many languages, one book:** the book is published in several language
   editions. The editions share the same Quenya chapters; only the introduction,
-  the table of contents, the neologism notes and the alt text of the pictures
-  are written in each edition's language. The current editions are English and Portuguese, and new languages
+  the credits page, the table of contents, the neologism notes and the alt text
+  of the pictures are written in each edition's language. The current editions are English and Portuguese, and new languages
   are welcome (see [Adding a new language](#adding-a-new-language)).
 - **Everything happens on GitHub:** issues for tasks, questions and decisions,
   pull requests for changes, and the pinned **Project status** issue for news
@@ -60,8 +60,9 @@ illustrators, voice recorders and developers.
 ## Ground rules for all content
 
 1. **Chapters are written only in Quenya.** The languages of the editions
-   appear only in the introductions (`docs/<lang>/intro.qmd`), the tables of
-   contents (`docs/<lang>/toc.qmd`) and the neologism notes
+   appear only in the introductions (`docs/<lang>/intro.qmd`), the credits
+   pages (`docs/<lang>/credits.qmd`), the tables of contents
+   (`docs/<lang>/toc.qmd`) and the neologism notes
    (`docs/<lang>/neologisms.qmd`). Image alt text is the one exception, because
    it must be readable with a screen reader; it lives in each edition's
    `_quarto-<lang>.yml`.
@@ -82,10 +83,11 @@ illustrators, voice recorders and developers.
    the rest of your change. No separate issue is needed.
 3. **Cite your sources** for any other linguistic claim (for example
    *Parma Eldalamberon* or *The History of Middle-earth*).
-4. **Languages stay in parallel.** If you change an introduction, a neologism
-   note or alt text in one language, change it in every other edition too, or
-   say in your pull request which languages still need the change, so that
-   translators can pick it up.
+4. **Languages stay in parallel.** If you change an edition's own text (an
+   introduction, a credits page, a table of contents, a neologism note, alt
+   text or a role name of the credits page) in one language, change it in
+   every other edition too, or say in your pull request which languages still
+   need the change, so that translators can pick it up.
 5. **Pedagogy first.** Lessons follow the structure of *Schwätzt Dir
    Lëtzebuergesch?*: short, practical, communicative steps built around real-life
    situations and pictures, with grammar kept light.
@@ -131,8 +133,8 @@ words for that chapter, and from chapter 1, which shows each of these parts.
 
 ### Translation (`translation`)
 
-Translate and keep up to date the introduction, table of contents, neologism
-notes and image alt text of one edition. You can join an existing edition
+Translate and keep up to date the introduction, credits page, table of
+contents, neologism notes and image alt text of one edition. You can join an existing edition
 (currently English and Portuguese) or start a new one (see
 [Adding a new language](#adding-a-new-language)).
 *You need:* fluency in the target language.
@@ -269,7 +271,8 @@ The pull request template repeats this list as checkboxes.
 - Exercises have answers in the answer key.
 - Each new neologism is justified (Eldamo has nothing usable), built from
   attested roots with Eldamo links, and explained in the neologism notes.
-- Per-language files (introductions, neologism notes, alt text) are updated in
+- Per-language files (introductions, credits pages, tables of contents,
+  neologism notes, alt text, role names of the credits page) are updated in
   every edition, or the missing editions are listed.
 - New files have a REUSE license header, a `.license` sidecar or a `REUSE.toml`
   entry, and the REUSE check passes.
@@ -356,13 +359,15 @@ spec issue gives you everything you need.
 ### Adding a new language
 
 The book uses **Quarto profiles** for each language. Chapters are shared by
-every language, so a new language only needs its own introduction, table of
-contents, neologism notes and the alt text of the pictures:
+every language, so a new language only needs its own introduction, credits
+page, table of contents, neologism notes and the alt text of the pictures:
 
 1. Open an issue first, so the coordinator can plan the new edition and find
    reviewers who speak the language.
-2. Create `docs/<lang>/` with `intro.qmd`, `toc.qmd` and `neologisms.qmd`,
-   translated from an existing edition (for example `docs/en/`).
+2. Create `docs/<lang>/` with `intro.qmd`, `credits.qmd`, `toc.qmd` and
+   `neologisms.qmd`, translated from an existing edition (for example
+   `docs/en/`). Keep the `{{< contributors >}}` line of `credits.qmd`: it
+   writes the list of people.
 3. Create the profile file `_quarto-<lang>.yml`: copy `_quarto-pt.yml` and
    replace `pt` with the new language code everywhere in it (`output-dir`,
    `lang`, `url` and the `docs/<lang>/` chapter paths). Include the new
@@ -371,7 +376,9 @@ contents, neologism notes and the alt text of the pictures:
    language switcher (`sidebar: tools`), list every other edition (the default
    one at the root, the others at `/<lang>/`), and add the new edition to the
    switcher of every other profile.
-4. Translate the alt text of every picture in the new profile file.
+4. In the new profile file, translate the alt text of every picture and the
+   role names of the credits page (`credits-roles`, the `label` of each
+   role; keep each `role` as it is).
 
 Nothing needs to change in `.github/workflows/`: the workflows build every
 `_quarto-<lang>.yml` they find on every pull request, and publish each edition
@@ -401,6 +408,10 @@ with a prefix:
   whatever their role (reviewers, illustrators and voices included). Add your
   own line in your first pull request; the coordinator adds reviewers and
   anyone whose work a maintainer submitted for them.
+- The same list is printed on the credits page of every edition of the book,
+  grouped by role. Write your roles exactly as in the list at the top of
+  CONTRIBUTORS.md, separated by commas; the Test check fails on any other
+  role.
 - The project follows the [REUSE specification](https://reuse.software/). Every
   file has a license header, a `.license` file next to it, or an entry in
   `REUSE.toml`.

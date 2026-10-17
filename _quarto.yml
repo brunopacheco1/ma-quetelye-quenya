@@ -25,6 +25,9 @@ bibliography: references.bib
 filters:
   - filters/alt-text.lua
   - filters/tengwar.lua
+# {{< contributors >}}: the credits page of every edition, from CONTRIBUTORS.md.
+shortcodes:
+  - filters/credits.lua
 format:
   html:
     theme:

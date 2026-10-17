@@ -56,7 +56,7 @@ says where each role starts today.
 | Translator | Check that the editions still say the same after the chapter 1 merge; later, bring neologism notes and alt text into every edition |
 | Illustrator | Fix or replace the chapter 1 pictures so they match the cast sheet; hand-drawn pictures in the book's style are welcome (see the style guide, "Pictures") |
 | Voice | Sign up on issue #38; once the consent and licence form (#46) exists, sign it, trial-record a few script lines, then the chapter 1 tracks 1.1 to 1.10 |
-| Tech maintainer | Keep the build and the website working for every edition; the credits page in the rendered book once it is decided |
+| Tech maintainer | Keep the build and the website working for every edition, including the credits page each edition builds from CONTRIBUTORS.md |
 
 Required reviews follow CONTRIBUTING.md, "Who reviews what". Authors never
 review their own pull request; the coordinator does the final read and merges.
@@ -117,9 +117,6 @@ reopened without a new decision. The open ones, in the order they block work:
 4. **Tengwar details** that Appendix E describes but Tolkien's own Quenya
    Tengwar samples do not confirm: *rd* and *ld* as *arda* and *alda*, the
    *s*-hook. Chapter 1 avoids both.
-5. **Credits in the rendered book**: a shared credits page in the front matter
-   (recommended), or a section in each edition's introduction. The repository
-   list is [CONTRIBUTORS.md](CONTRIBUTORS.md) either way.
 
 Process: CONTRIBUTING.md, "Making decisions".
 
@@ -152,16 +149,15 @@ Process: CONTRIBUTING.md, "Making decisions".
 |---|---|
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Roles, ground rules, how to claim a task, reviews, meetings, decisions, technical guide |
 | [STYLE_GUIDE.md](STYLE_GUIDE.md) | The decisions log: setting and cast, words and forms, attestation marks, pronunciation standard, Tengwar, pictures, audio |
-| [CONTRIBUTORS.md](CONTRIBUTORS.md) | Everyone who has contributed, in any role |
+| [CONTRIBUTORS.md](CONTRIBUTORS.md) | Everyone who has contributed, in any role; each edition's credits page is built from it |
 | [`.github/pull_request_template.md`](.github/pull_request_template.md) | The review checklist every pull request fills in |
 | [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE) | Forms: content task, Quenya error report, "I want to help" |
 | [`raw_images/prompts/README.md`](raw_images/prompts/README.md) | Picture guide: style, town, cast, story arc |
 | [`audio/README.md`](audio/README.md) | Audio layout and published format |
 | [`.specify/memory/constitution.md`](.specify/memory/constitution.md) | The rules every change must respect |
 
-Still to do: show CONTRIBUTORS.md inside the rendered editions once the credits
-decision is made (`tech`); GitHub Discussions, once enabled, for questions,
-introductions and meeting notes.
+Still to do: GitHub Discussions, once enabled, for questions, introductions and
+meeting notes.
 
 ## Rollout
 
@@ -213,7 +209,8 @@ introductions and meeting notes.
   coordinator: status posts on a pinned issue; pictures as a separate sub-issue
   per chapter, generated pictures are placeholders; Code of Conduct reports
   through GitHub issues; WAV masters and published MP3; CI builds every
-  language profile.
+  language profile; a shared credits page in every edition, built from
+  CONTRIBUTORS.md.
 
 [i23]: https://github.com/brunopacheco1/ma-quetilye-quenya/issues/23
 [i31]: https://github.com/brunopacheco1/ma-quetilye-quenya/issues/31

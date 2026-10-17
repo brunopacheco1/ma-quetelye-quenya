@@ -34,7 +34,7 @@
   description: Recordings, scripts and the Quenya-TTS voice
 - name: translation
   color: "5319e7"
-  description: Introductions, neologism notes and alt text of an edition
+  description: Introduction, credits page, table of contents, neologism notes and alt text of an edition
 - name: tech
   color: "006b75"
   description: Quarto, website, CI, PDF, EPUB and scripts

@@ -8,6 +8,7 @@ lang: en
 book:
   chapters:
     - index.qmd
+    - docs/en/credits.qmd
     - docs/en/toc.qmd
     - docs/parande_1.qmd
     - docs/parande_2.qmd
@@ -31,3 +32,23 @@ alt-text:
   parande_1_essi.jpg: "A teacher with long silver hair and round glasses stands by an empty whiteboard, hand on his chest, introducing himself to four adult students sitting in a curved row; a young woman with golden hair answers him with her hand on her chest. The students wear blank name tags."
   parande_1_mallo.jpg: "Travellers with suitcases come down a ferry gangway onto a sunny quay with white houses and a small lighthouse; a bearded man is greeted by an older man with silver hair who waves, and a young woman with a yellow backpack reads a paper map. A small boat with a swan-shaped prow is moored nearby."
   parande_1_noti.jpg: "Ten round paper lanterns in different colours hang in a row across a street at dusk; below them a woman and a man at a café table point up at the lanterns."
+
+# Role names on the credits page (docs/en/credits.qmd), in the order of the
+# role list in CONTRIBUTORS.md; filters/credits.lua builds the page from it.
+credits-roles:
+  - role: coordinator
+    label: Coordination
+  - role: author
+    label: Writing
+  - role: Quenya review
+    label: Quenya review
+  - role: pedagogy review
+    label: Pedagogy review
+  - role: translation
+    label: Translation
+  - role: illustration
+    label: Illustration
+  - role: voice
+    label: Voices
+  - role: tech
+    label: Technical work

@@ -3,8 +3,9 @@
 This book was developed by Bruno Pacheco.
 Copyright (c) 2026 Bruno Pacheco (https://bruno.pacheco.lu).
 
-This book incorporates contributions from the people listed at
-https://github.com/brunopacheco1/ma-quetilye-quenya/graphs/contributors.
+This book incorporates contributions from the people listed in CONTRIBUTORS.md
+(https://github.com/brunopacheco1/ma-quetilye-quenya/blob/main/CONTRIBUTORS.md)
+and on the credits page of every edition of the book.
 
 # License
 
